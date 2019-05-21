@@ -21,10 +21,13 @@ SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
 
 # Build the documentation.
+echo "Above make doc"
 make doc
+echo "After make doc"
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
+echo "Setting the ssh"
 set -e
 openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in ./tools/github_deploy_key.enc -out github_deploy_key -d
 chmod 600 github_deploy_key
@@ -32,6 +35,7 @@ eval $(ssh-agent -s)
 ssh-add github_deploy_key
 
 # Clone the landing page repository.
+echo "Clone to landing page and config username and email"
 cd ..
 git clone --depth 1 $TARGET_REPOSITORY tmp
 cd tmp
@@ -39,13 +43,14 @@ git config user.name "SooluThomas"
 git config user.email "soolu.elto@gmail.com"
 
 # Selectively delete files from the dir, for preserving versions and languages.
-# git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
-#     $TARGET_DOC_DIR/_* \
-#     $TARGET_DOC_DIR/aer \
-#     $TARGET_DOC_DIR/autodoc \
-#     $TARGET_DOC_DIR/aqua \
-#     $TARGET_DOC_DIR/terra \
-#     $TARGET_DOC_DIR/ignis
+echo "removing files from current repo"
+git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
+    $TARGET_DOC_DIR/_* \
+    $TARGET_DOC_DIR/aer \
+    $TARGET_DOC_DIR/autodoc \
+    $TARGET_DOC_DIR/aqua \
+    $TARGET_DOC_DIR/terra \
+    $TARGET_DOC_DIR/ignis
 
 # Copy the new rendered files and add them to the commit.
 # mkdir -p $TARGET_DOC_DIR
