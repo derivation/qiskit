@@ -16,7 +16,7 @@
 
 # Non-travis variables used by this script.
 TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.github.io.git"
-TARGET_DOC_DIR="documentation"
+TARGET_DOC_DIR="."
 SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
 
@@ -39,19 +39,19 @@ git config user.name "SooluThomas"
 git config user.email "soolu.elto@gmail.com"
 
 # Selectively delete files from the dir, for preserving versions and languages.
-git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
-    $TARGET_DOC_DIR/_* \
-    $TARGET_DOC_DIR/aer \
-    $TARGET_DOC_DIR/autodoc \
-    $TARGET_DOC_DIR/aqua \
-    $TARGET_DOC_DIR/terra \
-    $TARGET_DOC_DIR/ignis
+# git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
+#     $TARGET_DOC_DIR/_* \
+#     $TARGET_DOC_DIR/aer \
+#     $TARGET_DOC_DIR/autodoc \
+#     $TARGET_DOC_DIR/aqua \
+#     $TARGET_DOC_DIR/terra \
+#     $TARGET_DOC_DIR/ignis
 
 # Copy the new rendered files and add them to the commit.
 # mkdir -p $TARGET_DOC_DIR
 cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
-git checkout translationDocs
+# git checkout translationDocs
 
 git add $TARGET_DOC_DIR
 
