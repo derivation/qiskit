@@ -16,7 +16,7 @@
 
 # Non-travis variables used by this script.
 TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.github.io.git"
-TARGET_DOC_DIR=""
+TARGET_DOC_DIR="."
 SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
 
