@@ -33,7 +33,17 @@ echo "After make doc"
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
 echo "Setting the ssh"
 set -e
-openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in ./tools/github_deploy_key.enc -out github_deploy_key -d
+openssl aes-256-cbc
+     echo "Setting k"
+     -K $encrypted_a301093015c6_key
+     echo "Setting iv"
+     -iv $encrypted_a301093015c6_iv
+     echo "Setting in"
+     -in ./tools/github_deploy_key.enc
+     echo "Setting out"
+     -out github_deploy_key
+     echo "Setting d"
+     -d
 chmod 600 github_deploy_key
 eval $(ssh-agent -s)
 ssh-add github_deploy_key
