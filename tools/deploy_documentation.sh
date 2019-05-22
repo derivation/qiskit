@@ -15,10 +15,14 @@
 # Script for pushing the documentation to the qiskit.org repository.
 
 # Non-travis variables used by this script.
+echo "target repo"
 TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.github.io.git"
+echo "target doc dir set"
 TARGET_DOC_DIR="."
+echo "source doc dir set"
 SOURCE_DOC_DIR="docs/_build/html"
-SOURCE_DIR=`pwd`
+# echo "source dir set"
+# SOURCE_DIR=`pwd`
 
 # Build the documentation.
 echo "Above make doc"
