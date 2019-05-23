@@ -59,12 +59,15 @@ git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
 
 # Copy the new rendered files and add them to the commit.
 # mkdir -p $TARGET_DOC_DIR
+echo "copy data to target doc dir"
 cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
 # git checkout translationDocs
-
+echo "add target doc dir to git"
 git add $TARGET_DOC_DIR
 
 # Commit and push the changes.
+echo "git commit"
 git commit -m "Automated documentation update from meta-qiskit" -m "Commit: $TRAVIS_COMMIT" -m "Travis build: https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
+echo "git push"
 git push --quiet origin master
