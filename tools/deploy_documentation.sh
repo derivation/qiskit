@@ -27,7 +27,7 @@ echo "installing the design theme"
 pip install sphinx_materialdesign_theme
 # Build the documentation.
 echo "Above make doc"
-make doc
+make html
 echo "After make doc"
 
 # Setup the deploy key.
