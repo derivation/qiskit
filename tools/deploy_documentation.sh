@@ -16,7 +16,7 @@
 
 # Non-travis variables used by this script.
 echo "target repo"
-TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.github.io.git"
+TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
 echo "target doc dir set"
 TARGET_DOC_DIR="."
 echo "source doc dir set"
