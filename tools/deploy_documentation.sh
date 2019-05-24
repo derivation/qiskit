@@ -25,7 +25,7 @@ echo "source dir set"
 SOURCE_DIR=`pwd`
 # Build the documentation.
 echo "Above make doc"
-make html
+make doc
 echo "After make doc"
 
 # Setup the deploy key.
