@@ -23,8 +23,6 @@ echo "source doc dir set"
 SOURCE_DOC_DIR="docs/_build/html"
 echo "source dir set"
 SOURCE_DIR=`pwd`
-echo "installing the design theme"
-pip install sphinx_materialdesign_theme
 # Build the documentation.
 echo "Above make doc"
 make html
