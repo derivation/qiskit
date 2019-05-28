@@ -29,15 +29,18 @@ openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_i
 chmod 600 github_deploy_key
 eval $(ssh-agent -s)
 ssh-add github_deploy_key
+echo "end of configuring ssh"
 
 # Clone the landing page repository.
 cd ..
+echo "git clone"
 git clone --depth 1 $TARGET_REPOSITORY tmp
 cd tmp
 git config user.name "SooluThomas"
 git config user.email "soolu.elto@gmail.com"
 
 # Selectively delete files from the dir, for preserving versions and languages.
+echo "git rm -rf"
 git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
     $TARGET_DOC_DIR/_* \
     $TARGET_DOC_DIR/aer \
@@ -48,9 +51,11 @@ git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
 
 # Copy the new rendered files and add them to the commit.
 # mkdir -p $TARGET_DOC_DIR
+echo "copy directory"
 cp -r $SOURCE_DIR/$SOURCE_DOC_DIR/* $TARGET_DOC_DIR/
 
 # git checkout translationDocs
+echo "add to target dir"
 git add $TARGET_DOC_DIR
 
 # Commit and push the changes.
