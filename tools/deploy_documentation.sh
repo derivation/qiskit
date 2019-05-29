@@ -62,4 +62,5 @@ git add $TARGET_DOC_DIR
 echo "git commit"
 git commit -m "Automated documentation update from meta-qiskit" -m "Commit: $TRAVIS_COMMIT" -m "Travis build: https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
 echo "git push"
-git push --quiet origin master
+git push --quiet 
+# origin master
