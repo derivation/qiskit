@@ -19,8 +19,15 @@ TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
 TARGET_DOC_DIR="."
 SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
+
 # Build the documentation.
 make doc
+
+# Extract document's translatable messages into pot files
+make gettext
+
+# Setup / Update po files
+sphinx-intl update -p _build/gettext -l ja
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
