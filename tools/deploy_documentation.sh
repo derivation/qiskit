@@ -19,15 +19,20 @@ TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
 TARGET_DOC_DIR="."
 SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
+TRANSLATION_LANG='ja'
 
 # Build the documentation.
 make doc
 
 # Extract document's translatable messages into pot files
-make gettext
+sphinx-build -b gettext -D language=$TRANSLATION_LANG . _build/gettext/$TRANSLATION_LANG
 
 # Setup / Update po files
-sphinx-intl update -p _build/gettext -l ja
+sphinx-intl update -p _build/gettext -l $TRANSLATION_LANG
+
+# Make translated document
+# make -e SPHINXOPTS="-Dlanguage='ja'" html
+sphinx-build -b gettext -D language=$TRANSLATION_LANG . _build/gettext/$TRANSLATION_LANG
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
@@ -49,7 +54,7 @@ git config user.email "soolu.elto@gmail.com"
 # Selectively delete files from the dir, for preserving versions and languages.
 echo "git rm -rf"
 git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
-    $TARGET_DOC_DIR/_* \
+    # $TARGET_DOC_DIR/_* \
     $TARGET_DOC_DIR/aer \
     $TARGET_DOC_DIR/autodoc \
     $TARGET_DOC_DIR/aqua \
