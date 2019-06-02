@@ -46,6 +46,7 @@ sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLA
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
+echo "set ssh"
 set -e
 openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in tools/github_deploy_key.enc -out github_deploy_key -d
 chmod 600 github_deploy_key
