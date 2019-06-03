@@ -47,8 +47,9 @@ sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLA
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
 echo "set ssh"
+pwd
 set -e
-openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in tools/github_deploy_key.enc -out github_deploy_key -d
+openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in ../tools/github_deploy_key.enc -out github_deploy_key -d
 chmod 600 github_deploy_key
 eval $(ssh-agent -s)
 ssh-add github_deploy_key
@@ -56,6 +57,7 @@ echo "end of configuring ssh"
 
 # Clone the landing page repository.
 cd ..
+pwd
 echo "git clone"
 git clone --depth 1 $TARGET_REPOSITORY tmp
 cd tmp
