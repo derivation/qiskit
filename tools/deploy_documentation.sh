@@ -21,9 +21,10 @@ SOURCE_DOC_DIR="docs/_build/html"
 SOURCE_DIR=`pwd`
 TRANSLATION_LANG='ja'
 
-function doCompile {
-  ./compile_documentation.sh
-}
+SOURCE_REPOSITORY="git@github.com:SooluThomas/qiskit.git"
+SOURCH_BRANCH="translationDocs"
+DOC_DIR_1="docs/_build/gettext"
+DOC_DIR_2="docs/locale"
 
 # Build the documentation.
 echo "make doc"
@@ -59,10 +60,36 @@ eval $(ssh-agent -s)
 ssh-add github_deploy_key
 echo "end of configuring ssh"
 
+# Clone to the working repository for .po and pot files
+cd ..
+pwd
+echo "git clone for working repo"
+git clone --depth 1 $SOURCE_REPOSITORY temp --single-branch --branch $SOURCH_BRANCH
+cd temp
+git config user.name "SooluThomas"
+git config user.email "soolu.elto@gmail.com"
+
+# Copy the new rendered files and add them to the commit.
+echo "copy directory"
+cp -r $SOURCE_DIR/$DOC_DIR_1/* $DOC_DIR_1/
+cp -r $SOURCE_DIR/$DOC_DIR_2/* $DOC_DIR_2/
+
+# git checkout translationDocs
+echo "add to pot files to target dir"
+git add $DOC_DIR_1
+git add $DOC_DIR_2
+
+# Commit and push the changes.
+echo "git commit"
+git commit -m "Automated documentation update to add .po and .pot files from meta-qiskit" -m "Commit: $TRAVIS_COMMIT" -m "Travis build: https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
+echo "git push"
+git push --quiet origin $TARGET_BRANCH
+echo "********** End of pushing po and pot files to working repo! *************"
+
 # Clone the landing page repository.
 cd ..
 pwd
-echo "git clone"
+echo "git clone for landing page repo"
 git clone --depth 1 $TARGET_REPOSITORY tmp
 cd tmp
 git config user.name "SooluThomas"
@@ -70,13 +97,13 @@ git config user.email "soolu.elto@gmail.com"
 
 # Selectively delete files from the dir, for preserving versions and languages.
 echo "git rm -rf"
-# git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
-#     $TARGET_DOC_DIR/aer \
-#     $TARGET_DOC_DIR/autodoc \
-#     $TARGET_DOC_DIR/aqua \
-#     $TARGET_DOC_DIR/terra \
-#     $TARGET_DOC_DIR/ignis
-    # $TARGET_DOC_DIR/_* \
+git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
+    $TARGET_DOC_DIR/_* \
+    $TARGET_DOC_DIR/aer \
+    $TARGET_DOC_DIR/autodoc \
+    $TARGET_DOC_DIR/aqua \
+    $TARGET_DOC_DIR/terra \
+    $TARGET_DOC_DIR/ignis
 
 # Copy the new rendered files and add them to the commit.
 # mkdir -p $TARGET_DOC_DIR
@@ -92,4 +119,3 @@ echo "git commit"
 git commit -m "Automated documentation update from meta-qiskit" -m "Commit: $TRAVIS_COMMIT" -m "Travis build: https://travis-ci.com/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID"
 echo "git push"
 git push --quiet
-# origin master
