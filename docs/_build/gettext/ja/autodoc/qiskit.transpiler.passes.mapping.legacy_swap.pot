@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.transpiler.passes.mapping.legacy_swap.rst:2
+msgid "qiskit.transpiler.passes.mapping.legacy\\_swap module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap:1
+msgid "A pass implementing the legacy swapper."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap:3
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.layer_permutation:6
+msgid "Based on Sergey Bravyi's algorithm."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.TransformationPass`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap:1
+msgid "Maps a DAGCircuit onto a `coupling_map` adding swap gates."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.layer_permutation:1
+msgid "Find a swap circuit that implements a permutation for this layer."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.layer_permutation:3
+msgid "The goal is to swap qubits such that qubits in the same two-qubit gates are adjacent."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.layer_permutation:8
+msgid "The layer_partition is a list of (qu)bit lists and each qubit is a tuple (qreg, index). The layout is a dict mapping qubits in the circuit to qubits in the coupling graph and represents the current positions of the data. The qubit_subset is the subset of qubits in the coupling graph that we have chosen to map into. The coupling is a CouplingGraph. TRIALS is the number of attempts the randomized algorithm makes."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.layer_permutation:17
+msgid "Returns: success_flag, best_circ, best_d, best_layout, trivial_flag"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.layer_permutation:19
+msgid "If success_flag is True, then best_circ contains a DAGCircuit with the swap circuit, best_d contains the depth of the swap circuit, and best_layout contains the new positions of the data qubits after the swap circuit has been applied. The trivial_flag is set if the layer has no multi-qubit gates."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:1
+msgid "Map a DAGCircuit onto a CouplingGraph using swap gates."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:3
+msgid "input DAG circuit"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:6
+msgid "object containing a circuit equivalent to circuit_graph that respects couplings in coupling_map, and a layout dict mapping qubits of circuit_graph into qubits of coupling_map. The layout may differ from the initial_layout if the first layer of gates cannot be executed on the initial_layout."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:0
+msgid "例外"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.run:14
+msgid "if there was any error during the mapping or with the     parameters."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.swap_mapper_layer_update:1
+msgid "Update the QASM string for an iteration of swap_mapper."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.swap_mapper_layer_update:3
+msgid "i = layer number first_layer = True if this is the first layer with multi-qubit gates best_layout = layout returned from swap algorithm best_d = depth returned from swap algorithm best_circ = swap circuit returned from swap algorithm layer_list = list of circuit objects for each layer"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/transpiler/passes/mapping/legacy_swap.py:docstring of qiskit.transpiler.passes.mapping.legacy_swap.LegacySwap.swap_mapper_layer_update:10
+msgid "Return DAGCircuit object to append to the output DAGCircuit."
+msgstr ""
+

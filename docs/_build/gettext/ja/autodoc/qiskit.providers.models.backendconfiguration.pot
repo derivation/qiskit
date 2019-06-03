@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.providers.models.backendconfiguration.rst:2
+msgid "qiskit.providers.models.backendconfiguration module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration:1
+msgid "Model and schema for backend configuration."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:1
+msgid "ベースクラス: :class:`qiskit.validation.base.BaseModel`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:1
+msgid "Model for BackendConfiguration."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``BackendConfigurationSchema``. .. attribute:: backend_name"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:7
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:7
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:7
+msgid "backend name."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:0
+msgid "type"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:15
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:10
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:23
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:15
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:15
+msgid "str"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:13
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:13
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:13
+msgid "backend version in the form X.Y.Z."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:19
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:19
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:19
+msgid "number of qubits."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:21
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:69
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:21
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:69
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:75
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:21
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:69
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:10
+msgid "int"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:25
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:25
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:25
+msgid "list of basis gates names on the backend."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:27
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:16
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:27
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:125
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:27
+msgid "list[str]"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:31
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:31
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:31
+msgid "list of basis gates on the backend."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:33
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:33
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:33
+msgid "GateConfig"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:37
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:37
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:37
+msgid "backend is local or remote."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:39
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:45
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:51
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:57
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:63
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:39
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:45
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:51
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:57
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:63
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:39
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:45
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:51
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:57
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:63
+msgid "bool"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:43
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:43
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:43
+msgid "backend is a simulator."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:49
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:49
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:49
+msgid "backend supports conditional operations."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:55
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:55
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:55
+msgid "backend supports open pulse."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:61
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:61
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:61
+msgid "backend supports memory."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfiguration:67
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:67
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:67
+msgid "maximum number of shots supported."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfigurationSchema:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfigSchema:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseHamiltonianSchema:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLOSchema:1
+msgid "ベースクラス: :class:`qiskit.validation.base.BaseSchema`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.BackendConfigurationSchema:1
+msgid "Schema for BackendConfiguration."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:1
+msgid "Model for GateConfig."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:3
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``GateConfigSchema``."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:8
+msgid "the gate name as it will be referred to in Qasm."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:14
+msgid "variable names for the gate parameters (if any)."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfig:20
+msgid "definition of this gate in terms of Qasm primitives U and CX."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.GateConfigSchema:1
+msgid "Schema for GateConfig."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:1
+msgid "ベースクラス: :class:`qiskit.providers.models.backendconfiguration.BackendConfiguration`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:1
+msgid "Model for PulseBackendConfiguration."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``PulseBackendConfigurationSchema``. .. attribute:: backend_name"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:73
+msgid "Number of u-channels."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:79
+msgid "U-channel relationship on device los."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:81
+msgid "list[UchannelLO]"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:85
+msgid "Supported measurement levels."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:87
+msgid "list[int]"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:91
+msgid "Qubit lo ranges for each qubit with form (min, max) in GHz."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:94
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:101
+msgid "list[list[float]]"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:98
+msgid "Measurement lo ranges for each qubit with form (min, max) in GHz."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:105
+msgid "Qubit drive channel timestep in nanoseconds."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:107
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:113
+msgid "float"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:111
+msgid "Measurement drive channel timestep in nanoseconds."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:117
+msgid "Supported repition times for device in microseconds."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:119
+msgid "list[float]"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:123
+msgid "Supported measurement kernels."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:129
+msgid "Supported discriminators."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfiguration:133
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:73
+msgid "Optional fields."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfigurationSchema:1
+msgid "ベースクラス: :class:`qiskit.providers.models.backendconfiguration.QasmBackendConfigurationSchema`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseBackendConfigurationSchema:1
+msgid "Schema for pulse backend"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.PulseHamiltonianSchema:1
+msgid "Schema for PulseHamiltonian."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:1
+msgid "Model for QasmBackendConfiguration."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfiguration:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``QasmBackendConfigurationSchema``. .. attribute:: backend_name"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfigurationSchema:1
+msgid "ベースクラス: :class:`qiskit.providers.models.backendconfiguration.BackendConfigurationSchema`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.QasmBackendConfigurationSchema:1
+msgid "Schema for Qasm backend."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:8
+msgid "Qubit that scale corresponds too."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:14
+msgid "Scale factor for qubit frequency."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLO:16
+msgid "complex"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:docstring of qiskit.providers.models.backendconfiguration.UchannelLOSchema:1
+msgid "Schema for uchannel LO."
+msgstr ""
+

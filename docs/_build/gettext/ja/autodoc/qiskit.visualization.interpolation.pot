@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.visualization.interpolation.rst:2
+msgid "qiskit.visualization.interpolation module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation:1
+msgid "interpolation module for pulse visualization."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:1
+msgid "Scipy interpolation wrapper."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:3
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:3
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:3
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:3
+msgid "time."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:5
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:5
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:5
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:5
+msgid "complex pulse envelope."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:7
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:7
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:7
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:7
+msgid "data points for interpolation."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:9
+msgid "Scipy interpolation type. See `scipy.interpolate.interp1d` documentation for more information."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:13
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:13
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:13
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:13
+msgid "interpolated waveform."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.cubic_spline:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.interp1d:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.linear:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/visualization/interpolation.py:docstring of qiskit.visualization.interpolation.step_wise:0
+msgid "戻り値の型"
+msgstr ""
+

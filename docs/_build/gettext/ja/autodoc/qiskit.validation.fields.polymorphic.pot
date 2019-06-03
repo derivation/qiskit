@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.validation.fields.polymorphic.rst:2
+msgid "qiskit.validation.fields.polymorphic module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic:1
+msgid "Polymorphic fields that represent one of several schemas or types."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField:1
+msgid "ベースクラス: :class:`marshmallow_polyfield.polyfield.PolyField`, :class:`qiskit.validation.base.ModelTypeValidator`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField:1
+msgid "Base class for polymorphic fields."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField:3
+msgid "Defines a Field that can contain data fitting different ``BaseSchema``. Deciding the type is performed by the ``to_dict_selector()`` and ``from_dict_selector()`` functions, that act on ``choices``."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField:7
+msgid "Subclasses are recommended to customize the ``to_dict_selector()`` and ``from_dict_selector()``, adding the necessary logic for inspecting ``choices`` and the data, and returning one of the Schemas."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField:16
+msgid "Args:"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField:12
+msgid "choices (dict or iterable): iterable or dict containing the schema instances and the information needed for performing disambiguation. many (bool): whether the field is a collection of objects. metadata (dict): the same keyword arguments that ``PolyField`` receives."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField.check_type:1
+msgid "Check if the type of the value is one of the possible choices."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField.check_type:3
+msgid "Possible choices are the model classes bound to the possible schemas."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField.from_dict_selector:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute.from_dict_selector:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom.from_dict_selector:1
+msgid "Return an schema in ``choices`` for deserialization."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.BasePolyField.to_dict_selector:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute.to_dict_selector:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom.to_dict_selector:1
+msgid "Return an schema in ``choices`` for serialization."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:1
+msgid "ベースクラス: :class:`qiskit.validation.fields.polymorphic.BasePolyField`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:1
+msgid "Polymorphic field that disambiguates based on an attribute's existence."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:3
+msgid "Polymorphic field that accepts a dictionary of (``'attribute': schema``) entries, and checks for the existence of ``attribute`` in the data for disambiguating."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:8
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:9
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:10
+msgid "サンプル"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:11
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:11
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:12
+msgid "class PetOwnerSchema(BaseSchema):"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:11
+msgid "pet = ByAttribute({'fur_density': CatSchema,"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:11
+msgid "'barking_power': DogSchema)}"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:13
+msgid "class]): dictionary with attribute names as keys, and BaseSchema classes as values."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:15
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:17
+msgid "whether the field is a collection of objects."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByAttribute:17
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:19
+msgid "the same keyword arguments that ``PolyField`` receives."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:1
+msgid "ベースクラス: :class:`qiskit.validation.base.ModelTypeValidator`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:1
+msgid "Polymorphic field that disambiguates based on an attribute's type."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:3
+msgid "Polymorphic field that accepts a list of ``Fields``, and checks that the data belongs to any of those types. Note this Field does not inherit from ``BasePolyField``, as it operates directly on ``Fields`` instead of operating in ``Schemas``."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:11
+msgid "contact_method = ByType([fields.Email(), fields.Url()])"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:13
+msgid "list of accepted `Fields` instances."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:15
+msgid "args for Field."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType:17
+msgid "kwargs for Field."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType.check_type:1
+msgid "Check if at least one of the possible choices validates the value."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.ByType.check_type:3
+msgid "Possible choices are assumed to be ``ModelTypeValidator`` fields."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:1
+msgid "Polymorphic field that returns the first candidate schema that matches."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:3
+msgid "Polymorphic field that accepts a list of candidate schemas, and iterates through them, returning the first Schema that matches the data. Note that the list of choices is traversed in order, and an attempt to match the data is performed until a valid Schema is found, which might have performance implications."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:12
+msgid "pet = TryFrom([CatSchema, DogSchema])"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/validation/fields/polymorphic.py:docstring of qiskit.validation.fields.polymorphic.TryFrom:14
+msgid "list of BaseSchema classes that are iterated in order for for performing disambiguation."
+msgstr ""
+

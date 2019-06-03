@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.providers.ibmq.api.websocket.rst:2
+msgid "qiskit.providers.ibmq.api.websocket module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket:1
+msgid "Utilities for IBM Q API connector."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:1
+msgid "Client for websocket communication with the IBMQ API."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:5
+msgid "URL for websocket communication with IBM Q."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:0
+msgid "type"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:7
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:13
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:7
+msgid "str"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient:11
+msgid "access token for IBMQ."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.connect:1
+msgid "Authenticate against the websocket server, returning the connection."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.connect:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.connect:3
+msgid "an open websocket connection."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.connect:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.connect:0
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:0
+msgid "例外"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.connect:6
+msgid "if the connection to the websocket server failed     due to connection or authentication errors."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:1
+msgid "Return the status of a job."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:3
+msgid "Reads status messages from the API, which are issued at regular intervals (20 seconds). When a final state is reached, the server closes the socket."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:7
+msgid "id of the job."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:9
+msgid "timeout, in seconds."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:12
+msgid "the API response for the status of a job, as a dict that     contains at least the keys ``status`` and ``id``."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:14
+msgid "the API response for the status of a job, as a dict that"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:15
+msgid "contains at least the keys ``status`` and ``id``."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:18
+msgid "if the websocket connection ended unexpectedly."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketClient.get_job_status:19
+msgid "if the timeout has been reached."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:1
+msgid "Container for a message sent or received via websockets."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:5
+msgid "message type."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:11
+msgid "message data."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage:13
+msgid "dict"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage.as_json:1
+msgid "Return a json representation of the message."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/providers/ibmq/api/websocket.py:docstring of qiskit.providers.ibmq.api.websocket.WebsocketMessage.from_bytes:1
+msgid "Instantiate a message from a bytes response."
+msgstr ""
+

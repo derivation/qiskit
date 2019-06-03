@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.extensions.standard.t.rst:2
+msgid "qiskit.extensions.standard.t module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t:1
+msgid "T=sqrt(S) phase gate or its inverse."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TGate:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TdgGate:1
+msgid "ベースクラス: :class:`qiskit.circuit.gate.Gate`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TGate:1
+msgid "T Gate: pi/4 rotation around Z axis."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TGate.inverse:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TdgGate.inverse:1
+msgid "Invert this gate."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TGate.to_matrix:1
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TdgGate.to_matrix:1
+msgid "Return a Numpy.array for the S gate."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.TdgGate:1
+msgid "T Gate: -pi/4 rotation around Z axis."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.t:1
+msgid "Apply T to q."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/extensions/standard/t.py:docstring of qiskit.extensions.standard.t.tdg:1
+msgid "Apply Tdg to q."
+msgstr ""
+

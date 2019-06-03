@@ -1,0 +1,34 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.components.uncertainty_models.uncertainty_model.rst:2
+msgid "qiskit.aqua.components.uncertainty\\_models.uncertainty\\_model module"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/uncertainty_model.py:docstring of qiskit.aqua.components.uncertainty_models.uncertainty_model:1
+msgid "This module contains the definition of a base class for uncertainty models. An uncertainty model could be used for constructing Amplification Estimation tasks."
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/uncertainty_model.py:docstring of qiskit.aqua.components.uncertainty_models.uncertainty_model.UncertaintyModel:1
+msgid "ベースクラス: :class:`qiskit.aqua.utils.circuit_factory.CircuitFactory`, :class:`qiskit.aqua.pluggable.Pluggable`, :class:`abc.ABC`"
+msgstr ""
+
+#: ../../../../../../../../anaconda3/envs/myQiskit/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/uncertainty_model.py:docstring of qiskit.aqua.components.uncertainty_models.uncertainty_model.UncertaintyModel:1
+msgid "The abstract Uncertainty Model"
+msgstr ""
+
