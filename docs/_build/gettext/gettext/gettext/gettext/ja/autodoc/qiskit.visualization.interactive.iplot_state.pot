@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.visualization.interactive.iplot_state.rst:2
+msgid "qiskit.visualization.interactive.iplot\\_state module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state:1
+msgid "Qiskit visualization library."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:1
+msgid "Plot the quantum state."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:3
+msgid "statevector or density matrix representation of a quantum state."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:6
+msgid "Plotting method to use."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:8
+msgid "Figure size in pixels."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:0
+msgid "raises"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:11
+msgid ":exc:`VisualizationError` -- if the input is not a statevector or density"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/visualization/interactive/iplot_state.py:docstring of qiskit.visualization.interactive.iplot_state.iplot_state:12
+msgid "matrix, or if the state is not an multi-qubit quantum state."
+msgstr ""
+

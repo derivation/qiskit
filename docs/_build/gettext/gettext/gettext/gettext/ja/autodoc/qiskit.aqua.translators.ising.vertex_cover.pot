@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.vertex_cover.rst:2
+msgid "qiskit.aqua.translators.ising.vertex\\_cover module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.check_full_edge_coverage:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_graph_solution:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_gset_result:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.parse_gset_format:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.check_full_edge_coverage:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_graph_solution:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_gset_result:3
+msgid "binary string as numpy array."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.check_full_edge_coverage:3
+msgid "adjacency matrix."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.check_full_edge_coverage:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_graph_solution:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_gset_result:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.parse_gset_format:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.sample_most_likely:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.check_full_edge_coverage:6
+msgid "value of the cut."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.check_full_edge_coverage:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_graph_solution:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_gset_result:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.parse_gset_format:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.sample_most_likely:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_graph_solution:1
+msgid "Get graph solution from binary string."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_graph_solution:6
+msgid "graph solution as binary numpy array."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_gset_result:1
+msgid "Get graph solution in Gset format from binary string."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_gset_result:6
+msgid "graph solution in Gset format."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:1
+msgid "Generate Hamiltonian for the vertex cover :param weight_matrix: adjacency matrix. :type weight_matrix: numpy.ndarray"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:5
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:9
+msgid "Goals: 1 color some vertices as red such that every edge is connected to some red vertex 2 minimize the vertices to be colored as red"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:13
+msgid "Hamiltonian: H = A * H_A + H_B H_A = sum\\_{(i,j)\\in E}{(1-Xi)(1-Xj)} H_B = sum_{i}{Zi}"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.get_vertex_cover_qubitops:18
+msgid "H_A is to achieve goal 1 while H_b is to achieve goal 2. H_A is hard constraint so we place a huge penality on it. A=5. Note Xi = (Zi+1)/2"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.parse_gset_format:1
+msgid "Read graph in Gset format from file."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.parse_gset_format:3
+msgid "name of the file."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.parse_gset_format:6
+msgid "adjacency matrix as a 2D numpy array."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:1
+msgid "Generate random Erdos-Renyi graph."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:3
+msgid "number of nodes."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:5
+msgid "weights will be smaller than this value, in absolute value."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:8
+msgid "probability of edge appearing."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:10
+msgid "name of file where to save graph."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:12
+msgid "random seed - if None, will not initialize."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.random_graph:15
+msgid "adjacency matrix (with weights)."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector. :param state_vector: state vector or counts. :type state_vector: numpy.ndarray or dict"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/vertex_cover.py:docstring of qiskit.aqua.translators.ising.vertex_cover.sample_most_likely:5
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+

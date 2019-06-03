@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.rst:2
+msgid "qiskit.aqua.components.uncertainty\\_models.multivariate\\_variational\\_distribution module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution:1
+msgid "ベースクラス: :class:`qiskit.aqua.components.uncertainty_models.multivariate_distribution.MultivariateDistribution`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution:1
+msgid "The Multivariate Variational Distribution."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.build:1
+msgid "Adds corresponding sub-circuit to given circuit"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.build:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.build:3
+msgid "quantum circuit"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.build:4
+msgid "list of qubits (has to be same length as self._num_qubits)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.build:5
+msgid "list of ancilla qubits (or None if none needed)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.build:6
+msgid "parameters for circuit"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.init_params:1
+msgid "Initialize via parameters dictionary. :param params: parameters dictionary"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.init_params:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.init_params:4
+msgid "An object instance of this class"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.set_probabilities:1
+msgid "Set Probabilities :param quantum_instance: QuantumInstance"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/uncertainty_models/multivariate_variational_distribution.py:docstring of qiskit.aqua.components.uncertainty_models.multivariate_variational_distribution.MultivariateVariationalDistribution.set_probabilities:4
+msgid "Returns:"
+msgstr ""
+

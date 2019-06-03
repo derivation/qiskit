@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../terra/custom_gates.rst:3
+msgid "Custom gates"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:7
+msgid "Opaque Gates"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:9
+msgid ""
+"The ``Gate`` and ``Instruction`` constructors  accept an integer number "
+"of qubits (``num_qubits``) and an integer number of bits (``num_cbits``) "
+"which define the gate's quantum and classical width."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:19
+msgid ""
+"An ``append(instruction, qargs, cargs)`` method has been added to the "
+"``QuantumCircuit`` class, which takes an anonymous ``Instruction`` "
+"instance and attaches it to the circuit at the specified ``qargs`` and "
+"`cargs`."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:39
+msgid "Composite Gates"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:41
+msgid ""
+"Composite gates and complex circuit components are constructed and "
+"managed as independent ``QuantumCircuits`` and, through the "
+"``to_instruction`` method, converted to ``Instructions`` to be appended "
+"to a target circuit at a given location."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:72
+msgid ""
+"Circuits are not immediately decomposed upon conversion "
+"``to_instruction`` to allow circuit design at higher levels of "
+"abstraction. When desired, or before compilation, sub-circuits will be "
+"decomposed via the `decompose` method."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:88
+msgid "Parameterized Gates"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:90
+msgid ""
+"Parameterization is a common feature of many quantum algorithms, as well "
+"as a standard building block for constructing libraries of standard gates"
+" and sub-circuits."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:94
+msgid ""
+"The ``Parameter`` class which can be used to specify a place-holder "
+"wherever a numeric parameter can be used."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:97
+msgid ""
+"You can use parameterized gates to quickly construct a series of "
+"experiments which will vary the angle of a global :math:`R_z` rotation "
+"over a set of entangled qubits."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:129
+msgid "You can inspect the circuit's ``parameters`` property."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:143
+msgid "Combining Parameterized Circuits"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:145
+msgid ""
+"Parameterized circuits can be composed like standard "
+"``QuantumCircuit``\\s. Generally, when composing two parameterized "
+"circuits, the resulting circuit will be parameterized by the union of the"
+" parameters of the input circuits."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:149
+msgid ""
+"However, parameter names must be unique within a given circuit. When "
+"attempting to add a parameter whose name is already present in the target"
+" circuit:"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:152
+msgid ""
+"if the source and target share the same ``Parameter`` instance, the "
+"parameters will be assumed to be the same and combined"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:154
+msgid ""
+"if the source and target have different ``Parameter`` instances, an error"
+" will be raised"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:186
+msgid ""
+"To insert a sub-circuit under a different parameterization, the "
+"``to_instruction`` method accepts an optional argument "
+"(``parameter_map``) which, when present, will generate instructions with "
+"the source parameter replaced by a new parameter."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:226
+msgid "Binding Parameters to Values"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:228
+msgid ""
+"All circuit parameters must be bound before sending the circuit to a "
+"backend. This can be done in one of two ways:"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:231
+msgid ""
+"The ``bind_parameters`` method accepts a dictionary mapping "
+"``Parameters`` to values, and returns a new circuit with each parameter "
+"replaced by its corresponding value. Partial binding is supported, in "
+"which case the returned circuit will be parameterized by any "
+"``Parameters`` which were not mapped to a  value."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:256
+msgid ""
+"``qiskit.execute`` accepts a ``parameter_binds`` keyword argument which, "
+"when specified as a list of dictionaries mapping ``Parameters`` to "
+"values, will bind and execute a circuit on the backend for every mapping "
+"dictionary in the list."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:274
+msgid ""
+"In the example circuit, we apply a global :math:`R_z(\\theta)`` rotation "
+"on 5-qubit entangled state and so expect to see oscillation in qubit-0 at"
+" :math:`5\\,\\theta`."
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:312
+msgid "Reducing Compilation Time"
+msgstr ""
+
+#: ../../../terra/custom_gates.rst:314
+msgid ""
+"Compiling over a parameterized circuit prior to binding can, in some "
+"cases, significantly reduce compilation time as compared to compiling "
+"over a set of bound circuits."
+msgstr ""
+

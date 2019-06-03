@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.utils.entangler_map.rst:2
+msgid "qiskit.aqua.utils.entangler\\_map module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map:1
+msgid "This module contains the definition of creating and validating entangler map based on the number of qubits."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:1
+msgid "Utility method to get an entangler map among qubits."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:3
+msgid "'full' entangles each qubit with all the subsequent ones 'linear' entangles each qubit with the next"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:6
+msgid "Number of qubits for which the map is needed"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:9
+msgid "A map of qubit index to an array of indexes to which this should be entangled"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:0
+msgid "raises"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.get_entangler_map:11
+msgid ":exc:`ValueError` -- if map_type is not valid."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:1
+msgid "Validate a user supplied entangler map and converts entries to ints."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:3
+msgid "An entangler map, keys are source qubit index (int), value is array of target qubit index(es) (int)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:6
+msgid "Number of qubits"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:8
+msgid "If we allow in two qubits can be entangled each other"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:10
+msgid "Validated/converted map"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:12
+msgid ":exc:`TypeError` -- entangler map is not list type or list of list"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:13
+msgid ":exc:`ValueError` -- the index of entangler map is out of range"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/utils/entangler_map.py:docstring of qiskit.aqua.utils.entangler_map.validate_entangler_map:14
+msgid ":exc:`ValueError` -- the qubits are cross-entangled."
+msgstr ""
+

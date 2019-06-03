@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.exact_cover.rst:2
+msgid "qiskit.aqua.translators.ising.exact\\_cover module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:1
+msgid "Construct the Hamiltonian for the exact solver problem"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_solution:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.read_numbers_from_file:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:4
+msgid "list of lists (i.e., subsets)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_solution:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.read_numbers_from_file:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:6
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_solution:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.read_numbers_from_file:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:11
+msgid "Assumption:"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:11
+msgid "the union of the subsets contains all the elements to cover"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:14
+msgid "The Hamiltonian is:"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_exact_cover_qubitops:14
+msgid "sum_{each element e}{(1-sum_{every subset_i that contains e}{Xi})^2}, where Xi (Xi=1 or 0) means whether should include the subset i."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_solution:1
+msgid "binary string as numpy array."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.get_solution:4
+msgid "graph solution as binary numpy array."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:1
+msgid "Generate a set of positive integers within the given range."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:3
+msgid "size of the set of numbers."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:5
+msgid "maximum absolute value of the numbers."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:7
+msgid "write numbers to this file."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.random_number_list:10
+msgid "the list of integer numbers."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.read_numbers_from_file:1
+msgid "Read numbers from a file"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.read_numbers_from_file:3
+msgid "name of the file."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.read_numbers_from_file:6
+msgid "list of numbers as a numpy.ndarray."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:3
+msgid "number of  qubits."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:5
+msgid "state vector or counts."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/translators/ising/exact_cover.py:docstring of qiskit.aqua.translators.ising.exact_cover.sample_most_likely:8
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+

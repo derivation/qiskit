@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.assembler.assemble_circuits.rst:2
+msgid "qiskit.assembler.assemble\\_circuits module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits:1
+msgid "Assemble function for converting a list of circuits into a qobj"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:1
+msgid "Assembles a list of circuits into a qobj which can be run on the backend."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:3
+msgid "circuit(s) to assemble"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:5
+msgid "identifier for the generated qobj"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:7
+msgid "header to pass to the results"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:9
+msgid "configuration of the runtime environment"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:12
+msgid "the Qobj to be run on the backends"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/assembler/assemble_circuits.py:docstring of qiskit.assembler.assemble_circuits.assemble_circuits:0
+msgid "戻り値の型"
+msgstr ""
+
