@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.quantum_info.operators.operator.rst:2
+msgid "qiskit.quantum\\_info.operators.operator module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator:1
+msgid "Matrix Operator class."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator:1
+msgid "ベースクラス: :class:`qiskit.quantum_info.operators.base_operator.BaseOperator`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator:1
+msgid "Matrix operator class"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator:3
+msgid "This represents a matrix operator `M` that acts on a statevector as: `M|v⟩` or on a density matrix as M.ρ.M^dagger."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:1
+msgid "Return the operator self + other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:3
+msgid "an operator object."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:6
+msgid "the operator self + other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:0
+msgid "raises"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:9
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:9
+msgid ":exc:`QiskitError` -- if other is not an operator, or has incompatible"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.add:10
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:10
+msgid ":exc:`dimensions.`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:1
+msgid "Return the composition channel self∘other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:5
+msgid "a list of subsystem positions to compose other on."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:7
+msgid "If False compose in standard order other(self(input)) otherwise compose in reverse order self(other(input)) [default: False]"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:12
+msgid "The composed operator."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:15
+msgid ":exc:`QiskitError` -- if other cannot be converted to an Operator or has"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.compose:16
+msgid "incompatible dimensions."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.conjugate:1
+msgid "Return the conjugate of the operator."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:1
+msgid "Return the tensor product operator other ⊗ self."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:6
+msgid "the tensor product operator other ⊗ self."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.expand:9
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:9
+msgid ":exc:`QiskitError` -- if other cannot be converted to an operator."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.is_unitary:1
+msgid "Return True if operator is a unitary matrix."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:3
+msgid "a complex number."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:6
+msgid "the operator other * self."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.multiply:9
+msgid ":exc:`QiskitError` -- if other is not a valid complex number."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:1
+msgid "Return the matrix power of the operator."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:3
+msgid "the power to raise the matrix to."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:6
+msgid "the n-times composed operator."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:9
+msgid ":exc:`QiskitError` -- if the input and output dimensions of the operator"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.power:10
+msgid "are not equal, or the power is not a positive integer."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:1
+msgid "Return the operator self - other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.subtract:6
+msgid "the operator self - other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:1
+msgid "Return the tensor product operator self ⊗ other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:3
+msgid "a operator subclass object."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.tensor:6
+msgid "the tensor product operator self ⊗ other."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.to_instruction:1
+msgid "Convert to a UnitaryGate instruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.to_operator:1
+msgid "Convert operator to matrix operator class"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/quantum_info/operators/operator.py:docstring of qiskit.quantum_info.operators.operator.Operator.transpose:1
+msgid "Return the transpose of the operator."
+msgstr ""
+
