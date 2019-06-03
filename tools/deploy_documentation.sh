@@ -39,7 +39,7 @@ doCompile
 echo "set ssh"
 pwd
 set -e
-openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in tools/github_deploy_key.enc -out github_deploy_key -d
+openssl aes-256-cbc -K $encrypted_a301093015c6_key -iv $encrypted_a301093015c6_iv -in ../tools/github_deploy_key.enc -out github_deploy_key -d
 chmod 600 github_deploy_key
 eval $(ssh-agent -s)
 ssh-add github_deploy_key
