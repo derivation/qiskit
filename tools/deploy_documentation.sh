@@ -22,7 +22,7 @@ SOURCE_DIR=`pwd`
 TRANSLATION_LANG='ja'
 
 function doCompile {
-  ./compile_documentation.sh
+  compile_documentation.sh
 }
 
 # Build the documentation.
@@ -30,6 +30,7 @@ echo "make doc"
 make doc
 echo "end of make doc"
 
+pwd
 #Run the compile script
 doCompile
 
