@@ -80,7 +80,7 @@ cp -r $SOURCE_DIR/$DOC_DIR_2/ $DOC_DIR_2/
 
 # git checkout translationDocs
 echo "add to pot files to target dir"
-git add $DOC_DIR_1
+git add -f $DOC_DIR_1
 git add $DOC_DIR_2
 
 # Commit and push the changes.
