@@ -22,7 +22,7 @@ SOURCE_DIR=`pwd`
 TRANSLATION_LANG='ja'
 
 function doCompile {
-  tools/compile_documentation.sh
+  ./compile_documentation.sh
 }
 
 # Build the documentation.
@@ -30,9 +30,23 @@ echo "make doc"
 make doc
 echo "end of make doc"
 
+echo "show current dir: "
 pwd
-#Run the compile script
-doCompile
+
+echo "cd docs"
+cd docs
+# Extract document's translatable messages into pot files
+echo "Extract document's translatable messages into pot files: "
+sphinx-build -b gettext -D language=$TRANSLATION_LANG . _build/gettext/$TRANSLATION_LANG
+
+# Setup / Update po files
+echo "Setup / Update po files"
+sphinx-intl update -p _build/gettext -l $TRANSLATION_LANG
+
+# Make translated document
+# make -e SPHINXOPTS="-Dlanguage='ja'" html
+echo "Make translated document"
+sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLATION_LANG
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
@@ -56,14 +70,13 @@ git config user.email "soolu.elto@gmail.com"
 
 # Selectively delete files from the dir, for preserving versions and languages.
 echo "git rm -rf"
-git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
-    $TARGET_DOC_DIR/_* \
-    $TARGET_DOC_DIR/aer \
-    $TARGET_DOC_DIR/autodoc \
-    $TARGET_DOC_DIR/aqua \
-    $TARGET_DOC_DIR/terra \
-    $TARGET_DOC_DIR/ignis
-
+# git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
+#     $TARGET_DOC_DIR/aer \
+#     $TARGET_DOC_DIR/autodoc \
+#     $TARGET_DOC_DIR/aqua \
+#     $TARGET_DOC_DIR/terra \
+#     $TARGET_DOC_DIR/ignis
+    # $TARGET_DOC_DIR/_* \
 
 # Copy the new rendered files and add them to the commit.
 # mkdir -p $TARGET_DOC_DIR
