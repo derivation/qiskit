@@ -1,0 +1,530 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../aqua/release_history.rst:3
+msgid "Release History"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:7
+msgid "Release Notes"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:11
+msgid "Qiskit Aqua 0.4.0"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:13
+msgid ""
+"In the `Qiskit <https://qiskit.org/>`__ ecosystem, `Aqua "
+"<https://qiskit.org/aqua>`__ is the `element <https://medium.com/qiskit"
+"/qiskit-and-its-fundamental-elements-bcd7ead80492>`__ that encompasses "
+"cross-domain quantum algorithms and applications running on `Noisy "
+"Intermediate-Scale Quantum (NISQ) <https://arxiv.org/abs/1801.00862>`__ "
+"computers. Aqua is an open-source library completely written in Python "
+"and specifically designed to be modular and extensible at multiple "
+"levels. Currently, Aqua supports four applications, in domains that have "
+"long been identified as potential areas for quantum computing: Chemistry,"
+" Artificial Intelligence (AI), Optimization, and Finance. In this "
+"release, we have added the following new features :"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:26
+msgid "Compatibility with Terra 0.7"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:27
+msgid "Compatibility with Aer 0.1"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:28
+msgid ""
+"Programmatic APIs for algorithms and components -- each component can now"
+" be instantiated and initialized via a single (non-empty) constructor "
+"call - ``QuantumInstance`` API for algorithm/backend decoupling -- "
+"``QuantumInstance`` encapsulates a backend and its settings"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:31
+msgid ""
+"Updated documentation and Jupyter Notebooks illustrating the new "
+"programmatic APIs"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:32
+msgid "Transparent parallelization for gradient-based optimizers"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:33
+msgid "Multiple-Controlled-NOT (cnx) operation"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:34
+msgid "Pluggable algorithmic component ``RandomDistribution``"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:35
+msgid ""
+"Concrete implementations of ``RandomDistribution``: "
+"``BernoulliDistribution``, ``LogNormalDistribution``, "
+"``MultivariateDistribution``, ``MultivariateNormalDistribution``, "
+"``MultivariateUniformDistribution``, ``NormalDistribution``, "
+"``UniformDistribution``, and ``UnivariateDistribution``"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:39
+msgid "Pluggable algorithmic component:"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:40
+msgid ""
+"Concrete implementations of ``UncertaintyProblem``: "
+"``FixedIncomeExpectedValue``, ``EuropeanCallExpectedValue``, and "
+"``EuropeanCallDelta``"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:42
+msgid "Amplitude Estimation algorithm"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:43
+msgid ""
+"Qiskit Optimization: New Ising models for optimization problems exact "
+"cover, set packing, vertex cover, clique, and graph partition"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:46
+msgid "Qiskit AI:"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:46
+msgid ""
+"New feature maps extending the ``FeatureMap`` pluggable interface: "
+"``PauliExpansion`` and ``PauliZExpansion``"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:48
+msgid "Training model serialization/deserialization mechanism"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:54
+msgid "Qiskit Finance:"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:50
+msgid ""
+"Amplitude estimation for Bernoulli random variable: illustration of "
+"amplitude estimation on a single qubit problem"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:52
+msgid "Loading of multiple univariate and multivariate random distributions"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:53
+msgid ""
+"European call option: expected value and delta (using univariate "
+"distributions)"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:54
+msgid ""
+"Fixed income asset pricing: expected value (using multivariate "
+"distributions)"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:56
+msgid "In this release, we have also removed the following new features:"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:58
+msgid ""
+"``HartreeFock`` component of pluggable type ``InitialState`` moved to "
+"Qiskit Chemistry"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:59
+msgid ""
+"``UCCSD`` component of pluggable type ``VariationalForm`` moved to Qiskit"
+" Chemistry"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:63
+msgid "New Features in the Aqua Library of Algorithms"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:65
+msgid ""
+"In this section, we describe the new features made available in Qiskit "
+"Aqua 0.4 at the level of the library of algorithms."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:70
+msgid "Compatibility with Terra 0.7 and Aer 0.1"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:72
+msgid ""
+"Aqua 0.4 is fully compatible with the latest version of Qiskit Terra, "
+"0.7, and with the newly released Qiskit Aer 0.1. This allows you to "
+"install and execute Aqua in the same Python environment as all the other "
+"Qiskit elements and components."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:79
+msgid "API-based Programmatic Interface"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:81
+msgid ""
+"The Aqua wizard allows you to use Aqua as a tool; you can configure and "
+"execute quantum experiments without writing a line of code. However, Aqua"
+" has a more powerful use case. In fact, Aqua is an extensible library of "
+"quantum algorithms; users can extend it with new components and program "
+"experiments by calling the Aqua APIs. In Aqua 0.4, we have simplified the"
+" Aqua programmatic interface."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:88
+msgid ""
+"In previous versions of Aqua, in order to instantiate one of the "
+"algorithmic components — such as algorithms, optimizers, variational "
+"forms, oracles, feature maps and AI classifiers — you had to call either "
+"the empty constructor or factory method of that component's class, "
+"followed by a call to init_args containing the parameters needed for that"
+" component to be initialized. That somewhat convoluted API structure was "
+"implemented in order to reconcile a pure programmatic approach with the "
+"declarative approach allowed by the Aqua wizard, which has the ability to"
+" automatically discover and dynamically load new components at run time. "
+"In order to simplify the programmatic approach, we have deprecated the "
+"``init_args`` API. Component classes no longer have empty constructors. "
+"Rather, we now allow the constructor of each component to take as "
+"parameters all the objects needed for that component to be fully "
+"initialized. For example, this one line constructs and initializes an "
+"instance of Grover's search algorithm:"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:108
+msgid "where ``oracle`` is an instance of the Aqua Oracle interface."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:110
+msgid ""
+"It is also worth noting that, in previous versions of Aqua, a backend was"
+" made available to an algorithm in the form of a string, and it was the "
+"algorithm's responsibility to create an instance of the backend by "
+"interpreting that string. Starting with this release, the Qiskit "
+"ecosystem includes a new element: Qiskit Aer, consisting of a collection "
+"of high-quality, high-performance and highly scalable simulators. Aer "
+"will help us understand the limits of classical processors by "
+"demonstrating to what extent they can mimic quantum computation. "
+"Furthermore, we can use Aer to verify that current and near-future "
+"quantum computers function correctly. Being fully integrated with the "
+"newly released Aer 0.1, Aqua 0.4 allows for an experiment's backend to be"
+" constructed programmatically from the Aer APIs."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:123
+msgid ""
+"Furthermore, we have decoupled the Aqua algorithms from the Terra "
+"backends. An Aqua algorithm is now a pure implementation of a quantum "
+"algorithm, and as such it is orthogonal to the notion of the backend on "
+"which the algorithm-generated circuits will be executed. This decoupling "
+"is reflected by the fact that the construction of a ``QuantumAlgorithm`` "
+"object no longer requires setting up the backend. Rather, the backend is "
+"passed as a parameter to the ``run`` method of the ``QuantumAlgorithm`` "
+"object as is, or wrapped in a ``QuantumInstance`` object along with "
+"backend-configuration parameters."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:133
+msgid ""
+"The following program shows how to conduct a quantum programming "
+"experiment using Aqua's improved programmatic interface:"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:156
+msgid ""
+"This program demonstrates how Grover's search algorithm can be used in "
+"conjunction with the Satisfiability (SAT) oracle to compute one of the "
+"many possible solutions of a Conjunctive Normal Form (CNF)."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:160
+msgid ""
+"This example emphasizes the use of Aqua's improved programmatic interface"
+" by illustrating how the Grover ``QuantumAlgorithm`` and its supporting "
+"component—-consisting of the SAT ``oracle``, can both be instantiated and"
+" initialized via simple constructor calls. The Aer QASM simulator backend"
+" is passed as a parameter to the ``run`` method of the ``Grover`` "
+"``QuantumAlgorithm`` object, which means that the backend will be "
+"executed with default parameters."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:168
+msgid ""
+"To customize the backend, you can wrap it into a ``QuantumInstance`` "
+"object, and then pass that object to the run method of the "
+"``QuantumAlgorithm``, as explained above. The ``QuantumInstance`` API "
+"allows you to customize run-time properties of the backend, such as the "
+"number of shots, the maximum number of credits to use, a dictionary with "
+"the configuration settings for the simulator, a dictionary with the "
+"initial layout of qubits in the mapping, and the Terra ``PassManager`` "
+"that will handle the compilation of the circuits. For the full set of "
+"options, please refer to the documentation of the Aqua "
+"``QuantumInstance`` API."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:178
+msgid ""
+"Numerous new notebooks in the `qiskit/aqua <https://github.com/Qiskit"
+"/qiskit-tutorials/tree/master/qiskit/aqua>`__ and `community/aqua "
+"<https://github.com/Qiskit/qiskit-"
+"tutorials/tree/master/community/aqua>`__ folders of the `Qiskit Tutorials"
+" <https://github.com/Qiskit/qiskit-tutorials>`__ repository illustrate "
+"how to conduct a quantum-computing experiment programmatically using the "
+"new Aqua APIs."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:189
+msgid "Transparent Parallelization of Gradient-based Optimizers"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:191
+msgid ""
+"Aqua comes with a large collection of adaptive algorithms, such as the "
+"`Variational Quantum Eigensolver (VQE) algorithm "
+"<https://www.nature.com/articles/ncomms5213>`__, `Quantum Approximate "
+"Optimization Algorithm (QAOA) <https://arxiv.org/abs/1411.4028>`__, the "
+"`Quantum Support Vector Machine (SVM) Variational Algorithm "
+"<https://arxiv.org/abs/1804.11326>`__ for AI. All these algorithms "
+"interleave quantum and classical computations, making use of classical "
+"optimizers. Aqua includes nine local and five global optimizers to choose"
+" from. By profiling the execution of the adaptive algorithms, we have "
+"detected that a large portion of the execution time is taken by the "
+"optimization phase, which runs classically. Among the most widely used "
+"optimizers are the *gradient-based* ones; these optimizers attempt to "
+"compute the absolute minimum (or maximum) of a function :math:`f` through"
+" its gradient."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:206
+msgid ""
+"Five local optimizers among those integrated into Aqua are gradient-"
+"based: the four local optimizers *Limited-memory Broyden-Fletcher-"
+"Goldfarb-Shanno Bound (L-BFGS-B)*, *Sequential Least SQuares Programming "
+"(SLSQP)*, *Conjugate Gradient (CG)*, and *Truncated Newton (TNC)* from "
+"`SciPy "
+"<https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html>`__,"
+" as well as `Simultaneous Perturbation Stochastic Approximation (SPSA) "
+"<https://www.jhuapl.edu/SPSA/>`__. Aqua 0.4 contains a methodology that "
+"parallelizes the classical computation of the partial derivatives in the "
+"gradient-based local optimizers listed above. This parallelization takes "
+"place *transparently*, in the sense that Aqua intercepts the computation "
+"of the partial derivatives and parallelizes it without making any change "
+"to the actual source code of the optimizers."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:220
+#, python-format
+msgid ""
+"In order to activate the parallelization mechanism for an adaptive "
+"algorithm included in Aqua, it is sufficient to construct it with "
+"parameter ``batch_mode`` set to ``True``. Our experiments have proven "
+"empirically that parallelizing the process of a gradient-based local "
+"optimizer achieves a 30% speedup in the execution time of an adaptive "
+"algorithms on a simulator."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:229
+msgid "Multiple-Controlled-NOT Operation"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:231
+msgid ""
+"The *Multiple-Controlled-NOT (cnx)* operation, as the name suggests, is a"
+" generalization of the quantum operation where one target qubit is "
+"controlled by a number *n* of control qubits for a NOT (`x`) operation. "
+"The multiple-controlled-NOT operation can be used as the building block "
+"for implementing various different quantum algorithms, such as Grover's "
+"search algorithm."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:238
+msgid ""
+"For the different numbers 0, 1, 2, … of controls, we have corresponding "
+"quantum gates ``x``, ``cx``, ``ccx``, ... The first three are basic/well-"
+"known quantum gates. In Aqua, the cnx operation provides support for "
+"arbitrary numbers of controls, in particular, 3 or above."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:243
+msgid ""
+"Currently two different implementation strategies are included: *basic* "
+"and *advanced*. The basic mode employs a textbook implementation, where a"
+" series of ``ccx`` Toffoli gates are linked together in a ``V`` shape to "
+"achieve the desired multiple-controlled-NOT operation. This mode requires"
+" :math:`n-2` ancillary qubits, where :math:`n` is the number of controls."
+" For the advanced mode, the ``cccx`` and ``ccccx`` operations are "
+"achieved without needing ancillary qubits. Multiple-controlled-NOT "
+"operations for higher number of controls (5 and above) are implemented "
+"recursively using these lower-number-of-control cases."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:253
+msgid ""
+"Aqua's cnx operation can be invoked from a ``QuantumCircuit`` object "
+"using the ``cnx`` API, which expects a list ``q_controls`` of control "
+"qubits, a target qubit ``q_target``, and a list ``q_ancilla`` of "
+"ancillary qubits. An optional keyword argument ``mode`` can also be "
+"passed in to indicate whether the ``'basic'`` or ``'advanced'`` mode is "
+"chosen.  If omitted, this argument defaults to ``'basic'``."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:262
+msgid "Random Distributions"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:264
+msgid ""
+"A random distribution is an implementation of a circuit factory. It "
+"provides a way to construct a quantum circuit to prepare a state "
+"corresponding to a random distribution. More precisely, the resulting "
+"state, together with an affine map, can be used to sample from the "
+"considered distribution. The qubits are measured and then mapped to the "
+"desired range using the affine map. Aqua 0.4 introduces random "
+"distributions in the form of the ``RandomDistribution`` pluggable "
+"component, and provides numerous concrete implementations, such as "
+"``BernoulliDistribution``, ``LogNormalDistribution``, "
+"``MultivariateDistribution``, ``MultivariateNormalDistribution``, "
+"``MultivariateUniformDistribution``, ``NormalDistribution``, "
+"``UniformDistribution``, and ``UnivariateDistribution``."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:279
+msgid "Uncertainty Problems"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:281
+msgid ""
+"Uncertainty is present in most realistic applications, and often it is "
+"necessary to evaluate the behavior of a system under uncertain data. For "
+"instance, in finance, it is of interest to evaluate expected value or "
+"risk metrics of financial products that depend on underlying stock "
+"prices, economic factors, or changing interest rates. Classically, such "
+"problems are often evaluated using Monte Carlo simulation. However, Monte"
+" Carlo simulation does not converge very fast, which implies that large "
+"numbers of samples are required to achieve estimations of reasonable "
+"accuracy and confidence. Uncertainty problems can be solved by the "
+"amplitude estimation algorithm, discussed below. Aqua 0.4 introduces the "
+"``UncertaintyProblem`` pluggable component and provides implementations "
+"for several concrete uncertainty problems used in Aqua Finance, such as "
+"``FixedIncomeExpectedValue``, ``EuropeanCallExpectedValue`` and "
+"``EuropeanCallDelta``."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:298
+msgid "The Amplitude Estimation Algorithm"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:300
+msgid ""
+"The Aqua library of algorithms is fully extensible; new algorithms can "
+"easily be plugged in. Aqua 0.4 includes a new algorithm: *Amplitude "
+"Estimation*, which is a derivative of Quantum Phase Estimation applied to"
+" a particular operator :math:`A`, assumed to operate on :math:`n + 1` + 1"
+" qubits (plus possible ancillary qubits). Here, the first *n* qubits "
+"encode the uncertainty (in the form of a random distribution), and the "
+"last qubit, called the *objective qubit*, is used to represent the "
+"normalized objective value as its amplitude. In other words, :math:`A` is"
+" constructed such that the probability of measuring a `1` in the "
+"objective qubit is equal to the value of interest. Amplitude estimation "
+"leads to a quadratic speedup compared to the classical Monte Carlo "
+"approach when solving an uncertainty problem. Thus, millions of classical"
+" samples could be replaced by a few thousand quantum samples."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:316
+msgid "Qiskit Finance"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:318
+msgid ""
+"The Amplitude Estimation algorithm, along with the ``RandomDistribution``"
+" and ``UncertaintyProblem`` components introduced in Aqua 0.4, enriches "
+"the portfolio of Finance problems that can be solved on a quantum "
+"computer. These now include *European Call Option Pricing* (expected "
+"value and delta, using univariate distributions) and *Fixed Income Asset "
+"Pricing* (expected value, using multivariate distributions). New Jupyter "
+"Notebooks illustrating the use of the Amplitude Estimation algorithm to "
+"deal with these new problems are available in the `Qiskit Finance "
+"tutorials repository <https://github.com/Qiskit/qiskit-"
+"tutorials/tree/master/qiskit/aqua/finance>`__."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:331
+msgid "Qiskit AI"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:333
+msgid ""
+"Aqua 0.4 introduces two new implementations of the FeatureMap pluggable "
+"component, ``PauliZExpansion`` and ``PauliExpansion``."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:336
+msgid ""
+"The ``PauliZExpansion`` feature map is a generalization of the already "
+"existing ``FirstOrderExpansion`` and ``SecondOrderExpansion`` feature "
+"maps, allowing for the order of expansion *k* to be greater than 2."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:340
+msgid ""
+"The ``PauliExpansion`` feature map generalizes the existing feature maps "
+"even more. Not only does this feature map allows for the order of "
+"expansion *k* to be greater than 2, but it also supports Paulis *I*, *X* "
+"and *Y*, in addition to *Z*."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:345
+msgid ""
+"Furthermore, we have improved both the Support Vector Machine Quantum "
+"Kernel (QSVM Kernel) and Support Vector Machine Quantum Variational (QSVM"
+" Variational) algorithms by allowing a training model to be serialized to"
+" disk and dynamically retrieved in subsequent experiments."
+msgstr ""
+
+#: ../../../aqua/release_history.rst:352
+msgid "Qiskit Optimization"
+msgstr ""
+
+#: ../../../aqua/release_history.rst:354
+msgid ""
+"In Aqua 0.4, we introduce new Ising models for the following optimization"
+" problems: `exact cover <https://en.wikipedia.org/wiki/Exact_cover>`__, "
+"`set packing <https://en.wikipedia.org/wiki/Set_packing>`__, `vertex "
+"cover <https://en.wikipedia.org/wiki/Vertex_cover>`__, `clique "
+"<https://en.wikipedia.org/wiki/Clique_problem>`__, and `graph partition "
+"<https://en.wikipedia.org/wiki/Graph_partition>`__. All this problems are"
+" solved with VQE. Jupyter Notebooks illustrating how to use a quantum "
+"computer to solve these problems are available in the `Qiskit community "
+"Optimization tutorials repository <https://github.com/Qiskit/qiskit-"
+"tutorials/tree/master/community/aqua/optimization>`__."
+msgstr ""
+

@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 15:29-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../ignis/measurement_calibration.rst:3
+msgid "Measurement Calibration"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:5
+msgid ""
+"The idea of measurement calibration and mitigation is to calibrate "
+"measurement errors via a series of basis state measurements and then "
+"apply that calibration to correct the average results of another "
+"experiment of interest. In the most general case we need to calibrate all"
+" :math:`2^n` basis states. If the measurement noise is uncorrelated "
+"between qubit subsets we only need prepare the full basis states in those"
+" subsets and measure the outcome states. The first we call the complete "
+"measurement and the latter the tensored measurement."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:15
+msgid "Complete Measurement Calibration"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:17
+msgid ""
+"In the complete measurement we prepare all :math:`2^n` basis input states"
+" and compute the probability of measuring counts in the other basis "
+"states. From these calibrations, it is possible to correct the average "
+"results of another experiment of interest."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:22
+msgid "To use the Qiskit Ignis Measurement Calibration module, import it with"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:32
+#: ../../../ignis/measurement_calibration.rst:118
+msgid "Generating Measurement Calibration Circuits"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:34
+msgid ""
+"The goal is to generate a list of measurement calibration circuits for "
+"the full Hilbert space. Each circuit creates a basis state. If there are "
+":math:`n` qubits, then you get :math:`2^n` calibration circuits."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:38
+msgid ""
+"The following function returns a list ``cal_circuits`` of "
+"``QuantumCircuit`` objects containing the calibration circuits, and a "
+"list ``state_labels`` of the calibration state labels."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:50
+#: ../../../ignis/measurement_calibration.rst:131
+msgid ""
+"The input to this function can be given in one of the following three "
+"forms:"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:52
+msgid ""
+"``qubit_list:`` A list of qubits to perform the measurement correction "
+"on, or:"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:53
+#: ../../../ignis/measurement_calibration.rst:136
+msgid "``qr`` (``QuantumRegister``): A quantum register, or:"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:54
+#: ../../../ignis/measurement_calibration.rst:137
+msgid "``cr`` (``ClassicalRegister``): A classical register."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:56
+#: ../../../ignis/measurement_calibration.rst:139
+msgid ""
+"In addition, you can provide a string ``'circlabel'``, which is added at "
+"the beginning of the circuit names for unique identification."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:59
+msgid "For example, for a 5-qubit ``QuantumRegister``, use"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:66
+#: ../../../ignis/measurement_calibration.rst:149
+msgid ""
+"Now, you can execute the calibration circuits using either Qiskit Aer "
+"Simulator (with some noise model) or using IBMQ provider."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:76
+#: ../../../ignis/measurement_calibration.rst:159
+msgid "Analyzing the Results"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:78
+msgid ""
+"After you run the calibration circuits and obtain the results "
+"``cal_results``, you can compute the calibration matrix (this matrix will"
+" be ordered according to the ``state_labels``)."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:91
+msgid "To compute the measurement fidelity, use"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:97
+msgid ""
+"If ``label_list`` is ``None``, then it returns the average assignment "
+"fidelity of a single state. Otherwise it returns the assignment fidelity "
+"to be in any one of these states averaged over the second index."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:102
+msgid "Tensored Measurement Calibration"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:104
+msgid ""
+"In the tensored measurement we only prepare the full :math:`2^m` basis "
+"states in the size m subsets."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:107
+msgid ""
+"To use the Qiskit Ignis Tensored Measurement Calibration module, import "
+"it with"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:120
+msgid ""
+"The following function returns a list ``cal_circuits`` of "
+"``QuantumCircuit`` objects containing the calibration circuits."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:133
+msgid ""
+"``mit_pattern:`` A list of list of qubits. Each list of qubits is a "
+"subset for which we will prepare the full set of basis states. The "
+"calibrations from each of these subsets will be tensored together to "
+"create a full calibration."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:142
+msgid "For example, for 5-qubits with uncorrelated measurement error"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:161
+msgid ""
+"After you run the calibration circuits and obtain the results "
+"``cal_results``, you can compute the calibration matrices. Each subset of"
+" qubits will get a separate calibration matrix ordered by the appropriate"
+" sublist in ``substate_labels_list`` (if provided)."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:177
+msgid "Applying the Calibration"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:179
+msgid ""
+"If you now perform another experiment using another circuits "
+"``my_circuits`` and obtain the results ``my_results``, for example"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:188
+msgid "then you can compute the mitigated results ``mitigated_results``"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:202
+msgid ""
+"Both the ``CompleteMeasFitter`` and ``TensoredMeasFitter`` will return a "
+"filter that can be used to mitigate results.  The raw data to be "
+"corrected can be given in a number of forms (tensored data can only be "
+"applied for Form1 and Form4):"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:207
+msgid "Form1: A counts dictionary from ``results.get_counts``,"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:208
+msgid "Form2: A list of counts of length ``len(state_labels)``,"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:209
+msgid ""
+"Form3: A list of counts of length ``M*len(state_labels)`` where ``M`` is "
+"an integer (e.g. for use with the tomography data),"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:211
+msgid "Form4: A Qiskit ``Result`` (e.g. ``my_results`` as above)."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:213
+msgid "There are two fitting methods for applying the calibration:"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:215
+msgid "``method='pseudo_inverse'``, a direct inversion of the calibration matrix."
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:216
+msgid "``method='least_squares'``, constrained to have physical probabilities"
+msgstr ""
+
+#: ../../../ignis/measurement_calibration.rst:218
+msgid "If no method is defined, then ``'least_squares'`` is used."
+msgstr ""
+

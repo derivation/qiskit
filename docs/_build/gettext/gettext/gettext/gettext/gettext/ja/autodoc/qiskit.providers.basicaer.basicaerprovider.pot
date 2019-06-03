@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.providers.basicaer.basicaerprovider.rst:2
+msgid "qiskit.providers.basicaer.basicaerprovider module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider:1
+msgid "Provider for Basic Aer simulator backends."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider:1
+msgid "ベースクラス: :class:`qiskit.providers.baseprovider.BaseProvider`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider:1
+msgid "Provider for Basic Aer backends."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:1
+msgid "Return a list of backends matching the specified filtering."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:3
+msgid "name of the backend."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:5
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:5
+msgid "dict used for filtering."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:8
+msgid "a list of backends matching the filtering     criteria."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:10
+msgid "a list of backends matching the filtering"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:11
+msgid "criteria."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.backends:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:1
+msgid "Return a single backend matching the specified filtering."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:8
+msgid "a backend matching the filtering."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:0
+msgid "raises"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/basicaer/basicaerprovider.py:docstring of qiskit.providers.basicaer.basicaerprovider.BasicAerProvider.get_backend:11
+msgid ":exc:`QiskitBackendNotFoundError` -- if no backend could be found or more than one backend matches."
+msgstr ""
+

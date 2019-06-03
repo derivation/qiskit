@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.ignis.characterization.hamiltonian.fitters.rst:2
+msgid "qiskit.ignis.characterization.hamiltonian.fitters module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters:1
+msgid "Fitters for hamiltonian parameters"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter:1
+msgid "ベースクラス: :class:`qiskit.ignis.characterization.fitters.BaseCoherenceFitter`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter:1
+msgid "ZZ fitter"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.ZZ_rate:1
+msgid "Return the ZZ rate from the fit of the two curves"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.ZZ_rate:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.plot_ZZ:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.ZZ_rate:3
+msgid "qubit index to return (-1 return all)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.ZZ_rate:5
+msgid "return a list of zz_rates"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.plot_ZZ:1
+msgid "Plot ZZ data. Will plot both traces on the plot."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.plot_ZZ:3
+msgid "qubit index to plot"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.plot_ZZ:4
+msgid "plot axes"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.plot_ZZ:5
+msgid "call plt.show()"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/ignis/characterization/hamiltonian/fitters.py:docstring of qiskit.ignis.characterization.hamiltonian.fitters.ZZFitter.plot_ZZ:7
+msgid "return the axes object"
+msgstr ""
+

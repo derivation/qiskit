@@ -1,0 +1,250 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.qobj.converters.pulse_instruction.rst:2
+msgid "qiskit.qobj.converters.pulse\\_instruction module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction:1
+msgid "Helper class used to convert a pulse instruction into PulseQobjInstruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.ConversionMethodBinder:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.ConversionMethodBinder:1
+msgid "Conversion method registrar."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.ConversionMethodBinder.get_bound_method:1
+msgid "Get conversion method for bound object."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:1
+msgid "Converts pulse Instructions to Qobj models."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:3
+msgid "Converter is constructed with qobj model and experimental configuration, and returns proper qobj instruction to each backend."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:6
+msgid "Third party providers can be add their own custom pulse instructions by providing custom converter methods."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:10
+msgid "To create a custom converter for custom instruction ``` class CustomConverter(InstructionToQobjConverter):"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:14
+msgid "@bind_instruction(CustomInstruction) def convert_custom_command(self, shift, instruction):"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:19
+msgid "command_dict = {"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:17
+msgid "'name': 'custom_command', 't0': shift+instruction.start_time, 'param1': instruction.param1, 'param2': instruction.param2"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:21
+msgid "} if self._run_config('option1', True):"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:23
+msgid "command_dict.update({"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:24
+msgid "'param3': instruction.param3"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:25
+msgid "})"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:26
+msgid "return self.qobj_model(**command_dict)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter:27
+msgid "```"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_acquire:1
+msgid "Return converted `AcquireInstruction`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.bind_pulse:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_acquire:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_frame_change:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_persistent_value:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_snapshot:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:3
+msgid "Offset time."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:5
+msgid "acquire instruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_acquire:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_frame_change:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_persistent_value:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_snapshot:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:8
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:8
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:8
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:8
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:8
+msgid "Dictionary of required parameters."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_acquire:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_acquire:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_frame_change:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_persistent_value:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_snapshot:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:1
+msgid "Return converted `PulseInstruction`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_drive:5
+msgid "drive instruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_frame_change:1
+msgid "Return converted `FrameChangeInstruction`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_frame_change:5
+msgid "frame change instruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_persistent_value:1
+msgid "Return converted `PersistentValueInstruction`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_persistent_value:5
+msgid "persistent value instruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_snapshot:1
+msgid "Return converted `Snapshot`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.InstructionToQobjConverter.convert_snapshot:5
+msgid "snapshot instruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter:1
+msgid "Converts Qobj models to pulse Instructions"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.bind_pulse:1
+msgid "Bind the supplied pulse to a converter method by pulse name."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.bind_pulse:3
+msgid "Pulse to bind"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_acquire:3
+msgid "acquire qobj"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_acquire:6
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_frame_change:6
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_persistent_value:6
+msgid "Converted and scheduled Instruction"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_frame_change:3
+msgid "frame change qobj"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_persistent_value:3
+msgid "persistent value qobj"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_snapshot:3
+msgid "snapshot qobj"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.convert_snapshot:6
+msgid "Converted and scheduled Snapshot"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:1
+msgid "Parse and retrieve channel from ch string."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:3
+msgid "Channel to match"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:6
+msgid "Matched channel"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:0
+msgid "raises"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/converters/pulse_instruction.py:docstring of qiskit.qobj.converters.pulse_instruction.QobjToInstructionConverter.get_channel:9
+msgid ":exc:`PulseError` -- Is raised if valid channel is not matched"
+msgstr ""
+
