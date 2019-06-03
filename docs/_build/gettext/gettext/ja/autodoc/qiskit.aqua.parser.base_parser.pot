@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.parser.base_parser.rst:2
+msgid "qiskit.aqua.parser.base\\_parser module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser:1
+msgid "ベースクラス: :class:`abc.ABC`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser:1
+msgid "Base Aqua Parser."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.add_section_properties:1
+msgid "Add new properties if don't exist, update the existent ones, other properties are unchanged :param section_name: the name of the section, case insensitive :type section_name: str :param new_properties: property name: value :type new_properties: dict"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.add_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_property:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section_property:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.add_section_properties:7
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_properties:7
+msgid "True if changed"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.add_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_property:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section_property:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_properties:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_property:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_properties:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_property:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:1
+msgid "the name of the section, case insensitive"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section:4
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_properties:4
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_property:6
+msgid "True if deleted"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.delete_section_property:3
+msgid "the property name in the section"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_filename:1
+msgid "Return the filename."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section:1
+msgid "Return a Section by name. :param section_name: the name of the section, case insensitive :type section_name: str"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section:5
+msgid "The section with this name"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section:0
+msgid "raises"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section:8
+msgid ":exc:`AquaError` -- if the section does not exist."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section_names:1
+msgid "Return all the names of the sections."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section_property:1
+msgid "Return a property by name. :param section_name: the name of the section, case insensitive :type section_name: str :param property_name: the property name in the section :type property_name: str :param default_value: default value in case it is not found"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.get_section_property:8
+msgid "The property value"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.is_modified:1
+msgid "Returns true if data has been changed"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.json_schema:1
+msgid "Getter of _json_schema."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.parse:1
+msgid "Parse the data."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section:4
+msgid "True if updated"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_data:1
+msgid "Sets a section data. :param section_name: the name of the section, case insensitive :type section_name: str :param value: value to set"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_data:6
+msgid "Returns:"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_data:7
+msgid "Bool: True if updated"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_properties:1
+msgid "Replace all old properties with new ones :param section_name: the name of the section, case insensitive :type section_name: str :param new_properties: property name: value :type new_properties: dict"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:3
+msgid "the name of the property"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:5
+msgid "the value of the property"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/parser/base_parser.py:docstring of qiskit.aqua.parser.base_parser.BaseParser.set_section_property:8
+msgid "True if value changed"
+msgstr ""
+
