@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.chemistry.mp2info.rst:2
+msgid "qiskit.chemistry.mp2info module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:1
+msgid "A utility class for Moller-Plesset 2nd order (MP2) information"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:3
+msgid "Each double excitation given by [i,a,j,b] has a coefficient computed using"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:4
+msgid "coeff = -(2 * Tiajb - Tibja)/(oe[b] + oe[a] - oe[i] - oe[j])"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:5
+msgid "where oe[] is the orbital energy"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:8
+msgid "and an energy delta given by"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:8
+msgid "e_delta = coeff * Tiajb"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info:10
+msgid "All the computations are done using the molecule orbitals but the indexes used in the excitation information passed in and out are in the block spin orbital numbering as normally used by the chemistry stack."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_delta:1
+msgid "Get the MP2 delta energy correction for the molecule"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_delta:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_energy:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_delta:3
+msgid "The MP2 delta energy"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_delta:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_energy:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_energy:1
+msgid "Get the MP2 energy for the molecule"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_energy:3
+msgid "The MP2 energy"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:1
+msgid "With a reduced active space the set of used excitations can be less than allowing all available excitations. Given a (sub)set of excitations in the space this will return a list of correlation coefficients and a list of correlation energies ordered as per the excitation list provided."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:6
+msgid "A list of excitations for which to get the coeff and e_delta"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:8
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:4
+msgid "Whether core orbitals are frozen or not"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:10
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:6
+msgid "An optional list of ints indicating removed orbitals"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_get_term_info:13
+msgid "List of coefficients and list of energy deltas"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:1
+msgid "Gets the set of MP2 terms for the molecule taking into account index adjustments due to frozen core and/or other orbital reduction"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:9
+msgid "A dictionary of excitations where the key is a string in the form       from_to_from_to e.g. 0_4_6_10 and the value is a tuple of       (coeff, e_delta)"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:12
+msgid "A dictionary of excitations where the key is a string in the form"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/chemistry/mp2info.py:docstring of qiskit.chemistry.mp2info.MP2Info.mp2_terms:12
+msgid "from_to_from_to e.g. 0_4_6_10 and the value is a tuple of (coeff, e_delta)"
+msgstr ""
+

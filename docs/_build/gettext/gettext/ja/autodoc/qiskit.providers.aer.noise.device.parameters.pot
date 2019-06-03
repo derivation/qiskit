@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.providers.aer.noise.device.parameters.rst:2
+msgid "qiskit.providers.aer.noise.device.parameters module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters:1
+msgid "Functions to extract device error parameters from backend properties."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_error_values:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_param_values:1
+msgid "Get gate error values for backend gate from backend properties"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_error_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_param_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.readout_error_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_error_values:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_param_values:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:5
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.readout_error_values:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:6
+msgid "device backend properties"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_error_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_param_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.readout_error_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_error_values:6
+msgid "A list of tuples (name, qubits, value). If gate error information is not available None will be returned for value."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_error_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_param_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.readout_error_values:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:0
+msgid "戻り値の型"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_param_values:6
+msgid "A list of tuples (name, qubits, time, error). If gate error or gate_time information is not available None will be returned for value."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:1
+msgid "Get gate time values for backend gate from backend properties"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:3
+msgid "Gate time values are returned in nanosecond (ns) units."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.gate_time_values:8
+msgid "A list of tuples (name, qubits, value). If gate time information is not available None will be returned for value."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.readout_error_values:1
+msgid "Get readout error values for each qubit from backend properties"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.readout_error_values:6
+msgid "A list of readout error values for qubits. If readout error information is not available None will be returned for value."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:1
+msgid "Return list of T1, T2 and frequency values from backend properties."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:3
+msgid "T1 and T2 values are returned in microsecond (µs) units. Frequency is returned in gigahertz (GHz) units."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/aer/noise/device/parameters.py:docstring of qiskit.providers.aer.noise.device.parameters.thermal_relaxation_values:9
+msgid "A list of tuples (T1, T2, freq) for each qubit in the device where T1 and T2 are in microsecond units, and frequency is in GHz. If T1, T2, of frequency cannot be loaded for qubit a value of Numpy.inf will be used."
+msgstr ""
+

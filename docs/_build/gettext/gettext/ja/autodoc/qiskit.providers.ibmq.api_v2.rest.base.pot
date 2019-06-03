@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.providers.ibmq.api_v2.rest.base.rst:2
+msgid "qiskit.providers.ibmq.api\\_v2.rest.base module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base:1
+msgid "REST clients for accessing IBM Q."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase:1
+msgid "Base class for REST adaptors."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.URL_MAP:1
+msgid "Mapping between the internal name of an endpoint and the actual URL"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:1
+msgid "Return the resolved URL for the specified identifier."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:3
+msgid "internal identifier of the endpoint."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:6
+msgid "the resolved URL of the endpoint (relative to the session     base url)."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:8
+msgid "the resolved URL of the endpoint (relative to the session"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:9
+msgid "base url)."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/providers/ibmq/api_v2/rest/base.py:docstring of qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase.get_url:0
+msgid "戻り値の型"
+msgstr ""
+

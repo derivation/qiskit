@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.pulse.pulse_lib.continuous.rst:2
+msgid "qiskit.pulse.pulse\\_lib.continuous module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous:1
+msgid "Module for builtin continuous pulse functions."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.constant:1
+msgid "Continuous constant pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.constant:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.cos:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sawtooth:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sin:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.square:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.triangle:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.zero:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.constant:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:8
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:5
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.zero:3
+msgid "Times to output pulse for."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.constant:4
+msgid "Complex pulse amplitude."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.cos:1
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sin:1
+msgid "Continuous cosine wave."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.cos:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sawtooth:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sin:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.square:3
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.triangle:3
+msgid "Times to output wave for."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.cos:4
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:4
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sin:4
+msgid "Pulse amplitude."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.cos:5
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sin:5
+msgid "Pulse frequency, units of 1/dt."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.cos:6
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sawtooth:6
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sin:6
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.square:6
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.triangle:6
+msgid "Pulse phase."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:1
+msgid "Continuous Y-only correction DRAG pulse for standard nonlinear oscillator (SNO) [1]."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:6
+msgid "[1] Gambetta, J. M., Motzoi, F., Merkel, S. T. & Wilhelm, F. K."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:4
+msgid "Analytic control methods for high-fidelity unitary operations in a weakly nonlinear oscillator. Phys. Rev. A 83, 012308 (2011)."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:9
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:4
+msgid "Pulse amplitude at `center`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:10
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:10
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:5
+msgid "Center (mean) of pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:11
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:11
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:6
+msgid "Width (standard deviation) of pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:12
+msgid "Y correction amplitude. For the SNO this is $\\beta=-\\frac{\\lambda_1^2}{4\\Delta_2}$. Where $\\lambds_1$ is the relative coupling strength between the first excited and second excited states and $\\Delta_2$ is the detuning between the resepective excited states."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:15
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:12
+msgid "Subtract baseline to gaussian pulses to make sure $\\Omega_g(center \\pm zeroed_width/2)=0$ is satisfied. This is used to avoid large discontinuities at the start of a gaussian pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.drag:18
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:15
+msgid "If `zeroed_width` is not `None` and `rescale_amp=True` the pulse will be rescaled so that $\\Omega_g(center)-\\Omega_g(center\\pm zeroed_width/2)=amp$."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:1
+msgid "Continuous unnormalized gaussian pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:3
+msgid "Integrated area under curve is $\\Omega_g(amp, sigma) = amp \\times np.sqrt(2\\pi \\sigma^2)$"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:6
+msgid "Pulse amplitude at `center`. If `zeroed_width` is set pulse amplitude at center will be $amp-\\Omega_g(center\\pm zeroed_width/2)$ unless `rescale_amp` is set, in which case all samples will be rescaled such that the center amplitude will be `amp`."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian:17
+msgid "Return centered and standard deviation normalized pulse location. $x=(times-center)/sigma."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:1
+msgid "Continuous unnormalized gaussian derivative pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_deriv:7
+msgid "Return gaussian with which derivative was taken with."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:1
+msgid "Continuous gaussian square pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:5
+msgid "Center of the square pulse component."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:6
+msgid "Width of the square pulse component."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:7
+msgid "Width (standard deviation) of gaussian rise/fall portion of the pulse."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.gaussian_square:8
+msgid "Subtract baseline of gaussian square pulse to enforce $\\OmegaSquare(center \\pm zeroed_width/2)=0$."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sawtooth:1
+msgid "Continuous sawtooth wave."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sawtooth:4
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.square:4
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.triangle:4
+msgid "Pulse amplitude. Wave range is [-amp, amp]."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.sawtooth:5
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.square:5
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.triangle:5
+msgid "Pulse period, units of dt."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.square:1
+msgid "Continuous square wave."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.triangle:1
+msgid "Continuous triangle wave."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/pulse/pulse_lib/continuous.py:docstring of qiskit.pulse.pulse_lib.continuous.zero:1
+msgid "Continuous zero pulse."
+msgstr ""
+

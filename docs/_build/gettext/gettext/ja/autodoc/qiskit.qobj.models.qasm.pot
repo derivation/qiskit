@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.qobj.models.qasm.rst:2
+msgid "qiskit.qobj.models.qasm module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm:1
+msgid "The qasm qobj models."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjConfig:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjConfig`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjConfig:1
+msgid "Model for QasmQobjConfig inherit from QobjConfig."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjConfig:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``QasmQobjConfigSchema``."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjConfigSchema:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjConfigSchema`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjConfigSchema:1
+msgid "Schema for QasmQobjConfig."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperiment:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjExperiment`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperiment:1
+msgid "Model for QasmQobjExperiment inherit from QobjExperiment."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperiment:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``QasmQobjExperimentSchema``."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperiment:8
+msgid "list of instructions."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperiment:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstruction:0
+msgid "type"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperiment:10
+msgid "list[QasmQobjInstruction]"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentConfig:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjExperimentConfig`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentConfig:1
+msgid "Model for QasmQobjExperimentConfig inherit from QobjExperimentConfig."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentConfig:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``QasmQobjExperimentConfigSchema``."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentConfigSchema:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjExperimentConfigSchema`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentConfigSchema:1
+msgid "Schema for QasmQobjExperimentConfig."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentSchema:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjExperimentSchema`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjExperimentSchema:1
+msgid "Schema for QasmQobjExperiment."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstruction:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjInstruction`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstruction:1
+msgid "Model for QasmQobjInstruction inherit from QobjInstruction."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstruction:3
+msgid "Please note that this class only describes the required fields. For the full description of the model, please check ``QasmQobjInstructionSchema``."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstruction:8
+msgid "name of the instruction"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstruction:10
+msgid "str"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstructionSchema:1
+msgid "ベースクラス: :class:`qiskit.qobj.models.base.QobjInstructionSchema`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/qobj/models/qasm.py:docstring of qiskit.qobj.models.qasm.QasmQobjInstructionSchema:1
+msgid "Schema for QasmQobjInstruction."
+msgstr ""
+

@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 20:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../../autodoc/qiskit.aqua.components.reciprocals.long_division.rst:2
+msgid "qiskit.aqua.components.reciprocals.long\\_division module"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision:1
+msgid "ベースクラス: :class:`qiskit.aqua.components.reciprocals.reciprocal.Reciprocal`"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision:1
+msgid "The Long Division Rotation for Reciprocals."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision:3
+msgid "It finds the reciprocal with long division method and rotates the ancillary qubit by C/lambda. This is a first order approximation of arcsin(C/lambda)."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.construct_circuit:1
+msgid "Construct the Long Division Rotation circuit."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.construct_circuit:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.sv_to_resvec:0
+msgid "パラメータ"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.construct_circuit:3
+msgid "consctruction mode, 'matrix' not supported"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.construct_circuit:5
+msgid "input register, typically output register of Eigenvalues"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.construct_circuit:0
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.sv_to_resvec:0
+msgid "戻り値"
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.construct_circuit:8
+msgid "QuantumCircuit containing the Long Division Rotation circuit."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.sv_to_resvec:1
+msgid "Convert statevector to result vector."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.sv_to_resvec:3
+msgid "The statevector from simulation."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.sv_to_resvec:5
+msgid "Number of qubits of result register."
+msgstr ""
+
+#: ../../../../../../../virtualenv/python3.7.1/lib/python3.7/site-packages/qiskit/aqua/components/reciprocals/long_division.py:docstring of qiskit.aqua.components.reciprocals.long_division.LongDivision.sv_to_resvec:8
+msgid "The result vector."
+msgstr ""
+
