@@ -73,10 +73,10 @@ git config user.email "soolu.elto@gmail.com"
 
 # Copy the new rendered files and add them to the commit.
 echo "copy directory"
-mkdir $DOC_DIR_1
-cp -r $SOURCE_DIR/$DOC_DIR_1/* $DOC_DIR_1/
-mkdir $DOC_DIR_2
-cp -r $SOURCE_DIR/$DOC_DIR_2/* $DOC_DIR_2/
+# mkdir $DOC_DIR_1
+cp -r $SOURCE_DIR/$DOC_DIR_1/ $DOC_DIR_1/
+# mkdir $DOC_DIR_2
+cp -r $SOURCE_DIR/$DOC_DIR_2/ $DOC_DIR_2/
 
 # git checkout translationDocs
 echo "add to pot files to target dir"
