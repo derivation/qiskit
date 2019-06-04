@@ -15,14 +15,14 @@
 # Script for pushing the documentation to the qiskit.org repository.
 
 # Non-travis variables used by this script.
-# TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
-# TARGET_DOC_DIR="."
-# SOURCE_DOC_DIR="docs/_build/html"
-# SOURCE_DIR=`pwd`
+TARGET_REPOSITORY="git@github.com:SooluThomas/testTranslation.git"
+TARGET_DOC_DIR="."
+SOURCE_DOC_DIR="docs/_build/html"
+SOURCE_DIR=`pwd`
 TRANSLATION_LANG='ja'
 
-SOURCE_REPOSITORY="git@github.com:SooluThomas/qiskit.git"
-SOURCH_BRANCH="translationDocs"
+# SOURCE_REPOSITORY="git@github.com:SooluThomas/qiskit.git"
+# SOURCH_BRANCH="translationDocs"
 DOC_DIR_1="docs/_build/gettext"
 DOC_DIR_2="docs/locale"
 
