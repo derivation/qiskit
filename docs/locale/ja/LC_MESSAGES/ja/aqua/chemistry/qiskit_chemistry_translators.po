@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 22:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:5
+msgid "Translators"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:7
+msgid ""
+"The translation layer in Qiskit Chemistry maps high-level classically "
+"generated input to a qubit operator, which becomes the input to one of "
+"Aqua's :ref:`quantum-algorithms`. As part of this layer, Qiskit Chemistry"
+" offers three qubit mapping functions."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:15
+msgid "Jordan-Wigner"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:16
+#, python-format
+msgid ""
+"The `Jordan-Wigner transformation "
+"<https://rd.springer.com/article/10.1007%2FBF01331938>`__, maps spin "
+"operators onto fermionic creation and annihilation operators. It was "
+"proposed by Ernst Pascual Jordan and Eugene Paul Wigner for one-"
+"dimensional lattice models, but now two-dimensional analogues of the "
+"transformation have also been created. The Jordan–Wigner transformation "
+"is often used to exactly solve 1D spin-chains by transforming the spin "
+"operators to fermionic operators and then diagonalizing in the fermionic "
+"basis."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:29
+msgid "Parity"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:31
+msgid ""
+"The `parity-mapping transformation <https://arxiv.org/abs/1701.08213>`__."
+" optimizes encodings of fermionic many-body systems by qubits in the "
+"presence of symmetries. Such encodings eliminate redundant degrees of "
+"freedom in a way that preserves a simple structure of the system "
+"Hamiltonian enabling quantum simulations with fewer qubits."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:41
+msgid "Bravyi-Kitaev"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:43
+msgid ""
+"Also known as *binary-tree-based qubit mapping*, the `Bravyi-Kitaev "
+"transformation "
+"<https://www.sciencedirect.com/science/article/pii/S0003491602962548>`__ "
+"is a method of mapping the occupation state of a fermionic system onto "
+"qubits. This transformation maps the Hamiltonian of :math:`n` interacting"
+" fermions to an :math:`\\mathcal{O}(\\log n)` local Hamiltonian of "
+":math:`n` qubits. This is an improvement in locality over the "
+"Jordan–Wigner transformation, which results in an :math:`\\mathcal{O}(n)`"
+" local qubit Hamiltonian. The Bravyi–Kitaev transformation was proposed "
+"by Sergey B. Bravyi and Alexei Yu. Kitaev."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:57
+msgid "Bravyi-Kitaev Superfast"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_translators.rst:59
+msgid ""
+"Bravyi Kitaev Superfast (BKSF) algorithm "
+"`<https://aip.scitation.org/doi/10.1063/1.5019371>` is a mapping from "
+"fermionic operators to qubit operators. BKSF algorithm defines an "
+"abstract model where the fermionic modes are mapped to vertices of an "
+"interaction graph. The edges of the graph correspond to the interaction "
+"between the modes. The graph can be constructed from the Hamiltonian. The"
+" simulation is done by putting qubits on the edges of the graph. Each "
+"fermionic operator costs :math:`\\mathcal{O}(d)` qubit operations, where "
+":math:`d` is the degree of the interaction graph. Nonetheless, the number"
+" of qubits required are more than the number of fermionic modes. The BKSF"
+" was proposed by Kanav Setia and James D. Whitfield."
+msgstr ""
+

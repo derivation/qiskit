@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-03 22:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../ignis/tomography.rst:2
+msgid "Tomography"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:4
+msgid ""
+"Ignis has tools to perform state and process tomography on a given Qiskit"
+" circuit (the outcome of the circuit for state tomography, the circuit "
+"itself for process). Tomography attempts to reconstruct the state "
+"(density matrix) or the process map (superoperator) given the constraints"
+" of quantum measurements."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:9
+msgid "To use the tomography module, import it with"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:16
+msgid "Generating Tomography Circuits"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:18
+msgid ""
+"The goal of the generation stage is to obtain a family of circuits that "
+"can be passed to the backend in order to obtain enough measurement for "
+"full tomography."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:21
+msgid ""
+"For state tomography this amounts to adding measurement gates, and in "
+"process tomography this amounts to adding both measurement and "
+"initialization gates."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:32
+msgid ""
+"Creates state tomography circuits from ``circuit`` for the given "
+"``measured_qubits``."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:34 ../../../ignis/tomography.rst:52
+msgid ""
+"The optional ``meas_basis`` is a string or an ``TomographyBasis`` object,"
+" which by default is ``PauliBasis``"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:36 ../../../ignis/tomography.rst:56
+msgid "The optional ``meas_labels`` are used in naming the generated circuits."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:49
+msgid ""
+"Creates process tomography circuits from ``circuit`` for the given "
+"``measured_qubits``."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:50
+msgid ""
+"The optional ``prepared_qubits`` is used to specify a set of qubits to "
+"prepare in case they are different than ``measured_qubits``."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:54
+msgid ""
+"The optional ``prep_basis`` is a string or an ``TomographyBasis`` object,"
+" which by default is ``PauliBasis``"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:57
+msgid "The optional ``prep_labels`` are used in naming the generated circuits."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:60
+msgid "Fitting Tomography Results"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:62
+msgid ""
+"The fitting stage extracts the experimental results obtained from the "
+"backend into a matrix representation of the state (density matrix) or "
+"process (Choi matrix) described by the input circuit."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:66
+msgid ""
+"To perform fitting, an object of the class ``TomographyFitter`` needs to "
+"be created. This is done by creating an ``StateTomographyFitter`` object "
+"for state tomography and ``ProcessTomographyFitter`` for process "
+"tomography."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:70
+msgid ""
+"Fitting is performed by solving an optimization problem using a dedicated"
+" library the current implementations rely on *scipy* and *cvxpy*. The "
+"implementations differ in how they ensure the result is a proper density "
+"matrix/Choi matrix: in cvxpy the constraints are encoded directly into "
+"the optimization problem whereas in the scipy based algorithm the "
+"solution is rescaled to ensure it is a proper solution."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:81
+msgid "Creates a state tomography fitter object."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:91
+msgid "Creates a process tomography fitter object."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:93
+msgid ""
+"Here ``result`` is the result obtained via the backend run on "
+"``circuits`` and ``meas_basis`` and ``prep_basis`` should be the same as "
+"used in the circuit generation."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:97
+msgid "Both fitter classes include the ``fit`` method:"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:108
+msgid "This method performs the actual fitting. The parameters are:"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:110
+msgid ""
+"``method``: can be ``'auto'``, ``'cvx'`` or ``'lstsq'``. The ``'auto'`` "
+"options attempts to use cvx and resorts to lstsq if cvx is not available."
+msgstr ""
+
+#: ../../../ignis/tomography.rst:112
+msgid ""
+"``standard_weights``: a boolean deciding whether to apply weights to "
+"tomography data based on count probability"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:114
+msgid "``beta``: a float hedging parameter for converting counts"
+msgstr ""
+
+#: ../../../ignis/tomography.rst:115
+msgid ""
+"``kwargs``: holds additional parameters passed directly to the solver "
+"engine (e.g. ``cvxopt``)"
+msgstr ""
+
