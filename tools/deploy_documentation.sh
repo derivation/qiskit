@@ -49,7 +49,7 @@ cd tmp
 git config user.name "SooluThomas"
 git config user.email "soolu.elto@gmail.com"
 
-Selectively delete files from the dir, for preserving versions and languages.
+# Selectively delete files from the dir, for preserving versions and languages.
 echo "git rm -rf"
 git rm -rf --ignore-unmatch $TARGET_DOC_DIR/*.html \
     $TARGET_DOC_DIR/_* \
