@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.visualization.pulse_visualization.rst:2
+msgid "qiskit.visualization.pulse\\_visualization module"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization:1
+msgid "matplotlib pulse visualization."
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:1
+msgid "Plot the interpolated envelope of pulse"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:3
+msgid "Data to plot"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:5
+msgid "Time interval of samples"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:7
+msgid "A style sheet to configure plot appearance"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:9
+msgid "Name required to save pulse image"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:11
+msgid ""
+"interpolation function See `qiskit.visualization.interpolation` for more "
+"information"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:14
+msgid "scaling of waveform amplitude"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:16
+msgid "A list of channel names to plot"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:18
+msgid "Plot empty channels"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:20
+msgid "A tuple of time range to plot"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:22
+msgid ""
+"When set true show the circuit in a new window (this depends on the "
+"matplotlib backend being used supporting this)"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:25
+msgid "Draw event table for supported commands"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:27
+msgid "Label individual instructions"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:29
+msgid "Add framechange indicators"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:32
+msgid "A matplotlib figure object for the pulse envelope"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer
+msgid "raises"
+msgstr ""
+
+#: of qiskit.visualization.pulse_visualization.pulse_drawer:35
+msgid ""
+":exc:`VisualizationError` -- when invalid data is given or lack of "
+"information"
+msgstr ""
+

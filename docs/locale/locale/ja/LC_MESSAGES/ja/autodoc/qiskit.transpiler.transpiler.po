@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.transpiler.transpiler.rst:2
+msgid "qiskit.transpiler.transpiler module"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler:1
+msgid "THIS FILE IS DEPRECATED AND WILL BE REMOVED IN RELEASE 0.9."
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:1
+msgid "transpile one or more circuits."
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile
+#: qiskit.transpiler.transpiler.transpile_dag
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:3
+msgid "circuits to compile"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:5
+msgid "a backend to compile for"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:7
+#: qiskit.transpiler.transpiler.transpile_dag:8
+msgid ""
+"list of basis gate names supported by the target. Default: "
+"['u1','u2','u3','cx','id']"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:10
+msgid "coupling map (perhaps custom) to target in mapping"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:12
+msgid ""
+"Initial position of virtual qubits on physical qubits. The final layout "
+"is not guaranteed to be the same, as the transpiler may permute qubits "
+"through swaps or other means."
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:16
+msgid "random seed for the swap_mapper"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:18
+msgid "a pass_manager for the transpiler stages"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile
+#: qiskit.transpiler.transpiler.transpile_dag
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:21
+msgid "transpiled circuit(s)."
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile
+#: qiskit.transpiler.transpiler.transpile_dag
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile
+msgid "raises"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile:24
+msgid ""
+":exc:`TranspilerError` -- in case of bad inputs to transpiler or errors "
+"in passes"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:1
+msgid ""
+"Deprecated - Use qiskit.compiler.transpile for transpiling from circuits "
+"to circuits. Transform a dag circuit into another dag circuit "
+"(transpile), through consecutive passes on the dag."
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:6
+msgid "dag circuit to transform via transpilation"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:11
+msgid ""
+"A graph of coupling::          [      [control0(int), target0(int)],"
+"      [control1(int), target1(int)],     ]          eg. [[0, 2], [1, 2], "
+"[1, 3], [3, 4]}"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:12
+msgid "A graph of coupling::"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:21
+msgid "A layout object"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:23
+msgid "random seed_mapper for the swap mapper"
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:25
+msgid ""
+"pass manager instance for the transpilation process If None, a default "
+"set of passes are run. Otherwise, the passes defined in it will run. If "
+"contains no passes in it, no dag transformations occur."
+msgstr ""
+
+#: of qiskit.transpiler.transpiler.transpile_dag:31
+msgid "transformed dag"
+msgstr ""
+

@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.providers.ibmq.api_v2.session.rst:2
+msgid "qiskit.providers.ibmq.api\\_v2.session module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session:1
+msgid "Session customized for IBM Q access."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession:1
+msgid "ベースクラス: :class:`requests.sessions.Session`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession:1
+msgid "Session with retry and handling of IBM Q parameters."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession:3
+msgid ""
+"Custom session for use with IBM Q, that includes a retry mechanism based "
+"on urllib3 and handling of specific parameters based on "
+"``requests.Session``."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.access_token:1
+msgid "Return the session access token."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.session.RetrySession.request:1
+msgid "Constructs a Request, prepending the base url."
+msgstr ""
+

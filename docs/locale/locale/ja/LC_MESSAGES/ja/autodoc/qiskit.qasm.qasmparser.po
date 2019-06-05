@@ -1,0 +1,525 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.qasm.qasmparser.rst:2
+msgid "qiskit.qasm.qasmparser module"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser:1
+msgid "OpenQASM parser."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser:1
+msgid "OPENQASM Parser."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.find_column:1
+msgid "Compute the column."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.find_column:3
+msgid "Input is the input text string. token is a token instance."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.get_tokens:1
+msgid "Returns a generator of the tokens."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.id_tuple_list:1
+msgid "Return a list of (name, index) tuples for this id node."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_barrier:1
+msgid "barrier : BARRIER primary_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_bit_list_0:1
+msgid "bit_list : id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_bit_list_1:1
+msgid "bit_list : bit_list ',' id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_creg_decl:1
+msgid "creg_decl : CREG indexed_id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_creg_decl_e:1
+msgid "creg_decl : CREG error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_decl:4
+#: qiskit.qasm.qasmparser.QasmParser.p_statement:4
+msgid "decl"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_decl:3
+msgid "qreg_decl ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_decl
+msgid "creg_decl ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_decl
+msgid "qreg_decl error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_decl
+msgid "creg_decl error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_decl
+msgid "gate_decl"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_exp_list_0:1
+msgid "exp_list : expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_exp_list_1:1
+msgid "exp_list : exp_list ',' expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0:4
+#: qiskit.qasm.qasmparser.QasmParser.p_expression_1:1
+msgid "expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0:3
+msgid "expression '*' expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0
+msgid "expression '/' expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0
+msgid "expression '+' expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0
+msgid "expression '-' expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_0
+msgid "expression '^' expression"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_1
+msgid "'-' expression %prec negative"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_1
+msgid "'+' expression %prec positive"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_expression_2:1
+msgid "expression : unary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_format:1
+msgid "format : FORMAT"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_format_0:1
+msgid "format : FORMAT error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_body_0:1
+msgid "gate_body : '{' '}'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_body_1:1
+msgid "gate_body : '{' gate_op_list '}'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_decl_0:1
+msgid "gate_decl : GATE id gate_scope bit_list gate_body"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_decl_1:1
+msgid "gate_decl : GATE id gate_scope '(' ')' bit_list gate_body"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_decl_2:1
+msgid "gate_decl : GATE id gate_scope '(' gate_id_list ')' bit_list gate_body"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_id_list_0:1
+msgid "gate_id_list : id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_id_list_1:1
+msgid "gate_id_list : gate_id_list ',' id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_0:1
+msgid "gate_op : U '(' exp_list ')' id ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_0e1:1
+msgid "gate_op : U '(' exp_list ')' error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_0e2:1
+msgid "gate_op : U '(' exp_list error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_1:1
+msgid "gate_op : CX id ',' id ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_1e1:1
+msgid "gate_op : CX error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_1e2:1
+msgid "gate_op : CX id ',' error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_2:1
+msgid "gate_op : id id_list ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_2e:1
+msgid "gate_op : id  id_list error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_3:1
+msgid "gate_op : id '(' ')' id_list ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_4:1
+msgid "gate_op : id '(' exp_list ')' id_list ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_4e0:1
+msgid "gate_op : id '(' ')'  error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_4e1:1
+msgid "gate_op : id '('   error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_5:1
+msgid "gate_op : BARRIER id_list ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_5e:1
+msgid "gate_op : BARRIER error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_list_0:1
+msgid "gate_op_list : gate_op"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_op_list_1:1
+msgid "gate_op_list : gate_op_list gate_op"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_gate_scope:1
+msgid "gate_scope :"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_id:1
+msgid "id : ID"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_id_e:1
+msgid "id : error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_id_list_0:1
+msgid "id_list : id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_id_list_1:1
+msgid "id_list : id_list ',' id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_if:1
+msgid ""
+"if : IF '(' id MATCHES NNINTEGER ')' quantum_op if : IF '(' id error if :"
+" IF '(' id MATCHES error if : IF '(' id MATCHES NNINTEGER error if : IF "
+"error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_ignore:1
+msgid "ignore : STRING"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_indexed_id:2
+#: qiskit.qasm.qasmparser.QasmParser.p_primary
+msgid "indexed_id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_indexed_id:1
+msgid "id '[' NNINTEGER ']'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_indexed_id
+msgid "id '[' NNINTEGER error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_indexed_id
+msgid "id '[' error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_main:1
+msgid "main : program"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_measure:1
+msgid "measure : MEASURE primary ASSIGN primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_measure_e:1
+msgid "measure : MEASURE primary error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_opaque_0:1
+msgid "opaque : OPAQUE id gate_scope bit_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_opaque_1:1
+msgid "opaque : OPAQUE id gate_scope '(' ')' bit_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_opaque_1e:1
+msgid "opaque : OPAQUE id gate_scope '(' error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_opaque_2:1
+msgid "opaque : OPAQUE id gate_scope '(' gate_id_list ')' bit_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_primary:1
+msgid "primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_primary
+msgid "id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_primary_list_0:1
+msgid "primary_list : primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_primary_list_1:1
+msgid "primary_list : primary_list ',' primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_program_0:1
+msgid "program : statement"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_program_1:1
+msgid "program : program statement"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_qreg_decl:1
+msgid "qreg_decl : QREG indexed_id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_qreg_decl_e:1
+msgid "qreg_decl : QREG error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op:5
+msgid "quantum_op"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op:4
+msgid "unitary_op"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op
+msgid "opaque"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op
+msgid "measure"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op
+msgid "barrier"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op
+msgid "reset"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_quantum_op
+msgid "if"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_reset:1
+msgid "reset : RESET primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_statement:5
+msgid "statement"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_statement
+msgid "quantum_op ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_statement
+msgid "format ';'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_statement
+msgid "ignore"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_statement
+msgid "quantum_op error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_statement
+msgid "format error"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unary_0:1
+msgid "unary : NNINTEGER"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unary_1:1
+msgid "unary : REAL"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unary_2:1
+msgid "unary : PI"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unary_3:1
+msgid "unary : id"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unary_4:1
+msgid "unary : '(' expression ')'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unary_6:1
+msgid "unary : id '(' expression ')'"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unitary_op_0:1
+msgid "unitary_op : U '(' exp_list ')' primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unitary_op_1:1
+msgid "unitary_op : CX primary ',' primary"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unitary_op_2:1
+msgid "unitary_op : id primary_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unitary_op_3:1
+msgid "unitary_op : id '(' ')' primary_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.p_unitary_op_4:1
+msgid "unitary_op : id '(' exp_list ')' primary_list"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.parse:1
+msgid "Parse some data."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.parse_debug:1
+msgid "Set the parse_deb field."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.pop_scope:1
+msgid "Return to the previous scope."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.print_tree:1
+msgid "Print parsed OPENQASM."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.push_scope:1
+msgid "Enter a new scope."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.run:1
+msgid "Parser runner."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.run:3
+msgid "To use this module stand-alone."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.update_symtab:1
+msgid "Update a node in the symbol table."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.update_symtab:3
+msgid ""
+"Everything in the symtab must be a node with these attributes: name - the"
+" string name of the object type - the string type of the object line - "
+"the source line where the type was first found file - the source file "
+"where the type was first found"
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_as_gate:1
+msgid "Verify a user defined gate call."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_bit_list:1
+msgid "Verify each qubit in a list of ids."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_declared_bit:1
+msgid "Verify a qubit id against the gate prototype."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_distinct:1
+msgid "Check that objects in list_of_nodes represent distinct (qu)bits."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_distinct:3
+msgid ""
+"list_of_nodes is a list containing nodes of type id, indexed_id, "
+"primary_list, or id_list. We assume these are all the same type 'qreg' or"
+" 'creg'. This method raises an exception if list_of_nodes refers to the "
+"same object more than once."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_exp_list:1
+msgid "Verify each expression in a list."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_reg:1
+msgid "Verify a register."
+msgstr ""
+
+#: of qiskit.qasm.qasmparser.QasmParser.verify_reg_list:1
+msgid "Verify a list of registers."
+msgstr ""
+

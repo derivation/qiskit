@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.transpiler.passes.remove_diagonal_gates_before_measure.rst:2
+msgid ""
+"qiskit.transpiler.passes.remove\\_diagonal\\_gates\\_before\\_measure "
+"module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.remove_diagonal_gates_before_measure:1
+msgid ""
+"Transpiler pass to remove diagonal gates (like RZ, T, Z, etc) before a "
+"measurement. Including diagonal 2Q gates."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.remove_diagonal_gates_before_measure.RemoveDiagonalGatesBeforeMeasure:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.TransformationPass`"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.remove_diagonal_gates_before_measure.RemoveDiagonalGatesBeforeMeasure:1
+msgid ""
+"Remove diagonal gates (like RZ, T, Z, etc) before a measurement. "
+"Including diagonal 2Q gates."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.remove_diagonal_gates_before_measure.RemoveDiagonalGatesBeforeMeasure.run:1
+msgid "Return a new circuit that has been optimized."
+msgstr ""
+
