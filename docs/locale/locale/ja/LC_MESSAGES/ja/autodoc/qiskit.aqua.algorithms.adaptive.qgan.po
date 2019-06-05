@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.algorithms.adaptive.qgan.rst:2
+msgid "qiskit.aqua.algorithms.adaptive.qgan package"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN:1
+msgid "ベースクラス: :class:`qiskit.aqua.algorithms.quantum_algorithm.QuantumAlgorithm`"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN:1
+msgid "Quantum Generative Adversarial Network."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.init_params:1
+msgid ""
+"Initialize qGAN via parameters dictionary and algorithm input instance. "
+":param params: parameters dictionary :param algo_input: Input instance"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.init_params
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.init_params:5
+msgid "qgan object"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.init_params
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_discriminator:1
+msgid "Initialize discriminator."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_discriminator:3
+#: qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_generator:7
+msgid "Returns:"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_generator:1
+msgid ""
+"Initialize generator. :param generator_circuit: VariationalForm, "
+"parametrized quantum circuit which sets the structure of the quantum"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_generator:3
+msgid "generator"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_generator
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_generator:4
+msgid "array, initial parameters for the generator circuit"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.set_generator:5
+msgid "Optimizer, optimizer to be used for the training of the generator"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qgan.QGAN.train:1
+msgid "Train the qGAN"
+msgstr ""
+
+#: ../../../autodoc/qiskit.aqua.algorithms.adaptive.qgan.rst:10
+msgid "Submodules"
+msgstr ""
+

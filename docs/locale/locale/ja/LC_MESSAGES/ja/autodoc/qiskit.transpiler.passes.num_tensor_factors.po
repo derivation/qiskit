@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.transpiler.passes.num_tensor_factors.rst:2
+msgid "qiskit.transpiler.passes.num\\_tensor\\_factors module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.num_tensor_factors:1
+#: qiskit.transpiler.passes.num_tensor_factors.NumTensorFactors:1
+msgid ""
+"An analysis pass for calculating the number of tensor factors of a DAG "
+"circuit."
+msgstr ""
+
+#: of qiskit.transpiler.passes.num_tensor_factors.NumTensorFactors:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.AnalysisPass`"
+msgstr ""
+
+#: of qiskit.transpiler.passes.num_tensor_factors.NumTensorFactors.run:1
+msgid ""
+"Run a pass on the DAGCircuit. This is implemented by the pass developer. "
+":param dag: the dag on which the pass is run. :type dag: DAGCircuit"
+msgstr ""
+
+#: of qiskit.transpiler.passes.num_tensor_factors.NumTensorFactors.run
+msgid "raises"
+msgstr ""
+
+#: of qiskit.transpiler.passes.num_tensor_factors.NumTensorFactors.run:5
+msgid ":exc:`NotImplementedError` -- when this is left unimplemented for a pass."
+msgstr ""
+

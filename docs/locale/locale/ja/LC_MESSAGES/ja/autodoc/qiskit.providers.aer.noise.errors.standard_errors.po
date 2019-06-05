@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.providers.aer.noise.errors.standard_errors.rst:2
+msgid "qiskit.providers.aer.noise.errors.standard\\_errors module"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors:1
+msgid "Standard quantum computing error channels for Qiskit Aer."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:1
+msgid "Single-qubit generalized amplitude damping quantum error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.coherent_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error
+#: qiskit.providers.aer.noise.errors.standard_errors.kraus_error
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.pauli_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.reset_error
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:3
+msgid "the amplitude damping parameter."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:5
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:7
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:9
+msgid "the population of |1> state at equilibrium (default: 0)."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:8
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:10
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:5
+msgid ""
+"Convert input Kraus matrices into the canoical Kraus representation "
+"(default: True)"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.coherent_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error
+#: qiskit.providers.aer.noise.errors.standard_errors.kraus_error
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.pauli_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.reset_error
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:12
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:14
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:9
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:13
+msgid "a quantum error object for a noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.coherent_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error
+#: qiskit.providers.aer.noise.errors.standard_errors.kraus_error
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.pauli_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.reset_error
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:29
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:37
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:22
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:22
+msgid "Additional information:"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:16
+msgid ""
+"The single-qubit amplitude damping channel is described by the following "
+"Kraus matrices:"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:18
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:22
+msgid "A0 = sqrt(1 - p1) * [[1, 0],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:19
+msgid "[0, sqrt(1 - a)]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:20
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:24
+msgid "A1 = sqrt(1 - p1) * [[0, sqrt(a)],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:21
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:25
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:33
+msgid "[0, 0]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:22
+msgid "B0 = sqrt(p1) * [[sqrt(1 - a), 0],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:23
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:29
+msgid "[0, 1]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:24
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:30
+msgid "B1 = sqrt(p1) * [[0, 0],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:25
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:31
+msgid "[sqrt(a), 0]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:26
+msgid "where a = param_amp, p1 = excited_state_population"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:27
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:35
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:20
+msgid ""
+"The equilibrium state after infinitely many applications of the channel "
+"is:"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:29
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:37
+msgid "rho = [[1 - p1, 0]],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.amplitude_damping_error:30
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:38
+msgid "[0, p1]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.coherent_unitary_error:1
+msgid "Coherent unitary quantum error channel."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.coherent_unitary_error:3
+msgid "unitary error matrix."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.coherent_unitary_error:6
+#: qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error:13
+#: qiskit.providers.aer.noise.errors.standard_errors.kraus_error:11
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error:12
+#: qiskit.providers.aer.noise.errors.standard_errors.pauli_error:15
+msgid "The quantum error object."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error:1
+msgid "Depolarizing quantum error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error:3
+msgid "completely depolarizing channel error probability."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error:5
+msgid "the number of qubits for the error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error:7
+#: qiskit.providers.aer.noise.errors.standard_errors.pauli_error:9
+msgid ""
+"if True return the operators as standard qobj Pauli gate instructions. If"
+" false return as unitary matrix qobj instructions. (Default: True)"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error
+#: qiskit.providers.aer.noise.errors.standard_errors.kraus_error
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error
+#: qiskit.providers.aer.noise.errors.standard_errors.pauli_error
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error
+#: qiskit.providers.aer.noise.errors.standard_errors.reset_error
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.depolarizing_error:16
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:17
+#: qiskit.providers.aer.noise.errors.standard_errors.reset_error:13
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:16
+msgid ":exc:`NoiseError` -- If noise parameters are invalid."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.kraus_error:1
+msgid "Kraus error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.kraus_error:3
+msgid "Kraus matrices."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.kraus_error:5
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error:9
+msgid "Check if input matrices are standard gates."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.kraus_error:7
+msgid ""
+"Convert input Kraus matrices into the canoical Kraus representation "
+"(default: False)"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.kraus_error:14
+#: qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error:15
+msgid ":exc:`NoiseError` -- if error parameters are invalid."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error:1
+msgid "Mixed unitary quantum error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error:3
+msgid ""
+"The input should be a list of pairs (U[j], p[j]), where `U[j]` is a "
+"unitary matrix and `p[j]` is a probability. All probabilities must sum to"
+" 1 for the input ops to be valid."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.mixed_unitary_error:7
+msgid "unitary error matricies."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.pauli_error:1
+msgid "Pauli quantum error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.pauli_error:3
+msgid ""
+"The input should be a list of pairs (P[j], p[j]), where `P[j]` is a "
+"`Pauli` object and `p[j]` is a probability. All probabilities must sum to"
+" 1 for the input ops to be valid."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.pauli_error:7
+msgid "Pauli error terms."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.pauli_error:18
+msgid ""
+":exc:`NoiseError` -- If depolarizing probability is less than 0 or "
+"greater than 1."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:1
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:1
+msgid "Single-qubit combined phase and amplitude damping quantum error channel."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:3
+msgid "the amplitude damping error parameter."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:5
+msgid "the phase damping error parameter."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:20
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:13
+msgid ""
+"The single-qubit combined phase and amplitude damping channel is "
+"described by the following Kraus matrices:"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:23
+msgid "[0, sqrt(1 - a - b)]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:26
+msgid "A2 = sqrt(1 - p1) * [[0, 0],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:27
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:18
+msgid "[0, sqrt(b)]]"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:28
+msgid "B0 = sqrt(p1) * [[sqrt(1 - a - b), 0],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:32
+msgid "B2 = sqrt(p1) * [[sqrt(b), 0],"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_amplitude_damping_error:34
+#: qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:19
+msgid "where a = param_amp, b = param_phase, p1 = excited_state_population"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:3
+msgid "the phase damping parameter."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:15
+msgid "A0 = [[1, 0],"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:16
+msgid "[0, sqrt(1 - b)]]"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:17
+msgid "A2 = [[0, 0],"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:22
+msgid "rho = [[rho[0, 0], 0]],"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.phase_damping_error:23
+msgid "[0, rho[1, 1]]]"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.reset_error:1
+msgid "Single qubit reset error channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.reset_error:3
+msgid "The probability of no reset is given by 1 - prob0 - prob1"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.reset_error:5
+msgid "reset probability to |0>"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.reset_error:7
+msgid "reset probability to |1>"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.standard_errors.reset_error:10
+msgid "the quantum error object."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:1
+msgid "Single-qubit thermal relaxation quantum error channel."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:3
+msgid "the T_1 relaxation time constant."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:5
+msgid "the T_2 relaxation time constant."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:7
+msgid "the gate time for relaxation error."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.standard_errors.thermal_relaxation_error:19
+msgid ""
+"For parameters to be valid T_2 <= 2 * T_1. If T_2 <= T_1 the error can be"
+" expressed as a mixed reset and unitary error channel. If T_1 < T_2 <= 2 "
+"* T_1 the error must be expressed as a general non-unitary Kraus error "
+"channel."
+msgstr ""
+

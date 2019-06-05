@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.circuit.reset.rst:2
+msgid "qiskit.circuit.reset module"
+msgstr ""
+
+#: of qiskit.circuit.reset:1
+msgid "Qubit reset to computational zero."
+msgstr ""
+
+#: of qiskit.circuit.reset.Reset:1
+msgid "ベースクラス: :class:`qiskit.circuit.instruction.Instruction`"
+msgstr ""
+
+#: of qiskit.circuit.reset.Reset:1
+msgid "Qubit reset."
+msgstr ""
+
+#: of qiskit.circuit.reset.reset:1
+msgid "Reset q."
+msgstr ""
+

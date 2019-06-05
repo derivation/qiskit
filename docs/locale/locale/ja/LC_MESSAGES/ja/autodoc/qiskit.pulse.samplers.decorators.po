@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.pulse.samplers.decorators.rst:2
+msgid "qiskit.pulse.samplers.decorators module"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:1
+msgid ""
+"Sampler decorator module for sampling of continuous pulses to discrete "
+"pulses to be exposed to user."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:4
+msgid ""
+"Some atypical boilerplate has been added to solve the problem of "
+"decorators not preserving their wrapped function signatures. Below we "
+"explain the problem that samplers solve and how we implement this."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:11
+msgid ""
+"A sampler is a function that takes an continuous pulse function with "
+"signature:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:9
+msgid "```python def f(times: np.ndarray, *args, **kwargs) -> np.ndarray:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:11 qiskit.pulse.samplers.decorators:15
+#: qiskit.pulse.samplers.decorators:28 qiskit.pulse.samplers.decorators:46
+msgid "..."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:12 qiskit.pulse.samplers.decorators:101
+msgid "```"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:15
+msgid "and returns a new function:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:15
+msgid "def f(duration: int, *args, **kwargs) -> SamplePulse:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:17
+msgid ""
+"Samplers are used to build up pulse commands from continuous pulse "
+"functions."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:19
+msgid ""
+"In Python the creation of a dynamic function that wraps another function "
+"will cause the underlying signature and documentation of the underlying "
+"function to be overwritten. In order to circumvent this issue the Python "
+"standard library provides the decorator `functools.wraps` which allows "
+"the programmer to expose the names and signature of the wrapped function "
+"as those of the dynamic function."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:28
+msgid "Samplers are implemented by creating a function with signature"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:26
+msgid ""
+"@sampler def left(continuous_pulse: Callable, duration: int, *args, "
+"**kwargs)"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:30
+msgid ""
+"This will create a sampler function for `left`. Since it is a dynamic "
+"function it would not have the docstring of `left` available too `help`. "
+"This could be fixed by wrapping with `functools.wraps` in the `sampler`, "
+"but this would then cause the signature to be that of the sampler "
+"function which is called on the continuous pulse, below:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:34
+msgid "`(continuous_pulse: Callable, duration: int, *args, **kwargs)``"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:35
+msgid ""
+"This is not correct for the sampler as the output sampled functions "
+"accept only a function. For the standard sampler we get around this by "
+"not using `functools.wraps` and explicitly defining our samplers such as "
+"`left`, `right` and `midpoint` and calling `sampler` internally on the "
+"function that implements the sampling schemes such as `left_sample`, "
+"`right_sample` and `midpoint_sample` respectively. See `left` for an "
+"example of this."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:42
+msgid ""
+"In this way our standard samplers will expose the proper help signature, "
+"but a user can still create their own sampler with"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:44
+msgid "@sampler def custom_sampler(time, *args, **kwargs):"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:47
+msgid ""
+"However, in this case it will be missing documentation of the underlying "
+"sampling methods. We believe that the definition of custom samplers will "
+"be rather infrequent."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:50
+msgid ""
+"However, users will frequently apply sampler instances too continuous "
+"pulses. Therefore, a different approach was required for sampled "
+"continuous functions (the output of an continuous pulse function "
+"decorated by a sampler instance)."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:54
+msgid ""
+"A sampler instance is a decorator that may be used to wrap continuous "
+"pulse functions such as linear below: ```python"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:57
+msgid "@left def linear(times: np.ndarray, m: float, b: float) -> np.ndarray:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:59
+msgid "```Linear test function Args:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:61
+msgid "times: Input times. m: Slope. b: Intercept"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:64 qiskit.pulse.samplers.decorators:99
+msgid "Returns:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:65 qiskit.pulse.samplers.decorators:100
+msgid "np.ndarray"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:66
+msgid "``` return m*times+b"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:68
+msgid ""
+"``` Which after decoration may be called with a duration rather than an "
+"array of times"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:70
+msgid "```python duration = 10 pulse_command = linear(10, 0.1, 0.1) ```"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:100
+msgid "If one calls help on `linear` they will find"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:75
+msgid ""
+"``` linear(duration:int, *args, **kwargs) -> numpy.ndarray Discretized "
+"continuous pulse function: `linear` using sampler: `_left`."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:80
+msgid ""
+"The first argument (time) of the continuous pulse function has been "
+"replaced with a discretized `duration` of type (int)."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:88
+msgid "Args:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:84
+msgid "duration (int) *args: Remaining arguments of continuous pulse function."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:86 qiskit.pulse.samplers.decorators:88
+msgid "See continuous pulse function documentation below."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:88
+msgid "**kwargs: Remaining kwargs of continuous pulse function."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:90
+msgid "Sampled continuous function:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:92
+msgid ""
+"function linear in module test.python.pulse.test_samplers "
+"linear(x:numpy.ndarray, m:float, b:float) -> numpy.ndarray"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:94
+msgid "Linear test function Args:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:96
+msgid "x: Input times. m: Slope. b: Intercept"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:102
+msgid ""
+"This is partly because `functools.wraps` has been used on the underlying "
+"function. This in itself is not sufficient as the signature of the "
+"sampled function has `duration`, whereas the signature of the continuous "
+"function is `time`."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:106
+msgid ""
+"This is acheived by removing `__wrapped__` set by `functools.wraps` in "
+"order to preserve the correct signature and also applying "
+"`_update_annotations` and `_update_docstring` to the generated function "
+"which corrects the function annotations and adds an informative docstring"
+" respectively."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators:111
+msgid ""
+"The user therefore has access to the correct sampled function docstring "
+"in its entirety, while still seeing the signature for the continuous "
+"pulse function and all of its arguments."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.left:1
+msgid "Left sampling strategy decorator."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.left:3
+#: qiskit.pulse.samplers.decorators.midpoint:3
+#: qiskit.pulse.samplers.decorators.right:3
+msgid "See `pulse.samplers.sampler` for more information."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.left:6
+#: qiskit.pulse.samplers.decorators.midpoint:6
+#: qiskit.pulse.samplers.decorators.right:6
+msgid "For `duration`, return:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.left:6
+msgid ""
+"$$\\{f(t) \\in \\mathbb{C} | t \\in \\mathbb{Z} \\wedge  "
+"0<=t<\\texttt{duration}\\}$$"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.left
+#: qiskit.pulse.samplers.decorators.midpoint
+#: qiskit.pulse.samplers.decorators.right
+#: qiskit.pulse.samplers.decorators.sampler
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.left:8
+#: qiskit.pulse.samplers.decorators.midpoint:8
+#: qiskit.pulse.samplers.decorators.right:8
+msgid "To sample."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.midpoint:1
+msgid "Midpoint sampling strategy decorator."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.midpoint:6
+msgid ""
+"$$\\{f(t+0.5) \\in \\mathbb{C} | t \\in \\mathbb{Z} \\wedge  "
+"0<=t<\\texttt{duration}\\}$$"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.right:1
+msgid "Right sampling strategy decorator."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.right:6
+msgid ""
+"$$\\{f(t) \\in \\mathbb{C} | t \\in \\mathbb{Z} \\wedge  "
+"0<t<=\\texttt{duration}\\}$$"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:1
+msgid "Sampler decorator base method."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:3
+msgid ""
+"Samplers are used for converting an continuous function to a discretized "
+"pulse."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:5
+msgid "They operate on a function with the signature:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:6
+msgid "`def f(times: np.ndarray, *args, **kwargs) -> np.ndarray`"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:7
+msgid ""
+"Where `times` is a numpy array of floats with length n_times and the "
+"output array is a complex numpy array with length n_times. The output of "
+"the decorator is an instance of `FunctionalPulse` with signature:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:10
+msgid "`def g(duration: int, *args, **kwargs) -> SamplePulse`"
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:12
+msgid ""
+"Note if your continuous pulse function outputs a `complex` scalar rather "
+"than a `np.ndarray`, you should first vectorize it before applying a "
+"sampler."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:16
+msgid "This class implements the sampler boilerplate for the sampler."
+msgstr ""
+
+#: of qiskit.pulse.samplers.decorators.sampler:18
+msgid "A sampler function to be decorated."
+msgstr ""
+

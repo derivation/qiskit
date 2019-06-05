@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.transpiler.passes.mapping.full_ancilla_allocation.rst:2
+msgid "qiskit.transpiler.passes.mapping.full\\_ancilla\\_allocation module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.full_ancilla_allocation:1
+msgid ""
+"A pass for allocating all idle physical qubits (those that exist in "
+"coupling map but not the dag circuit) as ancilla. It will also choose new"
+" virtual qubits to correspond to those physical ancilla."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.full_ancilla_allocation:5
+msgid ""
+"Note: This is an analysis pass, and only responsible for choosing "
+"physical ancilla locations and their corresponding virtual qubits. A "
+"separate transformation pass must add those virtual qubits to the "
+"circuit."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.AnalysisPass`"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation:1
+msgid "Allocates all idle nodes from the coupling map as ancilla on the layout."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run:1
+msgid "Extend the layout with new (physical qubit, virtual qubit) pairs."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run:3
+msgid ""
+"The dag signals which virtual qubits are already in the circuit. This "
+"pass will allocate new virtual qubits such that no collision occurs (i.e."
+" Layout bijectivity is preserved)"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run:7
+msgid ""
+"The coupling_map and layout together determine which physical qubits are "
+"free."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run:9
+msgid "circuit to analyze"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run:12
+msgid "returns the same dag circuit, unmodified"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run
+msgid "raises"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.full_ancilla_allocation.FullAncillaAllocation.run:15
+msgid ""
+":exc:`TranspilerError` -- If there is not layout in the property set or "
+"not set at init time."
+msgstr ""
+

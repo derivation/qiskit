@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.stable_set.rst:2
+msgid "qiskit.aqua.translators.ising.stable\\_set module"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_graph_solution:1
+msgid "Get graph solution from binary string."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_graph_solution
+#: qiskit.aqua.translators.ising.stable_set.get_stable_set_qubitops
+#: qiskit.aqua.translators.ising.stable_set.parse_gset_format
+#: qiskit.aqua.translators.ising.stable_set.random_graph
+#: qiskit.aqua.translators.ising.stable_set.sample_most_likely
+#: qiskit.aqua.translators.ising.stable_set.stable_set_value
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_graph_solution:3
+msgid "binary string as numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_graph_solution
+#: qiskit.aqua.translators.ising.stable_set.get_stable_set_qubitops
+#: qiskit.aqua.translators.ising.stable_set.parse_gset_format
+#: qiskit.aqua.translators.ising.stable_set.random_graph
+#: qiskit.aqua.translators.ising.stable_set.sample_most_likely
+#: qiskit.aqua.translators.ising.stable_set.stable_set_value
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_graph_solution:6
+msgid "graph solution as binary numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_graph_solution
+#: qiskit.aqua.translators.ising.stable_set.get_stable_set_qubitops
+#: qiskit.aqua.translators.ising.stable_set.parse_gset_format
+#: qiskit.aqua.translators.ising.stable_set.random_graph
+#: qiskit.aqua.translators.ising.stable_set.sample_most_likely
+#: qiskit.aqua.translators.ising.stable_set.stable_set_value
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_stable_set_qubitops:1
+msgid "Generate Hamiltonian for the maximum stable set in a graph."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_stable_set_qubitops:3
+#: qiskit.aqua.translators.ising.stable_set.stable_set_value:6
+msgid "adjacency matrix."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.get_stable_set_qubitops:6
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.parse_gset_format:1
+msgid "Read graph in Gset format from file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.parse_gset_format:3
+msgid "name of the file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.parse_gset_format:6
+msgid "adjacency matrix as a 2D numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.random_graph:1
+msgid "Generate a random Erdos-Renyi graph on n nodes."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.random_graph:3
+msgid "number of nodes."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.random_graph:5
+msgid "probability of edge appearing."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.random_graph:7
+msgid "write graph to this file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.random_graph:10
+msgid "adjacency matrix (with weights)."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.sample_most_likely:3
+msgid "state vector or counts."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.sample_most_likely:6
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.stable_set_value:1
+msgid "Compute the value of a stable set, and its feasibility."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.stable_set_value:3
+msgid "binary string in original format -- not graph solution!."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.stable_set_value:9
+msgid "size of the stable set, and Boolean indicating     feasibility."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.stable_set_value:11
+msgid "size of the stable set, and Boolean indicating"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.stable_set.stable_set_value:12
+msgid "feasibility."
+msgstr ""
+

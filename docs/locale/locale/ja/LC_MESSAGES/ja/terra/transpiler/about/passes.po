@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 17:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../terra/transpiler/about/passes.rst:5
+msgid "Transpiler Passes"
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:7
+msgid ""
+"Circuit optimization is a difficult task (in general QMA-complete). Each "
+"**transpiler pass** (circuit transformation) is responsible for doing one"
+" small, well-defined task to make the overall task of circuit "
+"optimization tractable."
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:11
+msgid ""
+"Circuits are internally represented by **directed acyclic graphs** "
+"(**DAGs**) in Qiskit. Transpiler passes are transformations of a "
+"circuit's DAG representation."
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:14
+msgid "There are two general classes of transpiler passes:"
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:16
+msgid ""
+"``AnalysisPass`` analyze a DAG and write conclusions to a common context,"
+" a ``PropertySet`` object. They cannot modify a DAG."
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:19
+msgid ""
+"``TransformationPass`` can alter a DAG, but have read-only access to the "
+"property set."
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:22
+msgid ""
+"Concrete transpiler passes derived from either of the classes above "
+"implement the abstract method ``run()``, which takes and returns a DAG."
+msgstr ""
+
+#: ../../../terra/transpiler/about/passes.rst:25
+msgid ""
+"All of Qiskit's transpiler passes are accessible from "
+"``qiskit.transpiler.passes``. Each pass is documented :py:mod:`here "
+"<qiskit.transpiler.passes>`."
+msgstr ""
+
