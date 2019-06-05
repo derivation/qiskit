@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: 2019-06-05 16:47\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.chemistry.drivers._discover_driver.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.chemistry.drivers._discover_driver.rst:2
+msgid "qiskit.chemistry.drivers.\\_discover\\_driver module"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.RegisteredDriver:1
+msgid "ベースクラス: :class:`tuple`"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.RegisteredDriver.cls:1
+msgid "Alias for field number 1"
+msgstr ""
+
+#: of
+#: qiskit.chemistry.drivers._discover_driver.RegisteredDriver.configuration:1
+msgid "Alias for field number 2"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.RegisteredDriver.name:1
+msgid "Alias for field number 0"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.deregister_driver:1
+msgid "Remove driver from list of available drivers :param driver_name: name of driver to unregister :type driver_name: str"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.deregister_driver
+#: qiskit.chemistry.drivers._discover_driver.get_driver_class
+#: qiskit.chemistry.drivers._discover_driver.get_driver_configuration
+msgid "raises"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.deregister_driver:5
+msgid "QiskitChemistryError if name is not registered."
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_class:1
+msgid "Return the class object for the named module. :param driver_name: the module name :type driver_name: str"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_class
+#: qiskit.chemistry.drivers._discover_driver.get_driver_configuration
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_class:5
+msgid "class object for module"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_class
+#: qiskit.chemistry.drivers._discover_driver.get_driver_configuration
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_class:8
+#: qiskit.chemistry.drivers._discover_driver.get_driver_configuration:8
+msgid ":exc:`QiskitChemistryError` -- if module is unavailable"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_configuration:1
+msgid "Return the configuration for the named module. :param driver_name: the module name :type driver_name: str"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.get_driver_configuration:5
+msgid "configuration dict"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.local_drivers:1
+msgid "Accesses chemistry drivers names :returns: chemistry drivers names :rtype: names"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.refresh_drivers:1
+msgid "Attempts to rediscover all driver modules"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.register_driver:1
+msgid "Registers a driver class :param cls: Driver class. :type cls: object"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.register_driver:5
+msgid "Returns:"
+msgstr ""
+
+#: of qiskit.chemistry.drivers._discover_driver.register_driver:6
+msgid "name: driver name"
+msgstr ""
+
