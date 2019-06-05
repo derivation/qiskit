@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.providers.ibmq.rst:2
+msgid "qiskit.providers.ibmq package"
+msgstr ""
+
+#: of qiskit.providers.ibmq:1
+msgid "Backends provided by IBM Quantum Experience."
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy:1
+msgid "Return the least busy backend from a list."
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy:3
+msgid ""
+"Return the least busy available backend for those that have a "
+"`pending_jobs` in their `status`. Backends such as local backends that do"
+" not have this are not considered."
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy:7
+msgid "backends to choose from"
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy:10
+msgid "the the least busy backend"
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.ibmq.least_busy:13
+msgid ""
+":exc:`QiskitError` -- if passing a list of backend names that is either "
+"empty or none have attribute ``pending_jobs``"
+msgstr ""
+
+#: ../../../autodoc/qiskit.providers.ibmq.rst:10
+msgid "Subpackages"
+msgstr ""
+
+#: ../../../autodoc/qiskit.providers.ibmq.rst:20
+msgid "Submodules"
+msgstr ""
+

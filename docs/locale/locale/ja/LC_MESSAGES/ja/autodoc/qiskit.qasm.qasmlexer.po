@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.qasm.qasmlexer.rst:2
+msgid "qiskit.qasm.qasmlexer module"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer:1 qiskit.qasm.qasmlexer.QasmLexer:1
+msgid "OPENQASM Lexer."
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer:3 qiskit.qasm.qasmlexer.QasmLexer:3
+msgid ""
+"This is a wrapper around the PLY lexer to support the \"include\" "
+"statement by creating a stack of lexers."
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.input:1
+msgid "Set the input text data."
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.pop:1
+msgid "Pop a PLY lexer off the stack."
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.push:1
+msgid "Push a PLY lexer on the stack to parse filename."
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_ASSIGN:1
+msgid "->"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_COMMENT:1
+msgid "//.*"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_CX:1
+msgid "CX"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_FORMAT:1
+msgid "OPENQASM\\s+(\\d+)\\.(\\d+)"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_ID:1
+msgid "[a-z][a-zA-Z0-9_]*"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_INCLUDE:1
+msgid "include"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_MATCHES:1
+msgid "=="
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_NNINTEGER:1
+msgid "[1-9]+[0-9]*|0"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_REAL:1
+msgid "(([0-9]+|([0-9]+)?\\.[0-9]+|[0-9]+\\.)[eE][+-]?[0-9]+)|(([0-9]+)?\\.[0-9]+|[0-9]+\\.)"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_STRING:1
+msgid "\\\"([^\\\\\\\"]|\\\\.)*\\\""
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_U:1
+msgid "U"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.t_newline:1
+msgid "\\n+"
+msgstr ""
+
+#: of qiskit.qasm.qasmlexer.QasmLexer.token:1
+msgid "Return the next token."
+msgstr ""
+

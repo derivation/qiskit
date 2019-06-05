@@ -1,0 +1,161 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.algorithms.many_sample.qsvm.qsvm.rst:2
+msgid "qiskit.aqua.algorithms.many\\_sample.qsvm.qsvm module"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM:1
+msgid "ベースクラス: :class:`qiskit.aqua.algorithms.quantum_algorithm.QuantumAlgorithm`"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM:1
+msgid "Quantum SVM method."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM:3
+msgid ""
+"Internally, it will run the binary classification or multiclass "
+"classification based on how many classes the data have."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_circuit:1
+msgid "Generate inner product of x1 and x2 with the given feature map."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_circuit:3
+msgid "The dimension of x1 and x2 must be the same."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_circuit
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.load_model
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.save_model
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.train
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_circuit:5
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_circuit:7
+msgid "data points, 1-D array, dimension is D"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_circuit:9
+msgid "add measurement gates at the end"
+msgstr ""
+
+#: of
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix:1
+msgid ""
+"Construct kernel matrix, if x2_vec is None, self-innerproduct is "
+"conducted."
+msgstr ""
+
+#: of
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix:3
+msgid ""
+"data points, 2-D array, N1xD, where N1 is the number of data, D is the "
+"feature dimension"
+msgstr ""
+
+#: of
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix:6
+msgid ""
+"data points, 2-D array, N2xD, where N2 is the number of data, D is the "
+"feature dimension"
+msgstr ""
+
+#: of
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix:9
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict:6
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test:8
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.train:8
+msgid "quantum backend with all setting"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix:12
+msgid "2-D matrix, N1xN2"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.construct_kernel_matrix
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.init_params:1
+msgid "Constructor from params."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.load_model:1
+msgid "Load a model from a file path."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.load_model:3
+msgid "tthe path of the saved model."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict:1
+msgid "Predict using the svm."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict:3
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test:3
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.train:3
+msgid "NxD array, where N is the number of data, D is the feature dimension."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.predict:9
+msgid "predicted labels, Nx1 array"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.save_model:1
+msgid "Save the model to a file path."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.save_model:3
+msgid "a path to save the model."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test:1
+msgid "Test the svm."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test:6
+#: qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.train:6
+msgid "Nx1 array, where N is the number of data"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.test:11
+msgid "accuracy"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.many_sample.qsvm.qsvm.QSVM.train:1
+msgid "Train the svm."
+msgstr ""
+

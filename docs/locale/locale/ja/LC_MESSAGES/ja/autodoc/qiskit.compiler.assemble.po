@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.compiler.assemble.rst:2
+msgid "qiskit.compiler.assemble module"
+msgstr ""
+
+#: of qiskit.compiler.assemble:1
+msgid "Assemble function for converting a list of circuits into a qobj"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:1
+msgid "Assemble a list of circuits or pulse schedules into a Qobj."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:3
+msgid ""
+"This function serializes the payloads, which could be either circuits or "
+"schedules, to create Qobj \"experiments\". It further annotates the "
+"experiment payload with header and configurations."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:7
+msgid "Circuit(s) or pulse schedule(s) to execute"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:9
+msgid ""
+"If set, some runtime options are automatically grabbed from "
+"backend.configuration() and backend.defaults(). If any other option is "
+"explicitly set (e.g. rep_rate), it will override the backend's. If any "
+"other options is set in the run_config, it will also override the "
+"backend's."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:16
+msgid "String identifier to annotate the Qobj"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:18
+msgid ""
+"User input that will be inserted in Qobj header, and will also be copied "
+"to the corresponding Result header. Headers do not affect the run."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:21
+msgid "Number of repetitions of each circuit, for sampling. Default: 2014"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:23
+msgid ""
+"If True, per-shot measurement bitstrings are returned as well (provided "
+"the backend supports it). For OpenPulse jobs, only measurement level 2 "
+"supports this option. Default: False"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:27
+msgid "Maximum credits to spend on job. Default: 10"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:29
+msgid "Random seed to control sampling, for when backend is a simulator"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:31
+msgid "List of default qubit lo frequencies"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:33
+msgid "List of default meas lo frequencies"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:35
+msgid "List of drive lo ranges"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:37
+msgid "List of meas lo ranges"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:39
+msgid "Union[Dict[PulseChannel, float], LoConfig]): Experiment LO configurations"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:41
+msgid "Set the appropriate level of the measurement output for pulse experiments."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:43
+msgid ""
+"Level of measurement data for the backend to return For `meas_level` 0 "
+"and 1:     \"single\" returns information from every shot.     \"avg\" "
+"returns average measurement output (averaged over number of shots)."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:43
+msgid ""
+"Level of measurement data for the backend to return For `meas_level` 0 "
+"and 1:"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:45
+msgid ""
+"\"single\" returns information from every shot. \"avg\" returns average "
+"measurement output (averaged over number of shots)."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:48
+msgid "List of lists, containing qubits that must be measured together."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:50
+msgid "Number of classical memory slots used in this job."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:52
+msgid "Size of each memory slot if the output is Level 0."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:54
+msgid ""
+"repetition time of the experiment in μs. The delay between experiments "
+"will be rep_time. Must be from the list provided by the device."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:58
+msgid ""
+"Value}]): List of Parameter bindings over which the set of experiments "
+"will be executed. Each list element (bind) should be of the form "
+"{Parameter1: value1, Parameter2: value2, ...}. All binds will be executed"
+" across all experiments, e.g. if parameter_binds is a length-n list, and "
+"there are m experiments, a total of m x n experiments will be run (one "
+"for each experiment/bind pair)."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:65
+msgid "DEPRECATED in 0.8: use ``seed_simulator`` kwarg instead"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:67
+msgid "DEPRECATED in 0.8: use run_config instead"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:69
+msgid ""
+"extra arguments used to configure the run (e.g. for Aer configurable "
+"backends) Refer to the backend documentation for details on these "
+"arguments"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:73
+msgid ""
+"a qobj which can be run on a backend. Depending on the type of input,"
+"     this will be either a QasmQobj or a PulseQobj."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:75
+msgid "a qobj which can be run on a backend. Depending on the type of input,"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:76
+msgid "this will be either a QasmQobj or a PulseQobj."
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble
+msgid "raises"
+msgstr ""
+
+#: of qiskit.compiler.assemble.assemble:79
+msgid ""
+":exc:`QiskitError` -- if the input cannot be interpreted as either "
+"circuits or schedules"
+msgstr ""
+

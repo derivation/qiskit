@@ -1,0 +1,173 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.pulse.timeslots.rst:2
+msgid "qiskit.pulse.timeslots module"
+msgstr ""
+
+#: of qiskit.pulse.timeslots:1
+msgid "Timeslots for channels."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval:1 qiskit.pulse.timeslots.Timeslot:1
+#: qiskit.pulse.timeslots.TimeslotCollection:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval:1
+msgid "Time interval."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.begin:1
+msgid "Begin time of this interval."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.duration:1
+msgid "Duration of this interval."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.end:1
+msgid "End time of this interval."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.has_overlap:1
+msgid "Check if self has overlap with `interval`."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.has_overlap
+#: qiskit.pulse.timeslots.Interval.shift qiskit.pulse.timeslots.Timeslot.shift
+#: qiskit.pulse.timeslots.TimeslotCollection.ch_duration
+#: qiskit.pulse.timeslots.TimeslotCollection.ch_start_time
+#: qiskit.pulse.timeslots.TimeslotCollection.ch_stop_time
+#: qiskit.pulse.timeslots.TimeslotCollection.is_mergeable_with
+#: qiskit.pulse.timeslots.TimeslotCollection.merged
+#: qiskit.pulse.timeslots.TimeslotCollection.shift
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.has_overlap:3
+msgid "interval to be examined"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.has_overlap
+#: qiskit.pulse.timeslots.Interval.shift
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.has_overlap:5
+msgid "True if self has overlap with `interval` otherwise False"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.has_overlap
+#: qiskit.pulse.timeslots.Interval.shift
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.shift:1
+msgid "Return a new interval shifted by `time` from self"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.shift:3
+#: qiskit.pulse.timeslots.Timeslot.shift:3
+msgid "time to be shifted"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Interval.shift:5
+msgid "interval shifted by `time`"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Timeslot:1
+msgid "Named tuple of (Interval, Channel)."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Timeslot.channel:1
+msgid "Channel of this time slot."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Timeslot.interval:1
+msgid "Interval of this time slot."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.Timeslot.shift:1
+msgid "Return a new Timeslot shifted by `time`."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection:1
+msgid "Collection of `Timeslot`s."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.ch_duration:1
+#: qiskit.pulse.timeslots.TimeslotCollection.duration:1
+msgid "Return maximum duration of timeslots over all channels."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.ch_duration:3
+msgid "Channels over which to obtain the duration."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.ch_start_time:1
+#: qiskit.pulse.timeslots.TimeslotCollection.start_time:1
+msgid "Return earliest start time in this collection."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.ch_start_time:3
+msgid "Channels over which to obtain start_time."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.ch_stop_time:1
+#: qiskit.pulse.timeslots.TimeslotCollection.stop_time:1
+msgid "Return maximum time of timeslots over all channels."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.ch_stop_time:3
+msgid "Channels over which to obtain stop time."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.channels:1
+msgid "Channels within the timeslot collection."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.is_mergeable_with:1
+msgid "Return if self is mergeable with `timeslots`."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.is_mergeable_with:3
+msgid "TimeslotCollection to be checked"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.merged:1
+msgid "Return a new TimeslotCollection merged with a specified `timeslots`"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.merged:3
+msgid "TimeslotCollection to be merged"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.shift:1
+msgid "Return a new TimeslotCollection shifted by `time`."
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.shift:3
+msgid "time to be shifted by"
+msgstr ""
+
+#: of qiskit.pulse.timeslots.TimeslotCollection.timeslots:1
+msgid "`Timeslot`s in collection."
+msgstr ""
+
