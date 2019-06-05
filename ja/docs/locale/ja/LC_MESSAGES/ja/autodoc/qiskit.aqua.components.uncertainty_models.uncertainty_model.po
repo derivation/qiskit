@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: 2019-06-05 16:44\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.components.uncertainty_models.uncertainty_model.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.components.uncertainty_models.uncertainty_model.rst:2
+msgid "qiskit.aqua.components.uncertainty\\_models.uncertainty\\_model module"
+msgstr ""
+
+#: of qiskit.aqua.components.uncertainty_models.uncertainty_model:1
+msgid "This module contains the definition of a base class for uncertainty models. An uncertainty model could be used for constructing Amplification Estimation tasks."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.uncertainty_models.uncertainty_model.UncertaintyModel:1
+msgid "ベースクラス: :class:`qiskit.aqua.utils.circuit_factory.CircuitFactory`, :class:`qiskit.aqua.pluggable.Pluggable`, :class:`abc.ABC`"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.uncertainty_models.uncertainty_model.UncertaintyModel:1
+msgid "The abstract Uncertainty Model"
+msgstr ""
+
