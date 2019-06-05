@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: 2019-06-05 16:49\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.qiskit_aqua.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.qiskit_aqua.rst:2
+msgid "qiskit.aqua.qiskit\\_aqua module"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua:1
+msgid "Algorithm functions for running etc."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua:1
+msgid "Main Aqua class."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.algorithm_input:1
+msgid "Return Algorithm Input."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.json_result:1
+msgid "Return Experiment Result as JSON."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.params:1
+msgid "Return Aqua params."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.parser:1
+msgid "Return Aqua parser."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.quantum_algorithm:1
+msgid "Return Qusntum Algorithm."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.quantum_instance:1
+msgid "Return Quantum Instance."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.result:1
+msgid "Return Experiment Result."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json:1
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json:1
+msgid "Run algorithm as named in params."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json:3
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json:3
+msgid "Using params and algo_input as input data and save the combined input as a json file. This json is self-contained and can later be used as a basis to call run_algorithm"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json
+#: qiskit.aqua.qiskit_aqua.execute_algorithm
+#: qiskit.aqua.qiskit_aqua.run_algorithm
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json:7
+#: qiskit.aqua.qiskit_aqua.run_algorithm:6
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json:7
+msgid "Dictionary of params for algo and dependent objects"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json:9
+#: qiskit.aqua.qiskit_aqua.run_algorithm:8
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json:9
+msgid "Main input data for algorithm. Optional, an algo may run entirely from params"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json:11
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json:11
+msgid "Name of file in which json should be saved"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json
+#: qiskit.aqua.qiskit_aqua.execute_algorithm
+#: qiskit.aqua.qiskit_aqua.run_algorithm
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.QiskitAqua.run_algorithm_to_json:14
+#: qiskit.aqua.qiskit_aqua.run_algorithm_to_json:14
+msgid "Result dictionary containing the jsonfile name"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.execute_algorithm:1
+msgid "Execute the supplied algorithm using the supplied backend or QuantumInstance that was built using a backend."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.execute_algorithm:4
+msgid "A quantum algorithm i.e. a concrete sub-class"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.execute_algorithm:7
+msgid "The backend i.e. quantum simulator or real device"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.execute_algorithm:10
+msgid "optional arguments that can be used when supplying a Basebackend which will be passed"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.execute_algorithm:13
+#: qiskit.aqua.qiskit_aqua.run_algorithm:15
+msgid "Result dictionary containing result of algorithm computation"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.run_algorithm:1
+msgid "Run algorithm as named in params. The input params being the declarative form of a dictionary/json."
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.run_algorithm:4
+msgid "Using params and algo_input as input data and returning a result dictionary"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.run_algorithm:10
+msgid "False for regular python dictionary return, True for json conversion"
+msgstr ""
+
+#: of qiskit.aqua.qiskit_aqua.run_algorithm:12
+msgid "the experiemental settings to be used in place of backend name"
+msgstr ""
+
