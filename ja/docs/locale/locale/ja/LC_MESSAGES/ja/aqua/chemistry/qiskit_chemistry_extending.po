@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: 2019-06-05 16:56\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/aqua/chemistry/qiskit_chemistry_extending.po\n"
+"Language: ja_JP\n"
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:5
+msgid "Contributing to Qiskit Chemistry"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:7
+msgid "Qiskit Chemistry, just like the Aqua library it is built upon, has a modular and extensible architecture."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:10
+msgid "Instead of just *accessing* Qiskit Chemistry as a library of quantum algorithms and tools to experiment with quantum computing for chemistry, a user may decide to *contribute* to Qiskit Chemistry by providing new components. These can be programmatically added to Qiskit Chemistry, which was designed as an extensible, pluggable framework. Once added, new components are automatically discovered."
+msgstr ""
+
+msgid "Contribution Guidelines"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:18
+msgid "Any user who would like to contribute to Aqua or Qiskit Chemistry should follow the Aqua `contribution guidelines <https://github.com/Qiskit/qiskit-chemistry/blob/master/.github/CONTRIBUTING.rst>`__."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:23
+msgid "Dynamically Discovered Components"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:25
+msgid "Researchers and developers can contribute to Qiskit Chemistry by providing new components, which will be automatically discovered and loaded by Aqua at run time. Each component should derive from the corresponding base class, as explained below.  There are two ways for a component to be dynamically discovered and loaded by Qiskit Chemistry at run time:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:30
+msgid "The class implementing the component should be placed in the appropriate folder in the file system, as explained in `Section \"Extension Points\" <#extension-points>`__ below for each different component type. This is the easiest approach.  Researchers and developers extending Qiskit Chemistry are more likely to have installed Qiskit Chemistry by cloning the `Qiskit Chemistry GitHub repository <https://github.com/Qiskit/qiskit-chemistry>`__ as opposed to using the pip package manager system.  Therefore, the folders indicated below can be easily located in the file system."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:38
+msgid "Alternatively, a developer extending Qiskit Chemistry with a new component can simply create a dedicated repository with its own versioning.  This repository must be locally installable with the package that was created.  It simply consists of customizing the ``setup.py`` fadding the entry points for ``qiskit.chemistry.drivers`` and or ``qiskit.chemistry.operators`` as shown below. The format is: ``anyname = full_package:class_name``. Each class must be included separately. When someone installs the package, the extensions will be automatically registered:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:97
+msgid "Extension Points"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:98
+msgid "This section details the components that researchers and developers can contribute to Qiskit Chemistry. Qiskit Chemistry exposes two extension points:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:102
+msgid ":ref:`chemistry-drivers`"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:103
+msgid ":ref:`chemistry-operators`"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:109
+msgid "Chemistry Drivers"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:111
+msgid "The driver support in Qiskit Chemistry was designed to make the :ref:`drivers` pluggable and discoverable. In order for Qiskit Chemistry to be able to interface a driver library, the ``BaseDriver`` base class must be implemented so to provide the interfacing code, or *wrapper*. As part of this process, the required `JavaScript Object Notation (JSON) <http://json.org>`_ schema for the driver interface must be supplied in a CONFIGURATION static property in the class. The interfacing code in the driver wrapper is responsible for constructing and populating a ``QMolecule`` instance with the electronic structure data listed above. Driver wrappers implementing the ``BaseDriver`` class are organized in subfolders of the ``drivers`` folder for automatic discovery and dynamic lookup."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:125
+msgid "Chemistry Operators"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:127
+msgid "Chemistry operators convert the electronic structure information obtained from the drivers to qubit-operator forms, suitable to be processed by the Aqua :ref:`quantum-algorithms`. New chemistry operators can be plugged in by extending the ``ChemistryOperator`` interface and providing the required `JavaScript Object Notation (JSON) <http://json.org>`_ schema in a CONFIGURATION static property in the class. Chemistry operator implementations are collected in the ``core`` folder for automatic discovery and dynamic lookup."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:137
+msgid "Unit Tests"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:139
+msgid "Contributing new software components to Qiskit Chemistry requires writing new unit tests for those components, and executing all the existing unit tests to make sure that no bugs were inadvertently injected."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:145
+msgid "Writing Unit Tests"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:146
+msgid "Unit tests should go under the ``test`` folder and be classes derived from the ``QiskitAquaChemistryTestCase`` class.  They should not have ``print`` statements; rather, they should use ``self.log.debug``. If they use assertions, these should be from the ``unittest`` package, such as ``self.AssertTrue``, ``self.assertRaises``, etc."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:155
+msgid "Executing Unit Tests"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:156
+msgid "To run all unit tests, execute the following command:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:162
+msgid "To run a particular unit test module, the following command should be used:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:168
+msgid "The command for help is as follows:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:174
+msgid "`Other running options <https://docs.python.org/3/library/unittest.html#command-line-options>`_ are available to users for consultation."
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:177
+msgid "In order to see unit test log messages, researchers and developers contributing to Aqua will need to set the ``LOG_LEVEL`` environment variable to ``DEBUG`` mode:"
+msgstr ""
+
+#: ../../../aqua/chemistry/qiskit_chemistry_extending.rst:185
+msgid "The results from ``self.log.debug`` will be saved to a file with same name as the module used to run, and with a ``log`` extension. For instance, the ``test_end2end.py`` script in the example above will generate a log file named ``test_end2end.log`` in the ``test`` folder."
+msgstr ""
+
