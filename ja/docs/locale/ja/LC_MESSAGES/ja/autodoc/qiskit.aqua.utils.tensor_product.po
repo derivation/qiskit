@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: 2019-06-05 16:51\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.utils.tensor_product.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.utils.tensor_product.rst:2
+msgid "qiskit.aqua.utils.tensor\\_product module"
+msgstr ""
+
+#: of qiskit.aqua.utils.tensor_product.tensorproduct:1
+msgid "Calculate tensor product."
+msgstr ""
+
+#: of qiskit.aqua.utils.tensor_product.tensorproduct:3
+msgid "m = tensorproduct(a,b,c,...) returns the kronecker product of its arguments. Each argument should either be a tensor, or a tuple containing a tensor and an integer, and tensor is put in zero-index slot. In the latter case, the integer specifies the repeat count for the tensor, e.g. tensorproduct(a,(b,3),c) = tensorproduct(a,b,b,b,c)."
+msgstr ""
+
+#: of qiskit.aqua.utils.tensor_product.tensorproduct
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.utils.tensor_product.tensorproduct
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.utils.tensor_product.tensorproduct:11
+msgid "the tensor product"
+msgstr ""
+
+#: of qiskit.aqua.utils.tensor_product.tensorproduct
+msgid "戻り値の型"
+msgstr ""
+
