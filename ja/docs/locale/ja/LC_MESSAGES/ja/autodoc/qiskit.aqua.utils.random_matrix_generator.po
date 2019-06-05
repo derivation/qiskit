@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: 2019-06-05 16:50\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.utils.random_matrix_generator.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.utils.random_matrix_generator.rst:2
+msgid "qiskit.aqua.utils.random\\_matrix\\_generator module"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.limit_entries:1
+msgid "Limits the number of entries of a matrix to the n highest magnitude ones. :param mat: Input Matrix :type mat: np.array :param n: number of surviving entries (default=5) :type n: int :param sparsity: sparsity of matrix :type sparsity: float < 1"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.limit_entries
+#: qiskit.aqua.utils.random_matrix_generator.limit_paulis
+#: qiskit.aqua.utils.random_matrix_generator.random_diag
+#: qiskit.aqua.utils.random_matrix_generator.random_h1_body
+#: qiskit.aqua.utils.random_matrix_generator.random_h2_body
+#: qiskit.aqua.utils.random_matrix_generator.random_hermitian
+#: qiskit.aqua.utils.random_matrix_generator.random_non_hermitian
+#: qiskit.aqua.utils.random_matrix_generator.random_unitary
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.limit_entries:9
+#: qiskit.aqua.utils.random_matrix_generator.limit_paulis:10
+msgid "scipy.sparse.csr_matrix"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.limit_paulis:1
+msgid "Limits the number of Pauli basis matrices of a hermitian matrix to the n highest magnitude ones. :param mat: Input matrix :type mat: np.ndarray :param n: number of surviving Pauli matrices (default=5) :type n: int :param sparsity: sparsity of matrix :type sparsity: float < 1"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag:1
+msgid "Generate random diagonal matix with given properties :param N: size of matrix :type N: int :param eigs: list of N eigenvalues. Overrides K,"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag:5
+msgid "eigrange."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag
+#: qiskit.aqua.utils.random_matrix_generator.random_h1_body
+#: qiskit.aqua.utils.random_matrix_generator.random_hermitian
+#: qiskit.aqua.utils.random_matrix_generator.random_non_hermitian
+#: qiskit.aqua.utils.random_matrix_generator.random_unitary
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag:7
+#: qiskit.aqua.utils.random_matrix_generator.random_hermitian:9
+msgid "condition number. Either use only condition number K or list/tuple of (K, lmin) or (K, lmin, sgn). Where lmin is the smallest eigenvalue and sign +/- 1 specifies if eigenvalues can be negative."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag:13
+#: qiskit.aqua.utils.random_matrix_generator.random_hermitian:15
+msgid "[min, max] list for eigenvalue range. (default=[0, 1])"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag:17
+msgid "diagonal matrix"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_diag
+#: qiskit.aqua.utils.random_matrix_generator.random_h1_body
+#: qiskit.aqua.utils.random_matrix_generator.random_h2_body
+#: qiskit.aqua.utils.random_matrix_generator.random_hermitian
+#: qiskit.aqua.utils.random_matrix_generator.random_non_hermitian
+#: qiskit.aqua.utils.random_matrix_generator.random_unitary
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_h1_body:1
+msgid "Generate a random one body integrals."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_h1_body:3
+msgid "the number of spin orbitals."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_h1_body:6
+#: qiskit.aqua.utils.random_matrix_generator.random_unitary:5
+msgid "a 2-D matrix with np.complex data type."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_h2_body:1
+msgid "Generate a random two body integrals. :param N: number of spin-orbitals (dimentsion of h2) :type N: int :param M: number of non-zero entries :type M: int"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_h2_body:7
+msgid "a numpy 4-D tensor with np.complex data type."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_hermitian:1
+msgid "Generate random hermitian (sparse) matix with given properties. Sparsity is achieved by truncating Pauli matrices. Sparsity settings alternate the eigenvalues due to truncation. :param N: size of matrix :type N: int :param eigs: list of N eigenvalues. Overrides K,"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_hermitian:7
+msgid "eigrange"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_hermitian:18
+msgid "limit for number of Pauli matrices."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_hermitian:20
+#: qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:18
+msgid "sparsity of matrix. Overrides trunc."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_hermitian:23
+msgid "hermitian matrix"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:1
+msgid "Generate random (sparse) matrix with given properties (singular values). Sparsity is achieved by truncating Pauli matrices. Sparsity settings alternate the singular values due to truncation. :param N: size of matrix :type N: int :param sings: list of N singular values."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:7
+msgid "Overrides K, srange."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:9
+msgid "condition number. Either use only condition number K or list/tuple of (K, lmin). Where lmin specifies the smallest singular value."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:13
+msgid "[min, max] list for singular value range, min >= 0. (default=[0, 1])."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:16
+msgid "limit of Pauli matrices."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_non_hermitian:21
+msgid "random matrix"
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_unitary:1
+msgid "Generate a random unitary matrix with size NxN."
+msgstr ""
+
+#: of qiskit.aqua.utils.random_matrix_generator.random_unitary:3
+msgid "the dimension of unitary matrix"
+msgstr ""
+
