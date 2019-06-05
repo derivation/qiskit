@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.chemistry.bksf.rst:2
+msgid "qiskit.chemistry.bksf module"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:1
+msgid ""
+"Transform from InteractionOpeator to QubitOperator for Bravyi-Kitaev fast"
+" algorithm."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:3
+msgid ""
+"The electronic Hamiltonian is represented in terms of creation and "
+"annihilation operators. These creation and annihilation operators could "
+"be used to define Majorana modes as follows:"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:6
+msgid "c_{2i} = a_i + a^{\\dagger}_i, c_{2i+1} = (a_i - a^{\\dagger}_{i})/(1j)"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:9
+msgid "These Majorana modes can be used to define edge operators B_i and A_{ij}:"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:9
+msgid "B_i=c_{2i}c_{2i+1}, A_{ij}=c_{2i}c_{2j}"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:11
+msgid ""
+"using these edge operators the fermionic algebra can be generated and "
+"hence all the terms in the electronic Hamiltonian can be expressed in "
+"terms of edge operators. The terms in electronic Hamiltonian can be "
+"divided into five types (arXiv 1208.5986). We can find the edge operator "
+"expression for each of those five types. For example, the excitation "
+"operator term in Hamiltonian when represented in terms of edge operators "
+"becomes:"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:18
+msgid "a_i^{\\dagger}a_j+a_j^{\\dagger}a_i = (-1j/2)*(A_ij*B_i+B_j*A_ij)"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:19
+msgid ""
+"For the sake of brevity the reader is encouraged to look up the "
+"expressions of other terms from the code below. The variables for edge "
+"operators are chosen according to the nomenclature defined above (B_i and"
+" A_ij). A detailed description of these operators and the terms of the "
+"electronic Hamiltonian are provided in (arXiv 1712.00446)."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping
+#: qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list
+#: qiskit.chemistry.bksf.edge_operator_aij
+#: qiskit.chemistry.bksf.edge_operator_bi
+#: qiskit.chemistry.bksf.generate_fermions
+#: qiskit.chemistry.bksf.number_operator qiskit.chemistry.bksf.vacuum_operator
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:25
+#: qiskit.chemistry.bksf.generate_fermions:3
+#: qiskit.chemistry.bksf.number_operator:3
+#: qiskit.chemistry.bksf.vacuum_operator:3
+msgid "the fermionic operator in the second quanitzed form"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping
+#: qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list
+#: qiskit.chemistry.bksf.edge_operator_aij
+#: qiskit.chemistry.bksf.edge_operator_bi
+#: qiskit.chemistry.bksf.generate_fermions
+#: qiskit.chemistry.bksf.number_operator qiskit.chemistry.bksf.vacuum_operator
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping:28
+msgid "mapped qubit operator"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bksf_mapping
+#: qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list
+#: qiskit.chemistry.bksf.edge_operator_aij
+#: qiskit.chemistry.bksf.edge_operator_bi
+#: qiskit.chemistry.bksf.generate_fermions
+#: qiskit.chemistry.bksf.number_operator qiskit.chemistry.bksf.vacuum_operator
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list:1
+msgid "Construct edge list required for the bksf algorithm."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list:3
+msgid "the fermionic operator in the second quantized form"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list:6
+msgid ""
+"edge_list, a 2xE matrix, where E is total number of edge                 "
+"and each pair denotes (from, to)"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list:8
+msgid "edge_list, a 2xE matrix, where E is total number of edge"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.bravyi_kitaev_fast_edge_list:9
+msgid "and each pair denotes (from, to)"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_aij:1
+msgid "Calculate the edge operator A_ij."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_aij:3
+#: qiskit.chemistry.bksf.edge_operator_bi:3
+msgid "The definitions used here are consistent with arXiv:quant-ph/0003137"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_aij:5
+#: qiskit.chemistry.bksf.edge_operator_bi:5
+msgid ""
+"a 2xE matrix, where E is total number of edge and each pair denotes "
+"(from, to)"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_aij:8
+#: qiskit.chemistry.bksf.edge_operator_aij:10
+msgid "specifying the edge operator A"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_aij:13
+#: qiskit.chemistry.bksf.edge_operator_bi:11
+msgid "qubit operator"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_bi:1
+msgid "Calculate the edge operator B_i."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.edge_operator_bi:8
+msgid "index for specifying the edge operator B."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.generate_fermions:1
+msgid ""
+"The qubit operator for generating fermions in bravyi_kitaev_fast "
+"representation."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.generate_fermions:5
+#: qiskit.chemistry.bksf.generate_fermions:7
+msgid "index of fermions"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.generate_fermions:10
+#: qiskit.chemistry.bksf.number_operator:8
+#: qiskit.chemistry.bksf.vacuum_operator:6
+msgid "the qubit operator"
+msgstr ""
+
+#: of qiskit.chemistry.bksf.number_operator:1
+msgid ""
+"Find the qubit operator for the number operator in bravyi_kitaev_fast "
+"representation."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.number_operator:5
+msgid "index, it corresponds to the mode for which number operator is required."
+msgstr ""
+
+#: of qiskit.chemistry.bksf.vacuum_operator:1
+msgid "Use the stabilizers to find the vacuum state in bravyi_kitaev_fast."
+msgstr ""
+

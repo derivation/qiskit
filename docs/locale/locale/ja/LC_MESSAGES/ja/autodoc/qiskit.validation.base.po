@@ -1,0 +1,268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.validation.base.rst:2
+msgid "qiskit.validation.base module"
+msgstr ""
+
+#: of qiskit.validation.base:1
+msgid "Building blocks for Qiskit validated classes."
+msgstr ""
+
+#: of qiskit.validation.base:3
+msgid ""
+"This module provides the ``BaseSchema`` and ``BaseModel`` classes as the "
+"main building blocks for defining objects (Models) that conform to a "
+"specification (Schema) and are validated at instantiation, along with "
+"providing facilities for being serialized and deserialized."
+msgstr ""
+
+#: of qiskit.validation.base:8
+msgid ""
+"Implementors are recommended to subclass the two classes, and \"binding\""
+" them together by using ``bind_schema``::"
+msgstr ""
+
+#: of qiskit.validation.base.BaseModel:1
+msgid "ベースクラス: :class:`types.SimpleNamespace`"
+msgstr ""
+
+#: of qiskit.validation.base.BaseModel:1
+msgid "Base class for Models for validated Qiskit classes."
+msgstr ""
+
+#: of qiskit.validation.base.BaseModel.as_dict:1
+#: qiskit.validation.base.BaseModel.to_dict:1
+msgid "Serialize the model into a Python dict of simple types."
+msgstr ""
+
+#: of qiskit.validation.base.BaseModel.from_dict:1
+msgid "Deserialize a dict of simple types into an instance of this class."
+msgstr ""
+
+#: of qiskit.validation.base.BaseModel.from_dict:3
+#: qiskit.validation.base.BaseModel.to_dict:3
+msgid ""
+"Note that this method requires that the model is bound with "
+"``@bind_schema``."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema:1
+msgid "ベースクラス: :class:`marshmallow.schema.Schema`"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema:1
+msgid "Base class for Schemas for validated Qiskit classes."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema:3
+msgid "Provides convenience functionality for the Qiskit common use case:"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema:5
+msgid "deserialization into class instances instead of dicts."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema:6
+msgid "handling of unknown attributes not defined in the schema."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema:10
+msgid "class used to instantiate the instance. The"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema qiskit.validation.base.BaseSchema:12
+msgid "type"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.Meta:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.Meta:1
+msgid "In marshmallow3, all schemas are strict."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:1
+msgid "Include unknown fields after dumping."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:3
+#: qiskit.validation.base.BaseSchema.load_additional_data:3
+msgid "Unknown fields are added with no processing at all."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data
+#: qiskit.validation.base.BaseSchema.load_additional_data
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:5
+msgid "data collected and returned by ``dump()``."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:7
+#: qiskit.validation.base.BaseSchema.load_additional_data:7
+msgid "if True, data and original_data are a list."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:9
+msgid "object passed to ``dump()`` in the first place."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data
+#: qiskit.validation.base.BaseSchema.load_additional_data
+#: qiskit.validation.base.bind_schema
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:13
+#: qiskit.validation.base.BaseSchema.load_additional_data:13
+msgid "the same ``valid_data`` extended with the unknown attributes."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data
+#: qiskit.validation.base.BaseSchema.load_additional_data
+#: qiskit.validation.base.bind_schema
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.dump_additional_data:16
+#: qiskit.validation.base.BaseSchema.load_additional_data:16
+msgid "Inspired by https://github.com/marshmallow-code/marshmallow/pull/595."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.load_additional_data:1
+msgid "Include unknown fields after load."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.load_additional_data:5
+msgid "validated data returned by ``load()``."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.load_additional_data:9
+msgid "data passed to ``load()`` in the first place."
+msgstr ""
+
+#: of qiskit.validation.base.BaseSchema.make_model:1
+msgid "Make ``load`` return a ``model_cls`` instance instead of a dict."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator:1
+msgid "ベースクラス: :class:`marshmallow.fields.Field`"
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator:1
+msgid "A field able to validate the correct type of a value."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:1
+msgid "Validates a value against the correct type of the field."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:3
+msgid "It calls ``_expected_types`` to get a list of valid types."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:5
+msgid "Subclasses can do one of the following:"
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:7
+msgid ""
+"1. They can override the ``valid_types`` property with a tuple with the "
+"expected types for this field."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:10
+msgid ""
+"2. They can override the ``_expected_types`` method to return a tuple of "
+"expected types for the field."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:13
+msgid "3. They can change ``check_type`` completely to customize validation."
+msgstr ""
+
+#: of qiskit.validation.base.ModelTypeValidator.check_type:16
+msgid ""
+"This method or the overrides must return the ``value`` parameter "
+"untouched."
+msgstr ""
+
+#: of qiskit.validation.base.Obj:1
+msgid "ベースクラス: :class:`qiskit.validation.base.BaseModel`"
+msgstr ""
+
+#: of qiskit.validation.base.Obj:1
+msgid "Generic object in a Model."
+msgstr ""
+
+#: of qiskit.validation.base.ObjSchema:1
+msgid "ベースクラス: :class:`qiskit.validation.base.BaseSchema`"
+msgstr ""
+
+#: of qiskit.validation.base.ObjSchema:1
+msgid "Generic object schema."
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:1
+msgid "Class decorator for adding schema validation to its instances."
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:3
+msgid ""
+"Instances of the decorated class are automatically validated after "
+"instantiation and they are augmented to allow further validations with "
+"the private method ``_validate()``."
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:7
+msgid ""
+"The decorator also adds the class attribute ``schema`` with the schema "
+"used for validation, along with a class attribute ``shallow_schema`` used"
+" for validation during instantiation."
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:11
+msgid ""
+"It also allows using the ``to_dict`` and ``from_dict`` in the model "
+"class, with perform serialization/deserialization to/from simple Python "
+"objects respectively."
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:15
+msgid ""
+"The same schema cannot be bound more than once. If you need to reuse a "
+"schema for a different class, create a new schema subclassing the one you"
+" want to reuse and leave the new empty::"
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema
+msgid "raises"
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:33
+msgid ":exc:`ValueError` -- when trying to bind the same schema more than once."
+msgstr ""
+
+#: of qiskit.validation.base.bind_schema:35
+msgid "the same class with validation capabilities."
+msgstr ""
+

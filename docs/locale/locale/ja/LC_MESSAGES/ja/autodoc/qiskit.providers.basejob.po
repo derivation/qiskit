@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.providers.basejob.rst:2
+msgid "qiskit.providers.basejob module"
+msgstr ""
+
+#: of qiskit.providers.basejob:1
+msgid "This module implements the abstract base class for backend jobs"
+msgstr ""
+
+#: of qiskit.providers.basejob:3
+msgid ""
+"When creating a new backend module it is also necessary to implement this"
+" job interface."
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob:1
+msgid "ベースクラス: :class:`abc.ABC`"
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob:1
+msgid "Class to handle asynchronous jobs"
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob.backend:1
+msgid "Return the backend for this job."
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob.cancel:1
+msgid "Attempt to cancel job."
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob.job_id:1
+msgid "Return a unique id identifying the job."
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob.result:1
+msgid "Return backend result"
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob.status:1
+msgid "Return one of the values of ``JobStatus``"
+msgstr ""
+
+#: of qiskit.providers.basejob.BaseJob.submit:1
+msgid "Submit the job to the backend."
+msgstr ""
+
