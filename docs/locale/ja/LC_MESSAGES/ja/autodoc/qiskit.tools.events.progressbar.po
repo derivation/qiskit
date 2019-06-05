@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.tools.events.progressbar.rst:2
+msgid "qiskit.tools.events.progressbar module"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar:1
+msgid "Progress bars module"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar:1
+msgid "ベースクラス: :class:`qiskit.tools.events.pubsub.Subscriber`"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar:1
+msgid "An abstract progress bar with some shared functionality."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.finished:1
+msgid "Run when progress bar has completed."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.start:1
+#: qiskit.tools.events.progressbar.TextProgressBar.start:1
+msgid "Start the progress bar."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.start
+#: qiskit.tools.events.progressbar.BaseProgressBar.time_remaining_est
+#: qiskit.tools.events.progressbar.TextProgressBar.start
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.start:3
+#: qiskit.tools.events.progressbar.TextProgressBar.start:3
+msgid "Number of iterations."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_elapsed:1
+msgid "Return the time elapsed since start."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_elapsed
+#: qiskit.tools.events.progressbar.BaseProgressBar.time_remaining_est
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_elapsed:3
+msgid "Time since progress bar started."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_elapsed
+#: qiskit.tools.events.progressbar.BaseProgressBar.time_remaining_est
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_remaining_est:1
+msgid "Estimate the remaining time left."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_remaining_est:3
+msgid "Number of iterations completed."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.time_remaining_est:6
+msgid "Estimated time remaining."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.BaseProgressBar.update:1
+#: qiskit.tools.events.progressbar.TextProgressBar.update:1
+msgid "Update status of progress bar."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.TextProgressBar:1
+msgid "ベースクラス: :class:`qiskit.tools.events.progressbar.BaseProgressBar`"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.TextProgressBar:1
+msgid "A simple text-based progress bar."
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.TextProgressBar:5
+msgid "output_handler"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.TextProgressBar:4
+msgid "the handler the progress bar should be written to, default"
+msgstr ""
+
+#: of qiskit.tools.events.progressbar.TextProgressBar:4
+msgid "is sys.stdout, another option is sys.stderr"
+msgstr ""
+

@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.utils.run_circuits.rst:2
+msgid "qiskit.aqua.utils.run\\_circuits module"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:1
+#: qiskit.aqua.utils.run_circuits.compile_circuits:1
+#: qiskit.aqua.utils.run_circuits.run_qobjs:1
+msgid "An execution wrapper with Qiskit-Terra, with job auto recover capability."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:3
+#: qiskit.aqua.utils.run_circuits.compile_circuits:3
+#: qiskit.aqua.utils.run_circuits.run_qobjs:3
+msgid ""
+"The autorecovery feature is only applied for non-simulator backend. This "
+"wraper will try to get the result no matter how long it costs."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits
+#: qiskit.aqua.utils.run_circuits.compile_circuits
+#: qiskit.aqua.utils.run_circuits.find_regs_by_name
+#: qiskit.aqua.utils.run_circuits.run_qobjs
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:6
+#: qiskit.aqua.utils.run_circuits.compile_circuits:6
+msgid "circuits to execute"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:8
+#: qiskit.aqua.utils.run_circuits.compile_circuits:8
+#: qiskit.aqua.utils.run_circuits.run_qobjs:8
+msgid "backend instance"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:10
+#: qiskit.aqua.utils.run_circuits.compile_circuits:10
+msgid "configuration for backend"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:12
+#: qiskit.aqua.utils.run_circuits.compile_circuits:12
+msgid "configuration for compilation"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:14
+#: qiskit.aqua.utils.run_circuits.compile_circuits:14
+msgid "configuration for running a circuit"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:16
+#: qiskit.aqua.utils.run_circuits.run_qobjs:10
+msgid "configuration for quantum job object"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:18
+#: qiskit.aqua.utils.run_circuits.run_qobjs:12
+msgid "configuration for simulator"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:20
+#: qiskit.aqua.utils.run_circuits.run_qobjs:14
+msgid "configuration for noise model"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:22
+#: qiskit.aqua.utils.run_circuits.compile_circuits:16
+msgid "showing the summary of submitted circuits."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:24
+#: qiskit.aqua.utils.run_circuits.compile_circuits:18
+msgid "A CircuitCache to use when calling compile_and_run_circuits"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:26
+#: qiskit.aqua.utils.run_circuits.run_qobjs:16
+msgid "Bypass Qobj validation to decrease submission time"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits
+#: qiskit.aqua.utils.run_circuits.compile_circuits
+#: qiskit.aqua.utils.run_circuits.find_regs_by_name
+#: qiskit.aqua.utils.run_circuits.run_qobjs
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:29
+#: qiskit.aqua.utils.run_circuits.run_qobjs:19
+msgid "Result object"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits
+#: qiskit.aqua.utils.run_circuits.compile_circuits
+#: qiskit.aqua.utils.run_circuits.find_regs_by_name
+#: qiskit.aqua.utils.run_circuits.run_qobjs
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits
+#: qiskit.aqua.utils.run_circuits.compile_circuits
+#: qiskit.aqua.utils.run_circuits.run_qobjs
+msgid "raises"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_and_run_circuits:32
+#: qiskit.aqua.utils.run_circuits.compile_circuits:24
+#: qiskit.aqua.utils.run_circuits.run_qobjs:22
+msgid ":exc:`AquaError` -- Any error except for JobError raised by Qiskit Terra"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.compile_circuits:21
+msgid "compiled qobj."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.find_regs_by_name:1
+msgid "Find the registers in the circuits."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.find_regs_by_name:3
+msgid "the quantum circuit."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.find_regs_by_name:5
+msgid "name of register"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.find_regs_by_name:7
+msgid "quantum or classical register"
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.find_regs_by_name:10
+msgid "if not found, return None."
+msgstr ""
+
+#: of qiskit.aqua.utils.run_circuits.run_qobjs:6
+msgid "qobjs to execute"
+msgstr ""
+

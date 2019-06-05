@@ -1,0 +1,231 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.providers.ibmq.ibmqbackend.rst:2
+msgid "qiskit.providers.ibmq.ibmqbackend module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend:1
+msgid "Module for interfacing with an IBMQ Backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend:1
+msgid "ベースクラス: :class:`qiskit.providers.basebackend.BaseBackend`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend:1
+msgid "Backend class interfacing with an IBMQ backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.defaults:1
+msgid "Return the pulse defaults for the backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.defaults
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.properties
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.run
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.properties
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.defaults:3
+msgid ""
+"the pulse defaults for the backend. IF the backend does not support "
+"defaults, it returns ``None``."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.defaults
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.properties
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.run
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:1
+msgid "Return the jobs submitted to this backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:3
+msgid ""
+"Return the jobs submitted to this backend, with optional filtering and "
+"pagination. Note that jobs submitted with earlier versions of Qiskit (in "
+"particular, those that predate the Qobj format) are not included in the "
+"returned list."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.run
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:8
+msgid "number of jobs to retrieve"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:10
+msgid "starting index of retrieval"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:12
+msgid ""
+"only get jobs with this status, where status is e.g. `JobStatus.RUNNING` "
+"or `'RUNNING'`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:16
+msgid ""
+"`loopback-based filter <https://loopback.io/doc/en/lb2/Querying-"
+"data.html>`_. This is an interface to a database ``where`` filter. Some "
+"examples of its usage are:  Filter last five jobs with errors::     "
+"job_list = backend.jobs(limit=5, status=JobStatus.ERROR)  Filter last "
+"five jobs with counts=1024, and counts for states ``00`` and ``11`` each "
+"exceeding 400::    cnts_filter = {'shots': 1024,                  "
+"'qasms.result.data.counts.00': {'gt': 400},                  "
+"'qasms.result.data.counts.11': {'gt': 400}}   job_list = "
+"backend.jobs(limit=5, db_filter=cnts_filter)  Filter last five jobs from "
+"30 days ago::     past_date = datetime.datetime.now() - "
+"datetime.timedelta(days=30)    date_filter = {'creationDate': {'lt': "
+"past_date.isoformat()}}    job_list = backend.jobs(limit=5, "
+"db_filter=date_filter)"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:16
+msgid ""
+"`loopback-based filter <https://loopback.io/doc/en/lb2/Querying-"
+"data.html>`_. This is an interface to a database ``where`` filter. Some "
+"examples of its usage are:"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:21
+msgid "Filter last five jobs with errors::"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:25
+msgid ""
+"Filter last five jobs with counts=1024, and counts for states ``00`` and "
+"``11`` each exceeding 400::"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:33
+msgid "Filter last five jobs from 30 days ago::"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:40
+msgid "list of IBMQJob instances"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job
+#: qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.jobs:43
+msgid ":exc:`IBMQBackendValueError` -- status keyword value unrecognized"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.properties:1
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.properties:1
+msgid "Return the online backend properties."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.properties:3
+msgid "The return is via QX API call."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.properties:5
+msgid "The properties of the backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job:1
+msgid "Return a job submitted to this backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job:3
+msgid "the job id of the job to retrieve"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job:6
+msgid "class instance"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.retrieve_job:9
+msgid ":exc:`IBMQBackendError` -- if retrieval failed"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.run:1
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run:1
+msgid "Run qobj asynchronously."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.run:3
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run:3
+msgid "description of job"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.run:6
+#: qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run:10
+msgid "an instance derived from BaseJob"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status:1
+msgid "Return the online backend status."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status:3
+msgid "The status of the backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status:6
+msgid ":exc:`LookupError` -- If status for the backend can't be found."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQBackend.status:7
+msgid ":exc:`IBMQBackendError` -- If the status can't be formatted properly."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQSimulator:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.ibmqbackend.IBMQBackend`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQSimulator:1
+msgid "Backend class interfacing with an IBMQ simulator."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.properties:3
+msgid "None"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run:5
+msgid "backend options"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqbackend.IBMQSimulator.run:7
+msgid "noise model"
+msgstr ""
+

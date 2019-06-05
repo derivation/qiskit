@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.partition.rst:2
+msgid "qiskit.aqua.translators.ising.partition module"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops:1
+msgid "Construct the Hamiltonian for a given Partition instance."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops:3
+msgid ""
+"Given a list of numbers for the Number Partitioning problem, we construct"
+" the Hamiltonian described as a list of Pauli gates."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops
+#: qiskit.aqua.translators.ising.partition.partition_value
+#: qiskit.aqua.translators.ising.partition.random_number_list
+#: qiskit.aqua.translators.ising.partition.read_numbers_from_file
+#: qiskit.aqua.translators.ising.partition.sample_most_likely
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops:6
+msgid "array of values."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops
+#: qiskit.aqua.translators.ising.partition.partition_value
+#: qiskit.aqua.translators.ising.partition.random_number_list
+#: qiskit.aqua.translators.ising.partition.read_numbers_from_file
+#: qiskit.aqua.translators.ising.partition.sample_most_likely
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops:9
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.get_partition_qubitops
+#: qiskit.aqua.translators.ising.partition.partition_value
+#: qiskit.aqua.translators.ising.partition.random_number_list
+#: qiskit.aqua.translators.ising.partition.read_numbers_from_file
+#: qiskit.aqua.translators.ising.partition.sample_most_likely
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.partition_value:1
+msgid "Compute the value of a partition."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.partition_value:3
+msgid "binary string as numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.partition_value:5
+msgid "list of numbers in the instance."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.partition_value:8
+msgid "difference squared between the two sides of the number     partition."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.partition_value:10
+msgid "difference squared between the two sides of the number"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.partition_value:11
+msgid "partition."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.random_number_list:1
+msgid "Generate a set of positive integers within the given range."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.random_number_list:3
+msgid "size of the set of numbers."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.random_number_list:5
+msgid "maximum absolute value of the numbers."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.random_number_list:7
+msgid "write numbers to this file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.random_number_list:10
+msgid "the list of integer numbers."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.read_numbers_from_file:1
+msgid "Read numbers from a file"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.read_numbers_from_file:3
+msgid "name of the file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.read_numbers_from_file:6
+msgid "list of numbers as a numpy.ndarray."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.sample_most_likely:3
+msgid "state vector or counts."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.partition.sample_most_likely:6
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+

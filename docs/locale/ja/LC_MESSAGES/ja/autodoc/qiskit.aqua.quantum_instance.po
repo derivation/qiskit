@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.quantum_instance.rst:2
+msgid "qiskit.aqua.quantum\\_instance module"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance:1
+msgid "Quantum Backend including execution setting."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.backend:1
+msgid "Return BaseBackend backend object."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.backend_config:1
+msgid "Getter of backend_config."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.backend_name:1
+msgid "Return backend name."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.backend_options:1
+msgid "Getter of backend_options."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.circuit_summary:1
+msgid "Getter of circuit summary."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.compile_config:1
+msgid "Getter of compile_config."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.execute:1
+msgid "A wrapper to interface with quantum backend."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.execute
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.execute:3
+msgid "circuits to execute"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.execute
+#: qiskit.aqua.quantum_instance.QuantumInstance.maybe_refresh_cals_matrix
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.execute:6
+msgid "Result object"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.execute
+#: qiskit.aqua.quantum_instance.QuantumInstance.maybe_refresh_cals_matrix
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.is_local:1
+msgid "Return True if backend is a local backend."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.is_simulator:1
+msgid "Return True if backend is a simulator."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.is_statevector:1
+msgid "Return True if backend is a statevector-type simulator."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.maybe_refresh_cals_matrix:1
+msgid "Calculate the time difference from the query of last time."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.maybe_refresh_cals_matrix:3
+msgid "whether or not refresh the cals_matrix"
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.noise_config:1
+msgid "Getter of noise_config."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.qjob_config:1
+msgid "Getter of qjob_config."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.run_config:1
+msgid "Getter of run_config."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.set_config:1
+msgid "Set configurations for the quantum instance."
+msgstr ""
+
+#: of qiskit.aqua.quantum_instance.QuantumInstance.shared_circuits:1
+msgid "Getter of shared_circuits."
+msgstr ""
+

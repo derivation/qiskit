@@ -1,0 +1,601 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.chemistry.rst:2
+msgid "qiskit.chemistry package"
+msgstr ""
+
+#: of qiskit.chemistry:1
+msgid "Main public functionality."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistryError:1
+msgid "ベースクラス: :class:`Exception`"
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistryError:1
+msgid "Base class for errors raised by the QiskitChemistry SDK."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:1 qiskit.chemistry.MP2Info:1
+#: qiskit.chemistry.QMolecule:1 qiskit.chemistry.QiskitChemistry:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule:1
+msgid "Molecule data class with driver information."
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.load:1
+msgid "loads info saved."
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.mo_to_spin:1
+msgid "Convert one and two-body MO integrals to spin orbital basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.mo_to_spin:3
+msgid ""
+"Takes one and two body integrals in molecular orbital basis and returns "
+"integrals in spin orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination
+#: qiskit.chemistry.FermionicOperator.fermion_mode_freezing
+#: qiskit.chemistry.FermionicOperator.mapping
+#: qiskit.chemistry.FermionicOperator.particle_hole_transformation
+#: qiskit.chemistry.MP2Info.mp2_get_term_info
+#: qiskit.chemistry.MP2Info.mp2_terms qiskit.chemistry.QMolecule.mo_to_spin
+#: qiskit.chemistry.QMolecule.onee_to_spin
+#: qiskit.chemistry.QMolecule.oneeints2mo
+#: qiskit.chemistry.QMolecule.twoe_to_spin
+#: qiskit.chemistry.QMolecule.twoeints2mo qiskit.chemistry.QiskitChemistry.run
+#: qiskit.chemistry.QiskitChemistry.run_driver
+#: qiskit.chemistry.build_logging_config qiskit.chemistry.run_driver_to_json
+#: qiskit.chemistry.run_experiment
+#: qiskit.chemistry.set_qiskit_chemistry_logging
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.mo_to_spin:6
+#: qiskit.chemistry.QMolecule.onee_to_spin:6
+msgid "One body orbitals in molecular basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.mo_to_spin:7
+#: qiskit.chemistry.QMolecule.twoe_to_spin:6
+msgid "Two body orbitals in molecular basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.mo_to_spin:8
+#: qiskit.chemistry.QMolecule.onee_to_spin:7
+#: qiskit.chemistry.QMolecule.twoe_to_spin:7
+msgid "Threshold value for assignments"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination
+#: qiskit.chemistry.FermionicOperator.fermion_mode_freezing
+#: qiskit.chemistry.FermionicOperator.mapping
+#: qiskit.chemistry.FermionicOperator.total_angular_momentum
+#: qiskit.chemistry.FermionicOperator.total_magnetization
+#: qiskit.chemistry.FermionicOperator.total_particle_number
+#: qiskit.chemistry.MP2Info.mp2_delta qiskit.chemistry.MP2Info.mp2_energy
+#: qiskit.chemistry.MP2Info.mp2_get_term_info
+#: qiskit.chemistry.MP2Info.mp2_terms qiskit.chemistry.QMolecule.mo_to_spin
+#: qiskit.chemistry.QMolecule.onee_to_spin
+#: qiskit.chemistry.QMolecule.oneeints2mo
+#: qiskit.chemistry.QMolecule.twoe_to_spin
+#: qiskit.chemistry.QMolecule.twoeints2mo qiskit.chemistry.QiskitChemistry.run
+#: qiskit.chemistry.get_qiskit_chemistry_logging
+#: qiskit.chemistry.run_driver_to_json qiskit.chemistry.run_experiment
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.mo_to_spin:10
+msgid "One and two body integrals in spin orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.onee_to_spin:1
+msgid "Convert one-body MO integrals to spin orbital basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.onee_to_spin:3
+msgid ""
+"Takes one body integrals in molecular orbital basis and returns integrals"
+" in spin orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.onee_to_spin:9
+msgid "One body integrals in spin orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.oneeints2mo:1
+msgid "Converts one-body integrals from AO to MO basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.oneeints2mo:3
+msgid "Returns one electron integrals in AO basis converted to given MO basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.oneeints2mo:5
+msgid "N^2 one electron integrals in AO basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.oneeints2mo:6
+#: qiskit.chemistry.QMolecule.twoeints2mo:6
+msgid "Molecular orbital coefficients"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.oneeints2mo:8
+#: qiskit.chemistry.QMolecule.twoeints2mo:8
+msgid "integrals in MO basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.save:1
+msgid "Saves the info from the driver."
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.twoe_to_spin:1
+msgid "Convert two-body MO integrals to spin orbital basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.twoe_to_spin:3
+msgid ""
+"Takes two body integrals in molecular orbital basis and returns integrals"
+" in spin orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.twoe_to_spin:9
+msgid "Two body integrals in spin orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.twoeints2mo:1
+msgid "Converts two-body integrals from AO to MO basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.twoeints2mo:3
+msgid "Returns two electron integrals in AO basis converted to given MO basis"
+msgstr ""
+
+#: of qiskit.chemistry.QMolecule.twoeints2mo:5
+msgid "N^2 two electron integrals in AO basis"
+msgstr ""
+
+#: of qiskit.chemistry.ChemistryProblem:1
+msgid "ベースクラス: :class:`enum.Enum`"
+msgstr ""
+
+#: of qiskit.chemistry.ChemistryProblem:1
+msgid "An enumeration."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry:1
+msgid "Main Chemistry class."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.chemistry_result:1
+msgid "Returns Chemistry result."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.hdf5_file:1
+msgid "Returns Chemistry hdf5 path with chemistry results, if used."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.operator:1
+msgid "Returns Chemistry Operator."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.parser:1
+msgid "Returns Chemistry parser."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.qiskit_aqua:1
+msgid "Returns Qiskit Aqua object."
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.run:1
+msgid "Runs the Qiskit Chemistry experiment"
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.run:3
+#: qiskit.chemistry.QiskitChemistry.run_driver:3
+#: qiskit.chemistry.run_driver_to_json:3 qiskit.chemistry.run_experiment:5
+msgid "Chemistry input data"
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.run:5 qiskit.chemistry.run_experiment:7
+msgid "Output data"
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.run:7
+#: qiskit.chemistry.QiskitChemistry.run_driver:5
+#: qiskit.chemistry.run_experiment:9
+msgid "the experimental settings to be used in place of backend name"
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.run:10
+msgid "result dictionary"
+msgstr ""
+
+#: of qiskit.chemistry.QiskitChemistry.run_driver:1
+msgid "Runs the Qiskit Chemistry driver"
+msgstr ""
+
+#: of qiskit.chemistry.run_experiment:1
+msgid "Run Chemistry from params."
+msgstr ""
+
+#: of qiskit.chemistry.run_experiment:3
+msgid "Using params and returning a result dictionary"
+msgstr ""
+
+#: of qiskit.chemistry.run_experiment:12
+msgid "Result dictionary containing result of chemistry computation"
+msgstr ""
+
+#: of qiskit.chemistry.run_driver_to_json:1
+msgid "Runs the Aqua Chemistry driver only"
+msgstr ""
+
+#: of qiskit.chemistry.run_driver_to_json:5
+msgid "Name of file that will contain the Aqua JSON input data"
+msgstr ""
+
+#: of qiskit.chemistry.run_driver_to_json:8
+msgid "Result dictionary containing the jsonfile name"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:1
+msgid "A set of functions to map fermionic Hamiltonians to qubit Hamiltonians."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:3
+msgid ""
+"References: - E. Wigner and P. Jordan., Über das Paulische "
+"Äguivalenzverbot, \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:5
+msgid "Phys., 47:631 (1928). \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:6
+msgid "Bravyi and A. Kitaev. Fermionic quantum computation, \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:7
+msgid "Ann. of Phys., 298(1):210–226 (2002). \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:8
+msgid "Tranter, S. Sofia, J. Seeley, M. Kaicher, J. McClean, R. Babbush, \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:9
+msgid ""
+"P. Coveney, F. Mintert, F. Wilhelm, and P. Love. The Bravyi–Kitaev \\ "
+"transformation: Properties and applications. Int. Journal of Quantum \\ "
+"Chemistry, 115(19):1431–1441 (2015). \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:12
+msgid "Bravyi, J. M. Gambetta, A. Mezzacapo, and K. Temme, \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:13
+msgid "arXiv e-print arXiv:1701.08213 (2017). \\"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator:14
+msgid "Setia, J. D. Whitfield, arXiv:1712.00446 (2017)"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination:1
+msgid "Eliminate modes."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination:3
+msgid ""
+"Generate a new fermionic operator with the modes in fermion_mode_array "
+"deleted"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination:5
+msgid "orbital index for elimination"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination:8
+#: qiskit.chemistry.FermionicOperator.total_angular_momentum:6
+#: qiskit.chemistry.FermionicOperator.total_magnetization:3
+#: qiskit.chemistry.FermionicOperator.total_particle_number:4
+msgid "Fermionic Hamiltonian"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_elimination
+#: qiskit.chemistry.FermionicOperator.fermion_mode_freezing
+#: qiskit.chemistry.FermionicOperator.mapping
+#: qiskit.chemistry.FermionicOperator.total_angular_momentum
+#: qiskit.chemistry.FermionicOperator.total_magnetization
+#: qiskit.chemistry.FermionicOperator.total_particle_number
+#: qiskit.chemistry.MP2Info.mp2_delta qiskit.chemistry.MP2Info.mp2_energy
+#: qiskit.chemistry.MP2Info.mp2_get_term_info
+#: qiskit.chemistry.MP2Info.mp2_terms
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_freezing:1
+msgid "Freezing modes and extracting its energy."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_freezing:3
+msgid ""
+"Generate a fermionic operator with the modes in fermion_mode_array "
+"deleted and provide the shifted energy after freezing."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_freezing:6
+msgid "orbital index for freezing"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.fermion_mode_freezing:9
+msgid "Fermionic Hamiltonian float: energy of frozen modes"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.h1:1
+msgid "Getter of one body integral tensor."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.h2:1
+msgid "Getter of two body integral tensor."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping:1
+msgid "Map fermionic operator to qubit operator."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping:3
+msgid ""
+"Using multiprocess to speedup the mapping, the improvement can be "
+"observed when h2 is a non-sparse matrix."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping:6
+msgid ""
+"case-insensitive mapping type. \"jordan_wigner\", \"parity\", "
+"\"bravyi_kitaev\", \"bksf\""
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping:9
+msgid "threshold for Pauli simplification"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping:12
+msgid "create an Operator object in Paulis form."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping
+msgid "raises"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.mapping:15
+msgid ":exc:`QiskitChemistryError` -- if the `map_type` can not be recognized."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.modes:1
+msgid "Getter of modes."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.particle_hole_transformation:1
+msgid ""
+"The 'standard' second quantized Hamiltonian can be transformed in the "
+"particle-hole (p/h) picture, which makes the expansion of the trail "
+"wavefunction from the HF reference state more natural. In fact, for both "
+"trail wavefunctions implemented in q-lib ('heuristic' hardware efficient "
+"and UCCSD) the p/h Hamiltonian improves the speed of convergence of the "
+"VQE algorithm for the calculation of the electronic ground state "
+"properties. For more information on the p/h formalism see: P. Barkoutsos,"
+" arXiv:1805.04340(https://arxiv.org/abs/1805.04340)."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.particle_hole_transformation:10
+msgid "number of particles"
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.total_angular_momentum:1
+msgid "Total angular momentum."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.total_angular_momentum:3
+msgid ""
+"A data_preprocess_helper fermionic operator which can be used to evaluate"
+" the total angular momentum of the given eigenstate."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.total_magnetization:1
+msgid ""
+"A data_preprocess_helper fermionic operator which can be used to         "
+"evaluate the magnetization of the given eigenstate."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.total_particle_number:1
+msgid ""
+"A data_preprocess_helper fermionic operator which can be used to evaluate"
+" the number of particle of the given eigenstate."
+msgstr ""
+
+#: of qiskit.chemistry.FermionicOperator.transform:1
+msgid "Transform the one and two body term based on unitary_matrix."
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:1
+msgid "A utility class for Moller-Plesset 2nd order (MP2) information"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:3
+msgid "Each double excitation given by [i,a,j,b] has a coefficient computed using"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:4
+msgid "coeff = -(2 * Tiajb - Tibja)/(oe[b] + oe[a] - oe[i] - oe[j])"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:5
+msgid "where oe[] is the orbital energy"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:8
+msgid "and an energy delta given by"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:8
+msgid "e_delta = coeff * Tiajb"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info:10
+msgid ""
+"All the computations are done using the molecule orbitals but the indexes"
+" used in the excitation information passed in and out are in the block "
+"spin orbital numbering as normally used by the chemistry stack."
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_delta:1
+msgid "Get the MP2 delta energy correction for the molecule"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_delta:3
+msgid "The MP2 delta energy"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_energy:1
+msgid "Get the MP2 energy for the molecule"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_energy:3
+msgid "The MP2 energy"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_get_term_info:1
+msgid ""
+"With a reduced active space the set of used excitations can be less than "
+"allowing all available excitations. Given a (sub)set of excitations in "
+"the space this will return a list of correlation coefficients and a list "
+"of correlation energies ordered as per the excitation list provided."
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_get_term_info:6
+msgid "A list of excitations for which to get the coeff and e_delta"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_get_term_info:8
+#: qiskit.chemistry.MP2Info.mp2_terms:4
+msgid "Whether core orbitals are frozen or not"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_get_term_info:10
+#: qiskit.chemistry.MP2Info.mp2_terms:6
+msgid "An optional list of ints indicating removed orbitals"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_get_term_info:13
+msgid "List of coefficients and list of energy deltas"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_terms:1
+msgid ""
+"Gets the set of MP2 terms for the molecule taking into account index "
+"adjustments due to frozen core and/or other orbital reduction"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_terms:9
+msgid ""
+"A dictionary of excitations where the key is a string in the form       "
+"from_to_from_to e.g. 0_4_6_10 and the value is a tuple of       (coeff, "
+"e_delta)"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_terms:12
+msgid "A dictionary of excitations where the key is a string in the form"
+msgstr ""
+
+#: of qiskit.chemistry.MP2Info.mp2_terms:12
+msgid "from_to_from_to e.g. 0_4_6_10 and the value is a tuple of (coeff, e_delta)"
+msgstr ""
+
+#: of qiskit.chemistry.get_logging_level:1
+msgid "get level for the named logger."
+msgstr ""
+
+#: of qiskit.chemistry.build_logging_config:1
+msgid ""
+"Creates a the configuration dict of the named loggers using the default "
+"SDK configuration provided by `_QISKIT_CHEMISTRY_LOGGING_CONFIG`:"
+msgstr ""
+
+#: of qiskit.chemistry.build_logging_config:4
+msgid "console logging using a custom format for levels != level parameter."
+msgstr ""
+
+#: of qiskit.chemistry.build_logging_config:5
+msgid "console logging with simple format for level parameter."
+msgstr ""
+
+#: of qiskit.chemistry.build_logging_config:6
+msgid "set logger level to level parameter."
+msgstr ""
+
+#: of qiskit.chemistry.build_logging_config:8
+#: qiskit.chemistry.get_qiskit_chemistry_logging:3
+msgid "logging level"
+msgstr ""
+
+#: of qiskit.chemistry.build_logging_config:10
+#: qiskit.chemistry.set_qiskit_chemistry_logging:5
+msgid "file to receive logging data"
+msgstr ""
+
+#: of qiskit.chemistry.set_logging_config:1
+msgid "Update logger configurations using a SDK default one."
+msgstr ""
+
+#: of qiskit.chemistry.set_logging_config:5
+msgid ""
+"This function modifies the configuration of the standard logging system "
+"for the loggers, and might interfere with custom logger configurations."
+msgstr ""
+
+#: of qiskit.chemistry.get_qiskit_chemistry_logging:1
+msgid "Returns the current Qiskit Chemistry logging level"
+msgstr ""
+
+#: of qiskit.chemistry.set_qiskit_chemistry_logging:1
+msgid "Updates the Qiskit Chemistry logging with the appropriate logging level"
+msgstr ""
+
+#: of qiskit.chemistry.set_qiskit_chemistry_logging:3
+msgid "minimum severity of the messages that are displayed."
+msgstr ""
+
+#: ../../../autodoc/qiskit.chemistry.rst:10
+msgid "Subpackages"
+msgstr ""
+
+#: ../../../autodoc/qiskit.chemistry.rst:20
+msgid "Submodules"
+msgstr ""
+

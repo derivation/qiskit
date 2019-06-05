@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.set_packing.rst:2
+msgid "qiskit.aqua.translators.ising.set\\_packing module"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops:1
+msgid ""
+"Construct the Hamiltonian for the set packing :param list_of_subsets: "
+"list of lists (i.e., subsets)"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops
+#: qiskit.aqua.translators.ising.set_packing.get_solution
+#: qiskit.aqua.translators.ising.set_packing.random_number_list
+#: qiskit.aqua.translators.ising.set_packing.read_numbers_from_file
+#: qiskit.aqua.translators.ising.set_packing.sample_most_likely
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops:4
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops
+#: qiskit.aqua.translators.ising.set_packing.get_solution
+#: qiskit.aqua.translators.ising.set_packing.random_number_list
+#: qiskit.aqua.translators.ising.set_packing.read_numbers_from_file
+#: qiskit.aqua.translators.ising.set_packing.sample_most_likely
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops:8
+msgid "find the maximal number of subsets which are disjoint pairwise."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops:10
+msgid ""
+"Hamiltonian: H = A Ha + B Hb Ha = sum_{Si and Sj overlaps}{XiXj} Hb = "
+"-sum_{i}{Xi}"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops:15
+msgid ""
+"Ha is to ensure the disjoint condition, while Hb is to achieve the "
+"maximal number. Ha is hard constraint that must be satisified. Therefore "
+"A >> B. In the following, we set A=10 and B = 1"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_set_packing_qubitops:19
+msgid "Note Xi = (Zi + 1)/2"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_solution
+#: qiskit.aqua.translators.ising.set_packing.random_number_list
+#: qiskit.aqua.translators.ising.set_packing.read_numbers_from_file
+#: qiskit.aqua.translators.ising.set_packing.sample_most_likely
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_solution:1
+msgid "binary string as numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.get_solution:4
+msgid "graph solution as binary numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.random_number_list:1
+msgid "Generate a set of positive integers within the given range."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.random_number_list:3
+msgid "size of the set of numbers."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.random_number_list:5
+msgid "maximum absolute value of the numbers."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.random_number_list:7
+msgid "write numbers to this file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.random_number_list:10
+msgid "the list of integer numbers."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.read_numbers_from_file:1
+msgid "Read numbers from a file"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.read_numbers_from_file:3
+msgid "name of the file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.read_numbers_from_file:6
+msgid "list of numbers as a numpy.ndarray."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.sample_most_likely:3
+msgid "number of  qubits."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.sample_most_likely:5
+msgid "state vector or counts."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.set_packing.sample_most_likely:8
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+

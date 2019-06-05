@@ -1,0 +1,230 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../../aqua/multiclass_extensions.rst:5
+msgid "Multiclass Extension"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:7
+msgid ""
+"Both the Quantum Support Vector Machine (QSVM) and Variational Quantum "
+"Classifier (vqc) algorithms, as well as the Support Vector Machine Radial"
+" Basis Function Kernel (SVM RBF Kernel) classical algorithm integrated "
+"into Aqua for generation of reference values, come with built-in binary "
+"classifiers. Aqua includes the ``MulticlassExtension`` pluggable "
+"interface for QSVM and SVM RBF Kernel, allowing for various multiclass "
+"classification extension algorithms to be included."
+msgstr ""
+
+msgid "Extending the Multiclass Extension  Library"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:18
+msgid ""
+"Consistent with its unique  design, Aqua has a modular and extensible "
+"architecture. Algorithms and their supporting objects, such as multiclass"
+" extensions for SVM algorithms, are pluggable modules in Aqua. New "
+"multiclass extensions are typically installed in the "
+"``qiskit_aqua/components/multiclass_extensions`` folder and derive from "
+"the ``MulticlassExtension`` class. Aqua also allows for :ref:`aqua-"
+"dynamically-discovered-components`: new components can register "
+"themselves as Aqua extensions and be dynamically discovered at run time "
+"independent of their location in the file system. This is done in order "
+"to encourage researchers and developers interested in :ref:`aqua-"
+"extending` to extend the Aqua framework with their novel research "
+"contributions."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:32
+msgid ""
+"Currently, Aqua supplies the following multiclass classification "
+"extension algorithms:"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:34
+msgid ":ref:`one-against-rest`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:35
+msgid ":ref:`all-pairs`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:36
+msgid ":ref:`error-correcting-code`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:42
+msgid "One Against Rest"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:44
+msgid ""
+"For an :math:`n`-class problem, the *one-against-rest*  method constructs"
+" :math:`n` SVM  classifiers, with the :math:`i`-th classifier separating "
+"class :math:`i` from all the remaining classes, :math:`\\forall i \\in "
+"\\{1, 2, \\ldots, n\\}`. When the :math:`n` classifiers are combined to  "
+"make  the  final  decision,  the  classifier that generates  the highest"
+"  value  from  its  decision  function  is  selected  as  the winner and "
+"the corresponding class label is returned."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:52
+msgid ""
+"In order to instantiate a ``OneAgainstRest`` object, you need to provide "
+"a ``FeatureMap`` and an ``Estimator`` object representing the binary "
+"classifier to be used.  The ``FeatureMap`` is required only for the QSVM "
+"algorithm -- not by the SVM RBF Kernel classical algorithm."
+msgstr ""
+
+msgid "Declarative Name"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:58
+msgid ""
+"When referring to the one-against-rest method declaratively inside Aqua, "
+"its code ``name``, by which Aqua dynamically discovers and loads it, is "
+"``OneAgainstRest``."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:65
+msgid "All Pairs"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:67
+msgid ""
+"In the *all-pairs* reduction, one trains :math:`k(k−1)/2` binary "
+"classifiers for a :math:`k`-way multiclass problem; each receives the "
+"samples of a pair of classes from the original training set, and must "
+"learn to distinguish these two classes. At prediction time, a *weighted "
+"voting scheme* is used: all :math:`k(k−1)/2` classifiers are applied to "
+"an unseen sample, and each class gets assigned the sum of all the scores "
+"obtained by the various classifiers.  The combined classifier returns as "
+"a result the class getting the highest value."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:74
+msgid ""
+"In order to instantiate an ``AllPairs`` object, you need to provide a "
+"``FeatureMap`` and an ``Estimator`` object representing the binary "
+"classifier to be used.  The ``FeatureMap`` is required only for the QSVM "
+"algorithm -- not by the SVM RBF Kernel classical algorithm."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:80
+msgid ""
+"When referring to the all-pair method declaratively inside Aqua, its code"
+" ``name``, by which Aqua dynamically discovers and loads it, is "
+"``AllPairs``."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:87
+msgid "Error Correcting Code"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:89
+msgid ""
+"Error Correcting Code (ECC) is an ensemble method designed for the "
+"multiclass classification problem.  As for the other methods, the task is"
+" to decide one label from :math:`k > 2` possible choices."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:97
+msgid "Class"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:96
+msgid "Code Word"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:98
+msgid ":math:`f_0`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:98
+msgid ":math:`f_1`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:98
+msgid ":math:`f_2`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:98
+msgid ":math:`f_3`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:98
+msgid ":math:`f_4`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:98
+msgid ":math:`f_5`"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:100
+#: ../../../aqua/multiclass_extensions.rst:102
+#: ../../../aqua/multiclass_extensions.rst:104
+msgid "1"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:100
+#: ../../../aqua/multiclass_extensions.rst:102
+#: ../../../aqua/multiclass_extensions.rst:104
+msgid "0"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:102
+msgid "2"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:104
+msgid "3"
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:107
+msgid ""
+"The table above shows a 6-bit ECC for a 3-class problem. Each class is "
+"assigned a unique binary string of length 6.  The string is also called  "
+"a  *codeword*.   For  example,  class  2  has codeword ``100100``. During"
+" training, one binary classifier is learned for each column.  For "
+"example, for the first column, ECC builds a binary classifier to separate"
+" :math:`\\{2, 3\\}` from :math:`\\{1\\}`.  Thus, 6 binary classifiers are"
+" trained in this way.  To classify a new data point :math:`\\mathbf{x}`, "
+"all 6 binary classifiers are evaluated to obtain a 6-bit string. Finally,"
+" we choose the class whose bitstring is closest to :math:`\\mathbf{x}`’s "
+"output string as the predicted label.  Aqua's implementaion of ECC uses "
+"the Euclidean distance."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:118
+msgid ""
+"In order to instantiate an ``ErrorCorrectingCode`` object, you need to "
+"provide a ``FeatureMap``, an ``Estimator`` object representing the binary"
+" classifier to be used, and a ``code_size`` positive integer parameter "
+"representing the length of the bitstrings.  The ``FeatureMap`` is "
+"required only for the QSVM algorithm -- not by the SVM RBF Kernel "
+"classical algorithm."
+msgstr ""
+
+#: ../../../aqua/multiclass_extensions.rst:125
+msgid ""
+"When referring to the error-correcting code algorithm declaratively "
+"inside Aqua, its code ``name``, by which Aqua dynamically discovers and "
+"loads it, is ``ErrorCorrectingCode``."
+msgstr ""
+
