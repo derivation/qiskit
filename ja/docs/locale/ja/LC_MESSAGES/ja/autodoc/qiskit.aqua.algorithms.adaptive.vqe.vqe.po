@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:51+0000\n"
+"PO-Revision-Date: 2019-06-05 16:47\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.algorithms.adaptive.vqe.vqe.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.algorithms.adaptive.vqe.vqe.rst:2
+msgid "qiskit.aqua.algorithms.adaptive.vqe.vqe module"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe:1
+msgid "The Variational Quantum Eigensolver algorithm. See https://arxiv.org/abs/1304.3061"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE:1
+msgid "ベースクラス: :class:`qiskit.aqua.algorithms.adaptive.vq_algorithm.VQAlgorithm`"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE:1
+msgid "The Variational Quantum Eigensolver algorithm."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE:3
+msgid "See https://arxiv.org/abs/1304.3061"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit:1
+msgid "Generate the circuits."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit
+#: qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit:3
+msgid "parameters for variational form."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit:5
+msgid "backend object."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit:7
+msgid "is backend from AerProvider, if True and mode is paulis, single circuit is generated."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit
+#: qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params
+#: qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.print_settings
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit:11
+msgid "the generated circuits with Hamiltonian."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.construct_circuit
+#: qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params
+#: qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.print_settings
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params:1
+msgid "Initialize via parameters dictionary and algorithm input instance."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params:3
+msgid "parameters dictionary"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params:5
+msgid "EnergyInput instance"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.init_params:8
+msgid "vqe object"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.print_settings:1
+msgid "Preparing the setting of VQE into a string."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.print_settings:3
+msgid "the formatted setting of VQE"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE.setting:1
+msgid "Prepare the setting of VQE as a string."
+msgstr ""
+
