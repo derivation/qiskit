@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: 2019-06-05 16:56\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/aqua/chemistry/release_history.po\n"
+"Language: ja_JP\n"
+
+#: ../../../aqua/chemistry/release_history.rst:3
+msgid "Release History"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:7
+msgid "Release Notes"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:11
+msgid "Qiskit Chemistry 0.4.0"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:13
+msgid "In the `Qiskit <https://qiskit.org/>`__ ecosystem, `Aqua <https://qiskit.org/aqua>`__ is the `element <https://medium.com/qiskit/qiskit-and-its-fundamental-elements-bcd7ead80492>`__ that encompasses cross-domain quantum algorithms and applications running on `Noisy Intermediate-Scale Quantum (NISQ) <https://arxiv.org/abs/1801.00862>`__ computers. Aqua is an open-source library completely written in Python and specifically designed to be modular and extensible at multiple levels. Currently, Aqua supports four applications, in domains that have long been identified as potential areas for quantum computing: Chemistry, Artificial Intelligence (AI), Optimization, and Finance."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:25
+msgid "In this reelease of Qiskit Chemistry, we have added the following new features :"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:28
+msgid "Compatibility with Aqua 0.4"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:29
+msgid "Compatibility with Terra 0.7"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:30
+msgid "Compatibility with Aer 0.1"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:31
+msgid "Programmatic APIs for algorithms and components -- each component can now be instantiated and initialized via a single (non-empty) constructot call ``QuantumInstance`` API for algorithm/backend decoupling -- ``QuantumInstance`` encapsulates a backend and its settings"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:34
+msgid "Updated documentation and Jupyter Notebooks illustrating the new programmatic APIs"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:35
+msgid "``HartreeFock`` component of pluggable type ``InitialState`` moved from Qiskit Aqua to Qiskit Chemistry registers itself at installation time as Aqua algorithmic components for use at run time"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:38
+msgid "``UCCSD`` component of pluggable type ``VariationalForm`` moved from Qiskit Aqua to Qiskit Chemistry registers itself at installation time as Aqua algorithmic components for use at run time"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:41
+msgid "Z-matrix support for the PySCF & PyQuante classical computational chemistry drivers"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:45
+msgid "Compatibility with Aqua 0.4, Terra 0.7 and Aer 0.1"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:47
+msgid "Qiskit Chemistry 0.4 is fully compatible with Qiskit Aqua, 0.4, Qiskit Terra, 0.7, and the newly released Qiskit Aer 0.1. This allows you to install and execute Qiskit Chemistry in the same Python environment as all the other Qiskit elements and components."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:52
+msgid "Specifically, Qiskit Chemistry can now use the enhanced programmatic APIs from Qiskit Aqua 0.4 along with the algorithm/backend decoupling logic."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:55
+msgid "The following Qiskit Chemistry program shows how to conduct a chemistry experiment using Aqua's improved programmatic interface:"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:101
+msgid "Specifically, the program above uses a quantum computer to calculate the ground state energy of molecular Hydrogen, H2, where the two atoms are configured to be at a distance of 0.735 angstroms. The molecular configuration input is generated using `PySCF <https://sunqm.github.io/pyscf/>`__, a standard classical computational chemistry software package. First, Aqua transparently executes PySCF, and extracts from it the one- and two-body molecular-orbital integrals; an inexpensive operation that scales well classically and does not require the use of a quantum computer. These integrals are then used to create a quantum fermionic-operator representation of the molecule. In this specific example, we use a parity mapping to generate a qubit operator from the fermionic one, with a unique precision-preserving optimization that allows for two qubits to be tapered off; a reduction in complexity that is particularly advantageous for NISQ computers. The qubit operator is then passed as an input to the `Variational Quantum Eigensolver (VQE) <https://www.nature.com/articles/ncomms5213>`__ algorithm, instantiated with a `Limited-memory Broyden-Fletcher-Goldfarb-Shanno Bound (L-BFGS-B) <http://www.ece.northwestern.edu/~nocedal/PSfiles/limited-memory.ps.gz>`__ classical optimizer and the `RyRz variational form <https://qiskit.org/documentation/aqua/variational_forms.html#ryrz>`__. The `Hartree-Fock state <https://qiskit.org/documentation/aqua/initial_states.html#id2>`__ is utilized to initialize the variational form."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:127
+msgid "This example emphasizes the use of Aqua's improved programmatic interface by illustrating how the VQE ``QuantumAlgorithm``, along with its supporting components—-consisting of the L-BFGS-B ``Optimizer``, RyRz ``VariationalForm``, and Hartree-Fock ``InitialState``-—are all instantiated and initialized via simple constructor calls. The Aer statevector simulator backend is passed as a parameter to the run method of the VQE algorithm object, which means that the backend will be executed with default parameters."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:136
+msgid "To customize the backend, you can wrap it into a ``QuantumInstance`` object, and then pass that object to the run method of the ``QuantumAlgorithm``, as explained above. The ``QuantumInstance`` API allows you to customize run-time properties of the backend, such as the number of shots, the maximum number of credits to use, a dictionary with the configuration settings for the simulator, a dictionary with the initial layout of qubits in the mapping, and the Terra ``PassManager`` that will handle the compilation of the circuits. For the full set of options, please refer to the documentation of the Aqua ``QuantumInstance`` API."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:146
+msgid "Numerous new Qiskit Chemistry notebooks in the `qiskit/aqua <https://github.com/Qiskit/qiskit-tutorials/tree/master/qiskit/aqua>`__ and `community/aqua <https://github.com/Qiskit/qiskit-tutorials/tree/master/community/aqua>`__ folders of the `Qiskit Tutorials <https://github.com/Qiskit/qiskit-tutorials>`__ repository illustrate how to conduct a quantum-computing experiment programmatically using the new Aqua APIs."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:157
+msgid "Chemistry-Specific Algorithmic Components"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:159
+msgid "The support of Aqua for Chemistry continues to be very advanced. Aqua now features a new mechanism allowing pluggable components to register themselves to Aqua even without being part of the original Aqua installation package or installation directory. A component that has registered itself to Aqua is dynamically loaded and made available at run time to any program executed on top of Aqua. Taking advantage of this feature, we have remodeled the boundary between Qiskit Aqua and its Chemistry application. For example, the code for the `Unitary Coupled Cluster Singles and Doubles (UCCSD) <https://arxiv.org/abs/1805.04340>`__ variational form and Hartree-Fock initial state has been made part of the Qiskit Chemistry project to reflect the fact that these components are chemistry-specific and unlikely to make sense in any non-chemistry setting. The programming example above shows how to import and use the ``HartreeFock`` ``InitialState`` from Qiskit Chemistry (as opposed to importing it from Qiskit Aqua as was done in previous versions)."
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:178
+msgid "Z-matrix Support for PySCF and PyQuante"
+msgstr ""
+
+#: ../../../aqua/chemistry/release_history.rst:180
+#, python-format
+msgid "We have also improved the way molecular configurations are input into Qiskit Chemistry. Specifically, Qiskit Chemistry interfaces four classical computational-chemistry software packages: `Gaussian™ 16, <http://gaussian.com/gaussian16/>`__ `PSI4, <http://www.psicode.org/>`__ `PySCF <https://github.com/sunqm/pyscf>`__ and `PyQuante <https://github.com/rpmuller/pyquante2/>`__. Qiskit Chemistry is unique in the fact that it allows the end user to configure chemistry experiments using these classical software packages as the front end, without imposing any new programming language of APIs. Qiskit Chemistry then executes these software packages classically to compute some preliminary data necessary to form the input to the underlying quantum algorithms in Aqua. Directly exposing to the end user classical computational software input parameters maximizes the functionality available to the underlying quantum algorithms. In this release, we have unified some advanced configuration features across the various drivers currently supported by Qiskit Chemistry. For example, while all the supported drivers allow the user to configure a molecule's geometry by specifying the *x*, *y* and *z* coordinates of each atom in the molecule, only Gaussian™ 16 and PSI4 allow the end user to enter a molecule's configuration in `Z-matrix <https://en.wikipedia.org/wiki/Z-matrix_%28chemistry%29>`__ format, which consists of describing each atom in a molecule in terms of its atomic number, bond length, bond angle, and *dihedral angle* (the angle between planes through two sets of three atoms having two atoms in common). A Z-matrix configuration assigns the second atom of a molecule along the *z* axis from the first atom, which is assumed to be at the origin. This representation is very intuitive and convenient, especially when the position and orientation in space of a molecule are irrelevant. Starting from V0.4, Qiskit Chemistry allows the configuration of a molecule to be entered in Z-matrix format even when the user has chosen PySCF or PyQuante as the classical computational chemistry software driver interfaced by Qiskit Chemistry. Qiskit Chemistry uses the APIs of the underlying drivers to transparently convert any Z-matrix configuration entered by the user to the corresponding Cartesian coordinates.  Molecules with a linear segment of 3 connected atoms or more are not yet covered by this new feature."
+msgstr ""
+
