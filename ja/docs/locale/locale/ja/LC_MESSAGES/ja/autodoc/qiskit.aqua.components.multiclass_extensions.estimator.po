@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: 2019-06-05 16:59\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.components.multiclass_extensions.estimator.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.components.multiclass_extensions.estimator.rst:2
+msgid "qiskit.aqua.components.multiclass\\_extensions.estimator module"
+msgstr ""
+
+#: of qiskit.aqua.components.multiclass_extensions.estimator.Estimator:1
+msgid "ベースクラス: :class:`abc.ABC`"
+msgstr ""
+
