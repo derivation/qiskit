@@ -46,8 +46,8 @@ pwd
 echo "git clone for landing page repo"
 git clone --depth 1 $TARGET_REPOSITORY tmp
 cd tmp
-git config user.name "SooluThomas"
-git config user.email "soolu.elto@gmail.com"
+git config user.name "Qiskit Autodeploy"
+git config user.email "qiskit@qiskit.org"
 
 # Selectively delete files from the dir, for preserving versions and languages.
 echo "git rm -rf"
