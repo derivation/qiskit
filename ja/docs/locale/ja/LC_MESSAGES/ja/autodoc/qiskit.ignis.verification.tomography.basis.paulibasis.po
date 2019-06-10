@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:25\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.ignis.verification.tomography.basis.paulibasis.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.ignis.verification.tomography.basis.paulibasis.rst:2
+msgid "qiskit.ignis.verification.tomography.basis.paulibasis module"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.basis.paulibasis:1
+msgid "Pauli tomography preparation and measurement basis"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_circuit:1
+msgid "Return a qubit Pauli operator measurement circuit."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_circuit:6
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_circuit:7
+msgid "Params:"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_circuit:4
+msgid "op (str): Pauli operator 'X', 'Y', 'Z'. qubit (QuantumRegister tuple): qubit to be measured. clbit (ClassicalRegister tuple): clbit for measurement outcome."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_circuit
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_circuit
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_circuit:8
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_circuit:9
+msgid "A QuantumCircuit object."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:1
+msgid "Return the matrix corresonding to a Pauli measurement outcome."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:3
+msgid "single-qubit Pauli measurement operator label."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:5
+msgid "measurement outcome."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:8
+msgid "A Numpy array for measurement outcome operator.     Allowed inputs and corresponding returned matrices are:      'X', 0 : [[1, 1], [1, 1]] / sqrt(2)     'X', 1 : [[1, -1], [1, -1]] / sqrt(2)     'Y', 0 : [[1, -1j], [1j, 1]] / sqrt(2)     'Y', 1 : [[1, 1j], [-1j, 1]] / sqrt(2)     'Z', 0 : [[1, 0], [0, 0]]     'Z', 1 : [[0, 0], [0, 1]]"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:17
+msgid "A Numpy array for measurement outcome operator."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:11
+msgid "Allowed inputs and corresponding returned matrices are:"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix:13
+msgid "'X', 0 : [[1, 1], [1, 1]] / sqrt(2) 'X', 1 : [[1, -1], [1, -1]] / sqrt(2) 'Y', 0 : [[1, -1j], [1j, 1]] / sqrt(2) 'Y', 1 : [[1, 1j], [-1j, 1]] / sqrt(2) 'Z', 0 : [[1, 0], [0, 0]] 'Z', 1 : [[0, 0], [0, 1]]"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_measurement_matrix
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_circuit:1
+msgid "Return a qubit Pauli eigenstate preparation circuit."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_circuit:3
+msgid "This circuit assumes the qubit is initialized in the Zp eigenstate [1, 0]."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_circuit:6
+msgid "op (str): Pauli eigenstate 'Zp', 'Zm', 'Xp', 'Xm', 'Yp', or 'Ym'. qubit (QuantumRegister tuple): qubit to be prepared."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix:1
+msgid "Return the matrix corresonding to a Pauli eigenstate preparation."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix:3
+msgid "single-qubit Pauli eigenstate operator label."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix:6
+msgid "A Numpy array for the Pauli eigenstate. Allowed inputs     and corresponding returned matrices are:     'Xp' : [[1, 1], [1, 1]] / sqrt(2)     'Xm' : [[1, -1], [1, -1]] / sqrt(2)     'Yp' : [[1, -1j], [1j, 1]] / sqrt(2)     'Ym' : [[1, 1j], [-1j, 1]] / sqrt(2)     'Zp' : [[1, 0], [0, 0]]     'Zm' : [[0, 0], [0, 1]]"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix:14
+msgid "A Numpy array for the Pauli eigenstate. Allowed inputs"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.paulibasis.pauli_preparation_matrix:9
+msgid "and corresponding returned matrices are: 'Xp' : [[1, 1], [1, 1]] / sqrt(2) 'Xm' : [[1, -1], [1, -1]] / sqrt(2) 'Yp' : [[1, -1j], [1j, 1]] / sqrt(2) 'Ym' : [[1, 1j], [-1j, 1]] / sqrt(2) 'Zp' : [[1, 0], [0, 0]] 'Zm' : [[0, 0], [0, 1]]"
+msgstr ""
+
