@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:38\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.qobj.utils.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.qobj.utils.rst:2
+msgid "qiskit.qobj.utils module"
+msgstr ""
+
+#: of qiskit.qobj.utils:1
+msgid "Qobj utilities and enums."
+msgstr ""
+
+#: of qiskit.qobj.utils.MeasReturnType:1 qiskit.qobj.utils.QobjType:1
+msgid "ベースクラス: :class:`str`, :class:`enum.Enum`"
+msgstr ""
+
+#: of qiskit.qobj.utils.MeasReturnType:1
+msgid "PulseQobjConfig meas_return allowed values."
+msgstr ""
+
+#: of qiskit.qobj.utils.QobjType:1
+msgid "Qobj.type allowed values."
+msgstr ""
+
+#: of qiskit.qobj.utils.validate_qobj_against_schema:1
+msgid "Validates a QObj against the .json schema."
+msgstr ""
+
+#: of qiskit.qobj.utils.validate_qobj_against_schema
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.qobj.utils.validate_qobj_against_schema:3
+msgid "Qobj to be validated."
+msgstr ""
+
