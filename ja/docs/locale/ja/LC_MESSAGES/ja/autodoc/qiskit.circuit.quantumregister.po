@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:23\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.circuit.quantumregister.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.circuit.quantumregister.rst:2
+msgid "qiskit.circuit.quantumregister module"
+msgstr ""
+
+#: of qiskit.circuit.quantumregister:1
+msgid "Quantum register reference object."
+msgstr ""
+
+#: of qiskit.circuit.quantumregister.QuantumRegister:1
+msgid "ベースクラス: :class:`qiskit.circuit.register.Register`"
+msgstr ""
+
+#: of qiskit.circuit.quantumregister.QuantumRegister:1
+msgid "Implement a quantum register."
+msgstr ""
+
+#: of qiskit.circuit.quantumregister.QuantumRegister.qasm:1
+msgid "Return OPENQASM string for this register."
+msgstr ""
+
