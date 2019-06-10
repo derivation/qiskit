@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:37\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.providers.providerutils.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.providers.providerutils.rst:2
+msgid "qiskit.providers.providerutils module"
+msgstr ""
+
+#: of qiskit.providers.providerutils:1
+msgid "Utilities for providers."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:1
+msgid "Return the backends matching the specified filtering."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:3
+msgid "Filter the `backends` list by their `configuration` or `status` attributes, or from a boolean callable. The criteria for filtering can be specified via `**kwargs` or as a callable via `filters`, and the backends must fulfill all specified conditions."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends
+#: qiskit.providers.providerutils.resolve_backend_name
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:8
+msgid "list of backends."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:10
+msgid "filtering conditions as a callable."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:12
+msgid "dict of criteria."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends
+#: qiskit.providers.providerutils.resolve_backend_name
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:15
+msgid "a list of backend instances matching the     conditions."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:17
+msgid "a list of backend instances matching the"
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends:18
+msgid "conditions."
+msgstr ""
+
+#: of qiskit.providers.providerutils.filter_backends
+#: qiskit.providers.providerutils.resolve_backend_name
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:1
+msgid "Resolve backend name from a deprecated name or an alias."
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:3
+msgid "A group will be resolved in order of member priorities, depending on availability."
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:6
+msgid "name of backend to resolve"
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:8
+msgid "list of available backends."
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:10
+msgid "str]): dict of deprecated names."
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:11
+msgid "list[str]]): dict of aliased names."
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:13
+msgid "resolved name (name of an available backend)"
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.providerutils.resolve_backend_name:16
+msgid ":exc:`LookupError` -- if name cannot be resolved through regular available names, nor deprecated, nor alias names."
+msgstr ""
+
