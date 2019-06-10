@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:34\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.tools.qcvv.tomography.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.tools.qcvv.tomography.rst:2
+msgid "qiskit.tools.qcvv.tomography module"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:1
+msgid "Quantum Tomography Module"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:11
+msgid "Description:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:4
+msgid "This module contains functions for performing quantum state and quantum process tomography. This includes: - Functions for generating a set of circuits to"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:7
+msgid "extract tomographically complete sets of measurement data."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:8
+msgid "Functions for generating a tomography data set from the results after the circuits have been executed on a backend."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:10
+msgid "Functions for reconstructing a quantum state, or quantum process (Choi-matrix) from tomography data sets."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:16
+msgid "Reconstruction Methods:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:14
+msgid "Currently implemented reconstruction methods are - Linear inversion by weighted least-squares fitting. - Fast maximum likelihood reconstruction using ref [1]."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:19
+msgid "References"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:21
+msgid "[1] J Smolin, JM Gambetta, G Smith, Phys. Rev. Lett. 108, 070502 (2012)."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:21
+msgid "Open access: arXiv:1106.5458 [quant-ph]."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:34
+msgid "Workflow:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:24
+msgid "The basic functions for performing state and tomography experiments are: - `tomography_set`, `state_tomography_set`, and `process_tomography_set`"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:26
+msgid "all generates data structures for tomography experiments."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:27
+msgid "`create_tomography_circuits` generates the quantum circuits specified"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:28
+msgid "in a `tomography_set` for performing state tomography of the output"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:30
+msgid "`tomography_data` extracts the results after executing the tomography"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:30
+msgid "circuits and returns it in a data structure used by fitters for state reconstruction."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:34
+msgid "`fit_tomography_data` reconstructs a density matrix or Choi-matrix from"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography:33
+msgid "the a set of tomography data."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:1
+msgid "ベースクラス: :class:`dict`"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:1
+msgid "Dictionary subsclass that includes methods for adding gates to circuits."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:3
+msgid "A TomographyBasis is a dictionary where the keys index a measurement and the values are a list of projectors associated to that measurement. It also includes two optional methods `prep_gate` and `meas_gate`:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:6
+msgid "`prep_gate` adds gates to a circuit to prepare the corresponding basis projector from an initial ground state."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:8
+msgid "`meas_gate` adds gates to a circuit to transform the default Z-measurement into a measurement in the basis."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:10
+msgid "With the exception of built in bases, these functions do nothing unless they are specified by the user. They may be set by the data members `prep_fun` and `meas_fun`. We illustrate this with an example."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:15
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits:32
+msgid "Example"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:16
+msgid "A measurement in the Pauli-X basis has two outcomes corresponding to the projectors:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:18
+msgid "`Xp = [[0.5, 0.5], [0.5, 0.5]]` `Xm = [[0.5, -0.5], [-0.5, 0.5]]`"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:20
+msgid "We can express this as a basis by"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:21
+msgid "`BX = TomographyBasis( {'X': [Xp, Xm]} )`"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:33
+msgid "To specifiy the gates to prepare and measure in this basis we :"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:23
+msgid "``` def BX_prep_fun(circuit, qreg, op):"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:25
+msgid "bas, proj = op if bas == \"X\":"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:27
+msgid "if proj == 0:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:28
+#: qiskit.tools.qcvv.tomography.TomographyBasis:33
+msgid "circuit.u2(0., np.pi, qreg)  # apply H"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:29
+msgid "else:  # proj == 1"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:30
+msgid "circuit.u2(np.pi, np.pi, qreg)  # apply H.X"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:32
+msgid "def BX_prep_fun(circuit, qreg, op):"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:32
+msgid "if op == \"X\":"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:34
+#: qiskit.tools.qcvv.tomography.TomographyBasis:46
+msgid "```"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:37
+msgid "We can then attach these functions to the basis using:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:36
+msgid "`BX.prep_fun = BX_prep_fun` `BX.meas_fun = BX_meas_fun`."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:47
+msgid "Generating function:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:40
+msgid "A generating function `tomography_basis` exists to create bases in a single step. Using the above example this can be done by: ``` BX = tomography_basis({'X': [Xp, Xm]},"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis:44
+msgid "prep_fun=BX_prep_fun, meas_fun=BX_meas_fun)"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.meas_gate:1
+msgid "Add measurement gates to a circuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.meas_gate
+#: qiskit.tools.qcvv.tomography.TomographyBasis.prep_gate
+#: qiskit.tools.qcvv.tomography.build_wigner_circuits
+#: qiskit.tools.qcvv.tomography.count_keys
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits
+#: qiskit.tools.qcvv.tomography.fit_tomography_data
+#: qiskit.tools.qcvv.tomography.marginal_counts
+#: qiskit.tools.qcvv.tomography.state_tomography_set
+#: qiskit.tools.qcvv.tomography.tomography_basis
+#: qiskit.tools.qcvv.tomography.tomography_circuit_names
+#: qiskit.tools.qcvv.tomography.tomography_data
+#: qiskit.tools.qcvv.tomography.tomography_set
+#: qiskit.tools.qcvv.tomography.wigner_data
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.meas_gate:3
+msgid "circuit to add measurement to."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.meas_gate:5
+msgid "quantum register being measured."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.meas_gate:7
+msgid "the basis label for the measurement."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.prep_gate:1
+msgid "Add state preparation gates to a circuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.prep_gate:3
+msgid "circuit to add a preparation to."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.prep_gate:5
+msgid "quantum register to apply"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.TomographyBasis.prep_gate:8
+msgid "the basis label and index for the"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:1
+msgid "Create the circuits to rotate to points in phase space :param circuit: The circuit to be appended with tomography"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:3
+msgid "state preparation and/or measurements."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:5
+msgid "phis"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:7
+msgid "thetas"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:9
+msgid "a list of the qubit indexes of qreg to be measured."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:11
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits:17
+msgid "the quantum register containing qubits to be measured."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:14
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits:20
+msgid "the classical register containing bits to store measurement outcomes."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits
+#: qiskit.tools.qcvv.tomography.count_keys
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits
+#: qiskit.tools.qcvv.tomography.fit_tomography_data
+#: qiskit.tools.qcvv.tomography.marginal_counts
+#: qiskit.tools.qcvv.tomography.state_tomography_set
+#: qiskit.tools.qcvv.tomography.tomography_basis
+#: qiskit.tools.qcvv.tomography.tomography_circuit_names
+#: qiskit.tools.qcvv.tomography.tomography_data
+#: qiskit.tools.qcvv.tomography.tomography_set
+#: qiskit.tools.qcvv.tomography.wigner_data
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:18
+msgid "A list of names of the added wigner function circuits."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits
+#: qiskit.tools.qcvv.tomography.count_keys
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits
+#: qiskit.tools.qcvv.tomography.fit_tomography_data
+#: qiskit.tools.qcvv.tomography.marginal_counts
+#: qiskit.tools.qcvv.tomography.state_tomography_set
+#: qiskit.tools.qcvv.tomography.tomography_basis
+#: qiskit.tools.qcvv.tomography.tomography_circuit_names
+#: qiskit.tools.qcvv.tomography.tomography_data
+#: qiskit.tools.qcvv.tomography.tomography_set
+#: qiskit.tools.qcvv.tomography.wigner_data
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits
+#: qiskit.tools.qcvv.tomography.create_tomography_circuits
+#: qiskit.tools.qcvv.tomography.fit_tomography_data
+#: qiskit.tools.qcvv.tomography.tomography_set
+msgid "raises"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.build_wigner_circuits:21
+msgid ":exc:`QiskitError` -- if circuit is not a valid QuantumCircuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.count_keys:1
+msgid "Generate outcome bitstrings for n-qubits."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.count_keys:3
+msgid "the number of qubits."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.count_keys:6
+msgid "A list of bitstrings ordered as follows: Example: n=2 returns ['00', '01', '10', '11']."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:1
+msgid "Add tomography measurement circuits to a QuantumProgram."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:3
+msgid "The quantum program must contain a circuit 'name', which is treated as a state preparation circuit for state tomography, or as teh circuit being measured for process tomography. This function then appends the circuit with a set of measurements specified by the input `tomography_set`, optionally it also prepends the circuit with state preparation circuits if they are specified in the `tomography_set`."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:10
+msgid "For n-qubit tomography with a tomographically complete set of preparations and measurements this results in $4^n 3^n$ circuits being added to the quantum program."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:14
+msgid "The circuit to be appended with tomography state preparation and/or measurements."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:23
+#: qiskit.tools.qcvv.tomography.tomography_data:8
+msgid "the dict of tomography configurations."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:26
+msgid "A list of quantum tomography circuits for the input circuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:29
+msgid ":exc:`QiskitError` -- if circuit is not a valid QuantumCircuit"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:33
+msgid "For a tomography set specifying state tomography of qubit-0 prepared by a circuit 'circ' this would return: ``` ['circ_meas_X(0)', 'circ_meas_Y(0)', 'circ_meas_Z(0)'] ``` For process tomography of the same circuit with preparation in the SIC-POVM basis it would return: ``` ["
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.create_tomography_circuits:42
+msgid "'circ_prep_S0(0)_meas_X(0)', 'circ_prep_S0(0)_meas_Y(0)', 'circ_prep_S0(0)_meas_Z(0)', 'circ_prep_S1(0)_meas_X(0)', 'circ_prep_S1(0)_meas_Y(0)', 'circ_prep_S1(0)_meas_Z(0)', 'circ_prep_S2(0)_meas_X(0)', 'circ_prep_S2(0)_meas_Y(0)', 'circ_prep_S2(0)_meas_Z(0)', 'circ_prep_S3(0)_meas_X(0)', 'circ_prep_S3(0)_meas_Y(0)', 'circ_prep_S3(0)_meas_Z(0)'"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:1
+msgid "Reconstruct a density matrix or process-matrix from tomography data."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:3
+msgid "If the input data is state_tomography_data the returned operator will be a density matrix. If the input data is process_tomography_data the returned operator will be a Choi-matrix in the column-vectorization convention."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:8
+msgid "process tomography measurement data."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:10
+msgid "the fitting method to use. Available methods:     - 'wizard' (default)     - 'leastsq'"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:10
+msgid "the fitting method to use. Available methods:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:12
+msgid "'wizard' (default)"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:13
+msgid "'leastsq'"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:15
+msgid "additional options for fitting method."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:18
+msgid "The fitted operator."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:33
+msgid "Available methods:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:29
+msgid "'wizard' (Default): The returned operator will be constrained to be"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:23
+msgid "positive-semidefinite."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:24
+msgid "Options: - 'trace': the trace of the returned operator."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:26
+msgid "The default value is 1."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:27
+msgid "'beta': hedging parameter for computing frequencies from"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:28
+msgid "zero-count data. The default value is 0.50922."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:29
+msgid "'epsilon: threshold for truncating small eigenvalues to zero."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:30
+msgid "The default value is 0"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:33
+msgid "'leastsq': Fitting without positive-semidefinite constraint."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:32
+msgid "Options: - 'trace': Same as for 'wizard' method. - 'beta': Same as for 'wizard' method."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.fit_tomography_data:35
+msgid ":exc:`Exception` -- if the `method` parameter is not valid."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.marginal_counts:1
+msgid "Compute the marginal counts for a subset of measured qubits."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.marginal_counts:3
+msgid "the counts returned from a backend ({str: int})."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.marginal_counts:5
+msgid "the qubits to return the marginal counts distribution for."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.marginal_counts:9
+msgid "A counts dict for the meas_qubits.abs Example: if `counts = {'00': 10, '01': 5}`     `marginal_counts(counts, [0])` returns `{'0': 15, '1': 0}`.     `marginal_counts(counts, [0])` returns `{'0': 10, '1': 5}`."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.marginal_counts:9
+msgid "A counts dict for the meas_qubits.abs Example: if `counts = {'00': 10, '01': 5}`"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.marginal_counts:11
+msgid "`marginal_counts(counts, [0])` returns `{'0': 15, '1': 0}`. `marginal_counts(counts, [0])` returns `{'0': 10, '1': 5}`."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:1
+msgid "Generate a dictionary of process tomography experiment configurations."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:3
+#: qiskit.tools.qcvv.tomography.state_tomography_set:3
+#: qiskit.tools.qcvv.tomography.tomography_set:3
+msgid "This returns a data structure that is used by other tomography functions to generate state and process tomography circuits, and extract tomography data from results after execution on a backend."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:40
+msgid "A quantum process tomography set is created by specifying a preparation"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:8
+msgid "basis along with a measurement basis. The preparation basis may be a user defined `tomography_basis`, or one of the two built in basis 'SIC' or 'Pauli'. - SIC: Is a minimal symmetric informationally complete preparation"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:12
+#: qiskit.tools.qcvv.tomography.state_tomography_set:19
+#: qiskit.tools.qcvv.tomography.tomography_set:19
+msgid "basis for 4 states for each qubit (4 ^ number of qubits total preparation states). These correspond to the |0> state and the 3 other vertices of a tetrahedron on the Bloch-sphere."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:17
+#: qiskit.tools.qcvv.tomography.state_tomography_set:24
+#: qiskit.tools.qcvv.tomography.tomography_set:24
+msgid "Pauli: Is a tomographically overcomplete preparation basis of the six"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:16
+#: qiskit.tools.qcvv.tomography.state_tomography_set:23
+#: qiskit.tools.qcvv.tomography.tomography_set:23
+msgid "eigenstates of the 3 Pauli operators (6 ^ number of qubits total preparation states)."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:26
+msgid "Args:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:20
+msgid "meas_qubits (list): The qubits being measured. meas_basis (tomography_basis or str): The qubit measurement basis."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:22
+msgid "The default value is 'Pauli'."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:23
+msgid "prep_qubits (list or None): The qubits being prepared. If None then"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:24
+msgid "meas_qubits will be used for process tomography experiments."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:26
+msgid "prep_basis (tomography_basis or str): The qubit preparation basis."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:26
+msgid "The default value is 'SIC'."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:40
+msgid "Returns:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:29
+msgid "dict: A dict of tomography configurations that can be parsed by `create_tomography_circuits` and `tomography_data` functions for implementing quantum tomography experiments. This output contains fields \"qubits\", \"meas_basis\", \"prep_basus\", circuits\". ``` {"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.process_tomography_set:35
+msgid "'qubits': qubits (list[ints]), 'meas_basis': meas_basis (tomography_basis), 'prep_basis': prep_basis (tomography_basis), 'circuit_labels': (list[string]), 'circuits': (list[dict])  # prep and meas configurations"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:1
+msgid "Generate a dictionary of state tomography experiment configurations."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:11
+#: qiskit.tools.qcvv.tomography.tomography_set:11
+msgid "Quantum State Tomography:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:8
+#: qiskit.tools.qcvv.tomography.tomography_set:8
+msgid "Be default it will return a set for performing Quantum State Tomography where individual qubits are measured in the Pauli basis. A custom measurement basis may also be used by defining a user `tomography_basis` and passing this in for the `meas_basis` argument."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:24
+#: qiskit.tools.qcvv.tomography.tomography_set:24
+msgid "Quantum Process Tomography:"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:14
+#: qiskit.tools.qcvv.tomography.tomography_set:14
+msgid "A quantum process tomography set is created by specifying a preparation basis along with a measurement basis. The preparation basis may be a user defined `tomography_basis`, or one of the two built in basis 'SIC' or 'Pauli'. - SIC: Is a minimal symmetric informationally complete preparation"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:26
+#: qiskit.tools.qcvv.tomography.tomography_set:26
+msgid "The qubits being measured."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:28
+#: qiskit.tools.qcvv.tomography.tomography_set:28
+msgid "The qubit measurement basis. The default value is 'Pauli'."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:32
+msgid "A dict of tomography configurations that can be parsed by `create_tomography_circuits` and `tomography_data` functions for implementing quantum tomography experiments. This output contains fields \"qubits\", \"meas_basis\", \"circuits\". ``` {     'qubits': qubits (list[ints]),     'meas_basis': meas_basis (tomography_basis),     'circuit_labels': (list[string]),     'circuits': (list[dict])  # prep and meas configurations } ```"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:32
+msgid "A dict of tomography configurations that can be parsed by `create_tomography_circuits` and `tomography_data` functions for implementing quantum tomography experiments. This output contains fields \"qubits\", \"meas_basis\", \"circuits\". ``` {"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.state_tomography_set:38
+msgid "'qubits': qubits (list[ints]), 'meas_basis': meas_basis (tomography_basis), 'circuit_labels': (list[string]), 'circuits': (list[dict])  # prep and meas configurations"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_basis:1
+msgid "Generate a TomographyBasis object."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_basis:3
+msgid "See TomographyBasis for further details.abs"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_basis:5
+msgid "the function which adds preparation gates to a circuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_basis:8
+msgid "the function which adds measurement gates to a circuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_basis:12
+msgid "A tomography basis."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_circuit_names:1
+msgid "Return a list of tomography circuit names."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_circuit_names:3
+msgid "The returned list is the same as the one returned by `create_tomography_circuits` and can be used by a QuantumProgram to execute tomography circuits and extract measurement results."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_circuit_names:7
+msgid "a tomography set generated by `tomography_set`."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_circuit_names:10
+msgid "the name of the base QuantumCircuit used by the"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_circuit_names:14
+msgid "A list of circuit names."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_data:1
+msgid "Return a results dict for a state or process tomography experiment."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_data:3
+msgid "Results from execution of a process tomography circuits on a backend."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_data:6
+msgid "The name of the circuit being reconstructed."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_data:11
+msgid "A list of dicts for the outcome of each process tomography measurement circuit."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:1
+msgid "Generate a dictionary of tomography experiment configurations."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:31
+msgid "The qubits being prepared. If None then meas_qubits will be used for process tomography experiments."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:34
+msgid "The optional qubit preparation basis. If no basis is specified state tomography will be performed instead of process tomography. A built in basis may be specified by 'SIC' or 'Pauli'  (SIC basis recommended for > 2 qubits)."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:40
+msgid "A dict of tomography configurations that can be parsed by `create_tomography_circuits` and `tomography_data` functions for implementing quantum tomography experiments. This output contains fields \"qubits\", \"meas_basis\", \"circuits\". It may also optionally contain a field \"prep_basis\" for process tomography experiments. ``` {     'qubits': qubits (list[ints]),     'meas_basis': meas_basis (tomography_basis),     'circuit_labels': (list[string]),     'circuits': (list[dict])  # prep and meas configurations     # optionally for process tomography experiments:     'prep_basis': prep_basis (tomography_basis) } ```"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:40
+msgid "A dict of tomography configurations that can be parsed by `create_tomography_circuits` and `tomography_data` functions for implementing quantum tomography experiments. This output contains fields \"qubits\", \"meas_basis\", \"circuits\". It may also optionally contain a field \"prep_basis\" for process tomography experiments. ``` {"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:47
+msgid "'qubits': qubits (list[ints]), 'meas_basis': meas_basis (tomography_basis), 'circuit_labels': (list[string]), 'circuits': (list[dict])  # prep and meas configurations # optionally for process tomography experiments: 'prep_basis': prep_basis (tomography_basis)"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.tomography_set:57
+msgid ":exc:`QiskitError` -- if the Qubits argument is not a list."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:1
+msgid "Get the value of the Wigner function from measurement results."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:3
+msgid "Results from execution of a state tomography circuits on a backend."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:6
+msgid "a list of the qubit indexes measured."
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:8
+msgid "a list of names of the circuits"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:10
+msgid "number of shots"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:13
+msgid "The values of the Wigner function at measured points in     phase space"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:15
+msgid "The values of the Wigner function at measured points in"
+msgstr ""
+
+#: of qiskit.tools.qcvv.tomography.wigner_data:16
+msgid "phase space"
+msgstr ""
+
