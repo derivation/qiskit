@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:55\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.aqua.utils.measurement_error_mitigation.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.aqua.utils.measurement_error_mitigation.rst:2
+msgid "qiskit.aqua.utils.measurement\\_error\\_mitigation module"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits_from_qobj
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:1
+msgid "the measured qubit index (in the order to classical bit 0...n-1)"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:3
+msgid "CompleteMeasFitter or TensoredMeasFitter"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:5
+msgid "backend instance"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:7
+msgid "configuration for backend"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:9
+msgid "configuration for compilation"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:11
+msgid "configuration for running a circuit"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:13
+msgid "configuration for quantum job object"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:15
+msgid "configuration for simulator"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:17
+msgid "configuration for noise model"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits_from_qobj
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:20
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error:3
+msgid "the measurement fitter"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits_from_qobj
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter
+msgid "raises"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.build_measurement_error_mitigation_fitter:23
+msgid ":exc:`AquaError` -- when the fitter_cls is not recognizable."
+msgstr ""
+
+#: of qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits:1
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits_from_qobj:1
+msgid "Retrieve the measured qubits from transpiled circuits."
+msgstr ""
+
+#: of qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits:3
+msgid "a list of transpiled circuits"
+msgstr ""
+
+#: of qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits:6
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits_from_qobj:6
+msgid "the qubit mapping to-be-used for measure error mitigation"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.get_measured_qubits_from_qobj:3
+msgid "qobjs"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error:1
+msgid "the unmitigated Result object"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error:5
+msgid "fitting method. If None, then least_squares is used. 'pseudo_inverse': direct inversion of the A matrix 'least_squares': constrained to have physical probabilities"
+msgstr ""
+
+#: of
+#: qiskit.aqua.utils.measurement_error_mitigation.mitigate_measurement_error:10
+msgid "the mitigated Result"
+msgstr ""
+

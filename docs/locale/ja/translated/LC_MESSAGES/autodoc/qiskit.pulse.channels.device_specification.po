@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 20:01\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.pulse.channels.device_specification.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.pulse.channels.device_specification.rst:2
+msgid "qiskit.pulse.channels.device\\_specification module"
+msgstr ""
+
+#: of qiskit.pulse.channels.device_specification:1
+msgid "Specification of the device."
+msgstr ""
+
+#: of qiskit.pulse.channels.device_specification.DeviceSpecification:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.pulse.channels.device_specification.DeviceSpecification:1
+msgid "Implement a device specification, which is usually constructed from backend info."
+msgstr ""
+
+#: of qiskit.pulse.channels.device_specification.DeviceSpecification.c:1
+msgid "Return register slots in this device."
+msgstr ""
+
+#: of
+#: qiskit.pulse.channels.device_specification.DeviceSpecification.create_from:1
+msgid "Create device specification with values in backend configuration. :param backend: backend configuration :type backend: Backend"
+msgstr ""
+
+#: of
+#: qiskit.pulse.channels.device_specification.DeviceSpecification.create_from
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.pulse.channels.device_specification.DeviceSpecification.create_from:5
+msgid "created device specification"
+msgstr ""
+
+#: of
+#: qiskit.pulse.channels.device_specification.DeviceSpecification.create_from
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.pulse.channels.device_specification.DeviceSpecification.create_from
+msgid "raises"
+msgstr ""
+
+#: of
+#: qiskit.pulse.channels.device_specification.DeviceSpecification.create_from:8
+msgid ":exc:`PulseError` -- when an invalid backend is specified"
+msgstr ""
+
+#: of qiskit.pulse.channels.device_specification.DeviceSpecification.mem:1
+msgid "Return memory slots in this device."
+msgstr ""
+
+#: of qiskit.pulse.channels.device_specification.DeviceSpecification.q:1
+msgid "Return qubits in this device."
+msgstr ""
+

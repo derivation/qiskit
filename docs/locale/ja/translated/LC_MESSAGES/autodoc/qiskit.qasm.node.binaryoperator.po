@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 20:00\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.qasm.node.binaryoperator.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.qasm.node.binaryoperator.rst:2
+msgid "qiskit.qasm.node.binaryoperator module"
+msgstr ""
+
+#: of qiskit.qasm.node.binaryoperator:1
+#: qiskit.qasm.node.binaryoperator.BinaryOperator:1
+msgid "Node for an OPENQASM binary operator."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryoperator.BinaryOperator:1
+msgid "ベースクラス: :class:`qiskit.qasm.node.node.Node`"
+msgstr ""
+
+#: of qiskit.qasm.node.binaryoperator.BinaryOperator:3
+msgid "This node has no children. The data is in the value field."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryoperator.BinaryOperator.operation:1
+msgid "Return the operator as a function f(left, right)."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryoperator.BinaryOperator.qasm:1
+msgid "Return the QASM representation."
+msgstr ""
+

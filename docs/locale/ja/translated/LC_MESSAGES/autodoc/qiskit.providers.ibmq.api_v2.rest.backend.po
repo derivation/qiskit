@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:51\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.providers.ibmq.api_v2.rest.backend.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.api_v2.rest.backend.rst:2
+msgid "qiskit.providers.ibmq.api\\_v2.rest.backend module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.backend:1
+msgid "Backend REST adapter for the IBM Q Api version 2."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.backend.Backend:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.backend.Backend:1
+msgid "Rest adapter for backend related endpoints."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.backend.Backend.properties:1
+msgid "Return backend properties."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.backend.Backend.status:1
+msgid "Return backend status."
+msgstr ""
+

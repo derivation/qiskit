@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:55\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.aqua.parser._inputparser.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.aqua.parser._inputparser.rst:2
+msgid "qiskit.aqua.parser.\\_inputparser module"
+msgstr ""
+
+#: of qiskit.aqua.parser._inputparser.InputParser:1
+msgid "ベースクラス: :class:`qiskit.aqua.parser.base_parser.BaseParser`"
+msgstr ""
+
+#: of qiskit.aqua.parser._inputparser.InputParser:1
+msgid "Aqua input Parser."
+msgstr ""
+
+#: of qiskit.aqua.parser._inputparser.InputParser.delete_section
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.parser._inputparser.InputParser.delete_section:1
+msgid "the name of the section, case insensitive"
+msgstr ""
+
+#: of qiskit.aqua.parser._inputparser.InputParser.parse:1
+msgid "Parse the data."
+msgstr ""
+

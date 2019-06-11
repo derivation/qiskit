@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:52\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.mapper.coupling.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.mapper.coupling.rst:2
+msgid "qiskit.mapper.coupling module"
+msgstr ""
+
+#: of qiskit.mapper.coupling:1
+msgid "Directed graph object for representing coupling between physical qubits."
+msgstr ""
+
+#: of qiskit.mapper.coupling:3
+msgid "DEPRECATED IN TERRA 0.8+"
+msgstr ""
+

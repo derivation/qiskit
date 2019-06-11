@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:50\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.providers.aer.noise.noise_model.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.providers.aer.noise.noise_model.rst:2
+msgid "qiskit.providers.aer.noise.noise\\_model module"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model:1
+#: qiskit.providers.aer.noise.noise_model.NoiseModel:1
+msgid "Noise model class for Qiskit Aer simulators."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error:1
+msgid "Add a quantum error to the noise model that applies to all qubits."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_basis_gates
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.as_dict
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.set_x90_single_qubit_gates
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error:3
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error:3
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:3
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:3
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:3
+msgid "the quantum error object."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error:5
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:5
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:5
+msgid "Instruction or list[Instruction]): the instructions error applies to."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error:7
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:13
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:9
+msgid "Display warning if appending to an instruciton that already has an error (Default: True)."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.set_x90_single_qubit_gates
+msgid "raises"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error:11
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error:9
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:17
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:13
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:11
+msgid ":exc:`NoiseError` -- if the input parameters are invalid."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_quantum_error:15
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error:12
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:20
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:17
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:14
+msgid "If the error object is ideal it will not be added to the model."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error:1
+msgid "Add a single-qubit readout error that applies measure on all qubits."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error:5
+msgid "Display warning if appending to an instruciton that already has an error (Default: True)"
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_all_qubit_readout_error:11
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:19
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:13
+msgid "Additional Information:"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_basis_gates:1
+msgid "Add additional gates to the noise model basis_gates."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_basis_gates:3
+msgid "This should be used to add any gates that are identified by a custom gate label in the noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_basis_gates:6
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.set_x90_single_qubit_gates:3
+msgid "list[Instruction]): the instructions error applies to."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_basis_gates:7
+msgid "display warning if instruction is not in QasmSimulator basis_gates (Default: True)."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:1
+msgid "Add a non-local quantum error to the noise model."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:7
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:7
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:5
+msgid "qubits instruction error applies to."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.add_nonlocal_quantum_error:9
+msgid "Specify the exact qubits the error should be applied to if different to the instruction qubits."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_quantum_error:1
+msgid "Add a quantum error to the noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:1
+msgid "Add a readout error to the noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.add_readout_error:7
+msgid "Display warning if appending to an instruciton that already has an error [Default: True]"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.as_dict:1
+msgid "Return dictionary for noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.as_dict:3
+msgid "if `True`, return a dict containing only types that can be serializable by the stdlib `json` module."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.as_dict
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.as_dict:7
+msgid "a dictionary for a noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.as_dict
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.basis_gates:1
+msgid "Return basis_gates for compiling to the noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict:1
+msgid "Load NoiseModel from a dictionary."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict:3
+msgid "A serialized noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict:6
+msgid "the noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.from_dict:9
+msgid ":exc:`NoiseError` -- if dict cannot be converted to NoiseModel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.noise_instructions:1
+msgid "Return the set of noisy instructions for this noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.noise_qubits:1
+msgid "Return the set of noisy qubits for this noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.noise_model.NoiseModel.reset:1
+msgid "Reset the noise model."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.set_x90_single_qubit_gates:1
+msgid "Declares X90 based gates for noise model."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.noise_model.NoiseModel.set_x90_single_qubit_gates:5
+msgid ":exc:`NoiseError` -- if the input instructions are not valid."
+msgstr ""
+

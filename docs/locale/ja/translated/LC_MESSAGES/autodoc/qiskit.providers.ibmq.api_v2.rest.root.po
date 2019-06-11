@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:51\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.providers.ibmq.api_v2.rest.root.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.api_v2.rest.root.rst:2
+msgid "qiskit.providers.ibmq.api\\_v2.rest.root module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root:1
+msgid "Root REST adapter for the IBM Q Api version 2."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.api_v2.rest.base.RestAdapterBase`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api:1
+msgid "Rest adapter for general endpoints."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backend:1
+msgid "Return a adapter for a specific backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backend
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.circuit
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backend:3
+msgid "name of the backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backend
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.circuit
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backend:6
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.job:6
+msgid "the backend adapter."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backend
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.circuit
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.job
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.backends:1
+msgid "Return the list of backends."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.circuit:1
+msgid "Execute a Circuit."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.circuit:3
+msgid "name of the Circuit."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.circuit:5
+msgid "arguments for the Circuit."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.circuit:8
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.jobs:10
+#: qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:8
+msgid "json response."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.hubs:1
+msgid "Return the list of hubs available to the user."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.job:1
+msgid "Return a adapter for a specific job."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.job:3
+msgid "id of the job."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.jobs:1
+msgid "Return a list of jobs statuses."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.jobs:3
+msgid "maximum number of items to return."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.jobs:5
+msgid "offset for the items to return."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.jobs:7
+msgid "additional filtering passed to the query."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:1
+msgid "Submit a job for executing."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:3
+msgid "the name of the backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.run_job:5
+msgid "the Qobj to be executed, as a dictionary."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api_v2.rest.root.Api.version:1
+msgid "Return the api versions."
+msgstr ""
+
