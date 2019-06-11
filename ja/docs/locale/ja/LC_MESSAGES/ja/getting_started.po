@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: qiskitdocs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-06 13:38+0000\n"
-"PO-Revision-Date: 2019-06-10 14:35\n"
+"PO-Revision-Date: 2019-06-11 17:57\n"
 "Last-Translator: lzdanski\n"
 "Language-Team: Japanese\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: ../../../getting_started.rst:3
 msgid "Getting Started with Qiskit"
-msgstr ""
+msgstr "Translated Text Here"
 
 #: ../../../getting_started.rst:5
 msgid "The workflow of using Qiskit consists of three high-level steps:"
-msgstr ""
+msgstr "Translated Text Here"
 
 #: ../../../getting_started.rst:7
 msgid "**Build**: design a quantum circuit that represents the problem you are considering."
