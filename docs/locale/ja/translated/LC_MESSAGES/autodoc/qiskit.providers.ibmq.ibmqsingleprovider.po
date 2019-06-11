@@ -1,0 +1,75 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 20:00\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.providers.ibmq.ibmqsingleprovider.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.ibmqsingleprovider.rst:2
+msgid "qiskit.providers.ibmq.ibmqsingleprovider module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider:1
+msgid "Provider for a single IBMQ account."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider:1
+msgid "ベースクラス: :class:`qiskit.providers.baseprovider.BaseProvider`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider:1
+msgid "Provider for single IBMQ accounts."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider:3
+msgid "Note: this class is not part of the public API and is not guaranteed to be present in future releases."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends:1
+msgid "Return a list of backends matching the specified filtering."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends:3
+msgid "name of the backend."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends:5
+msgid "dict used for filtering."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends:8
+msgid "a list of backends matching the filtering     criteria."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends:10
+msgid "a list of backends matching the filtering"
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends:11
+msgid "criteria."
+msgstr ""
+
+#: of qiskit.providers.ibmq.ibmqsingleprovider.IBMQSingleProvider.backends
+msgid "戻り値の型"
+msgstr ""
+
