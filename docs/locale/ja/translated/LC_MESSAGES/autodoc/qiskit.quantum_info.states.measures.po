@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 20:01\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.quantum_info.states.measures.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.quantum_info.states.measures.rst:2
+msgid "qiskit.quantum\\_info.states.measures module"
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures:1
+msgid "A collection of useful quantum information functions for states."
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity:1
+msgid "Return the state fidelity between two quantum states."
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity:3
+msgid "Either input may be a state vector, or a density matrix. The state fidelity (F) for two density matrices is defined as::"
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity:8
+msgid "For a pure state and mixed state the fidelity is given by::"
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity:12
+msgid "For two pure states the fidelity is given by::"
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity:16
+#: qiskit.quantum_info.states.measures.state_fidelity:18
+msgid "a quantum state vector or density matrix."
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity:21
+msgid "The state fidelity F(state1, state2)."
+msgstr ""
+
+#: of qiskit.quantum_info.states.measures.state_fidelity
+msgid "戻り値の型"
+msgstr ""
+
