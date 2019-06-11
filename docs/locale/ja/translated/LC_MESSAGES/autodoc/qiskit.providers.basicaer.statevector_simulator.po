@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:51\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.providers.basicaer.statevector_simulator.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.providers.basicaer.statevector_simulator.rst:2
+msgid "qiskit.providers.basicaer.statevector\\_simulator module"
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator:1
+msgid "Contains a (slow) python statevector simulator."
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator:3
+msgid "It simulates the statevector through a quantum circuit. It is exponential in the number of qubits."
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator:6
+msgid "We advise using the c++ simulator or online simulator for larger size systems."
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator:8
+msgid "The input is a qobj dictionary and the output is a Result object."
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator:10
+msgid "The input qobj to this simulator has no shots, no measures, no reset, no noise."
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy:1
+msgid "ベースクラス: :class:`qiskit.providers.basicaer.qasm_simulator.QasmSimulatorPy`"
+msgstr ""
+
+#: of qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy:1
+msgid "Python statevector simulator."
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run:1
+msgid "Run qobj asynchronously."
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run:3
+msgid "payload of the experiment"
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run:5
+msgid "backend options"
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run:8
+msgid "derived from BaseJob"
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.providers.basicaer.statevector_simulator.StatevectorSimulatorPy.run:11
+msgid "Additional Information::"
+msgstr ""
+
