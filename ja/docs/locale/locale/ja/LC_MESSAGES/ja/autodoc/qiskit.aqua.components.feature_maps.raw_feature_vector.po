@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 16:34+0000\n"
+"PO-Revision-Date: 2019-06-05 16:59\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.components.feature_maps.raw_feature_vector.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.components.feature_maps.raw_feature_vector.rst:2
+msgid "qiskit.aqua.components.feature\\_maps.raw\\_feature\\_vector module"
+msgstr ""
+
+#: of qiskit.aqua.components.feature_maps.raw_feature_vector:1
+msgid "This module contains the definition of a base class for feature map. Several types of commonly used approaches."
+msgstr ""
+
+#: of qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector:1
+msgid "ベースクラス: :class:`qiskit.aqua.components.feature_maps.feature_map.FeatureMap`"
+msgstr ""
+
+#: of qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector:1
+msgid "Using raw feature vector as the initial state vector"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit:1
+msgid "Construct the second order expansion based on given data."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit:3
+msgid "1-D to-be-encoded data."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit:5
+msgid "the QuantumRegister object for the circuit, if None, generate new registers with name q."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit:9
+msgid "a quantum circuit transform data x."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.raw_feature_vector.RawFeatureVector.construct_circuit
+msgid "戻り値の型"
+msgstr ""
+

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:23\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.translators.ising.max_cut.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.max_cut.rst:2
+msgid "qiskit.aqua.translators.ising.max\\_cut module"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_graph_solution:1
+msgid "Get graph solution from binary string."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_graph_solution
+#: qiskit.aqua.translators.ising.max_cut.get_gset_result
+#: qiskit.aqua.translators.ising.max_cut.get_max_cut_qubitops
+#: qiskit.aqua.translators.ising.max_cut.max_cut_value
+#: qiskit.aqua.translators.ising.max_cut.parse_gset_format
+#: qiskit.aqua.translators.ising.max_cut.random_graph
+#: qiskit.aqua.translators.ising.max_cut.sample_most_likely
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_graph_solution:3
+#: qiskit.aqua.translators.ising.max_cut.get_gset_result:3
+#: qiskit.aqua.translators.ising.max_cut.max_cut_value:3
+msgid "binary string as numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_graph_solution
+#: qiskit.aqua.translators.ising.max_cut.get_gset_result
+#: qiskit.aqua.translators.ising.max_cut.get_max_cut_qubitops
+#: qiskit.aqua.translators.ising.max_cut.max_cut_value
+#: qiskit.aqua.translators.ising.max_cut.parse_gset_format
+#: qiskit.aqua.translators.ising.max_cut.random_graph
+#: qiskit.aqua.translators.ising.max_cut.sample_most_likely
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_graph_solution:6
+msgid "graph solution as binary numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_graph_solution
+#: qiskit.aqua.translators.ising.max_cut.get_gset_result
+#: qiskit.aqua.translators.ising.max_cut.get_max_cut_qubitops
+#: qiskit.aqua.translators.ising.max_cut.max_cut_value
+#: qiskit.aqua.translators.ising.max_cut.parse_gset_format
+#: qiskit.aqua.translators.ising.max_cut.random_graph
+#: qiskit.aqua.translators.ising.max_cut.sample_most_likely
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_gset_result:1
+msgid "Get graph solution in Gset format from binary string."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_gset_result:6
+msgid "graph solution in Gset format."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_max_cut_qubitops:1
+msgid "Generate Hamiltonian for the max-cut problem of a graph."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_max_cut_qubitops:3
+#: qiskit.aqua.translators.ising.max_cut.max_cut_value:5
+msgid "adjacency matrix."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.get_max_cut_qubitops:6
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.max_cut_value:1
+msgid "Compute the value of a cut."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.max_cut_value:8
+msgid "value of the cut."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.parse_gset_format:1
+msgid "Read graph in Gset format from file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.parse_gset_format:3
+msgid "name of the file."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.parse_gset_format:6
+msgid "adjacency matrix as a 2D numpy array."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:1
+msgid "Generate random Erdos-Renyi graph for Max-Cut."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:3
+msgid "number of nodes."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:5
+msgid "weights will be smaller than this value, in absolute value."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:8
+msgid "probability of edge appearing."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:10
+msgid "name of file where to save graph."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:12
+msgid "random seed - if None, will not initialize."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.random_graph:15
+msgid "adjacency matrix (with weights)."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.sample_most_likely:3
+msgid "state vector or counts."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.max_cut.sample_most_likely:6
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+

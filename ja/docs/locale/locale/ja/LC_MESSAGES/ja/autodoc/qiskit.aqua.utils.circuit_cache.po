@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: 2019-06-05 16:49\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.utils.circuit_cache.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.utils.circuit_cache.rst:2
+msgid "qiskit.aqua.utils.circuit\\_cache module"
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache:1
+msgid "A utility for caching and reparameterizing circuits, rather than compiling from scratch with each iteration. Note that if the circuit is transpiled aggressively such that rotation parameters cannot be easily mapped from the uncompiled to compiled circuit, caching will fail gracefully to standard compilation. This will be noted by multiple cache misses in the DEBUG log. It is generally safer to skip the transpiler (aqua_dict['backend']['skip_transpiler'] = True) when using caching."
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache:7
+msgid "Caching is controlled via the aqua_dict['problem']['circuit_caching'] parameter. Setting skip_qobj_deepcopy = True reuses the same qobj object over and over to avoid deepcopying. It is controlled via the aqua_dict['problem'][ 'skip_qobj_deepcopy'] parameter."
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache:11
+msgid "You may also specify a filename into which to store the cache as a pickle file, for circuits which are expensive to compile even the first time. The filename is set in aqua_dict['problem']['circuit_cache_file']. If a filename is present, the system will attempt to load from the file."
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache:15
+msgid "In the event of an error, the system will fail gracefully, compile from scratch, and cache the new compiled qobj and mapping in the file location in pickled form. It will fail over 5 times before deciding that caching should be disabled."
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache.cache_circuit:1
+msgid "A method for caching compiled qobjs by storing the compiled qobj and constructing a mapping array from the uncompiled operations in the circuit to the instructions in the qobj. Note that the \"qobjs\" list in the cache dict is a list of the cached chunks, each element of which contains a single qobj with as many experiments as is allowed by the execution backend. E.g. if the backend allows 300 experiments per job and the user wants to run 500 circuits, len(circuit_cache['qobjs']) == 2, len(circuit_cache['qobjs'][0].experiments) == 300, and len(circuit_cache['qobjs'][1].experiments) == 200."
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache.cache_circuit:11
+msgid "This feature is only applied if 'circuit_caching' is True in the 'problem' Aqua dictionary section."
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache.cache_circuit
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache.cache_circuit:14
+msgid "A compiled qobj to be saved"
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache.cache_circuit:16
+msgid "The original uncompiled QuantumCircuits"
+msgstr ""
+
+#: of qiskit.aqua.utils.circuit_cache.CircuitCache.cache_circuit:18
+msgid "If a larger list of circuits was broken into chunks by run_algorithm for separate runs,"
+msgstr ""
+

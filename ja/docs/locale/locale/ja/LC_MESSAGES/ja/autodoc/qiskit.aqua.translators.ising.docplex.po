@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskittranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-05 15:29+0000\n"
+"PO-Revision-Date: 2019-06-05 16:49\n"
+"Last-Translator: Soolu\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskittranslation\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.aqua.translators.ising.docplex.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.aqua.translators.ising.docplex.rst:2
+msgid "qiskit.aqua.translators.ising.docplex module"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:1
+msgid "Automatically generate Ising Hamiltonians from general models of optimization problems. This program converts general models of optimization problems into Ising Hamiltonian. To write models of optimization problems, DOcplex (Python library for optimization problems) is used in the program. (https://cdn.rawgit.com/IBMDecisionOptimization/docplex-doc/master/docs/index.html)"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:6
+msgid "It supports models that consist of the following elements now. - Binary variables. - Linear or quadratic object function. - Equality constraints."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:10
+msgid "Symbols in constrains have to be equal (==). Inequality constrains (e.g. x+y <= 5) are not allowed."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:13
+msgid "The following is an example of use. --- # Create an instance of a model and variables with DOcplex. mdl = Model(name='tsp') x = {(i,p): mdl.binary_var(name='x_{0}_{1}'.format(i,p)) for i in range(num_node) for p in range(num_node)}"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:19
+msgid "# Object function tsp_func = mdl.sum(ins.w[i,j] * x[(i,p)] * x[(j,(p+1)%num_node)] for i in range(num_node) for j in range(num_node) for p in range(num_node)) mdl.minimize(tsp_func)"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:23
+msgid "# Constrains for i in range(num_node):"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:25
+msgid "mdl.add_constraint(mdl.sum(x[(i,p)] for p in range(num_node)) == 1)"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:27
+msgid "for p in range(num_node):"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:27
+msgid "mdl.add_constraint(mdl.sum(x[(i,p)] for i in range(num_node)) == 1)"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:29
+msgid "# Call the method to convert the model into Ising Hamiltonian. qubitOp, offset = get_qubitops(mdl)"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex:32
+msgid "# Calculate with the generated Ising Hamiltonian. ee = ExactEigensolver(qubitOp, k=1) result = ee.run() print('get_qubitops') print('tsp objective:', result['energy'] + offset) ---"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops:1
+msgid "Generate Ising Hamiltonian from a model of DOcplex."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops
+#: qiskit.aqua.translators.ising.docplex.sample_most_likely
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops:3
+msgid "A model of DOcplex for a optimization problem."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops:5
+msgid "If true, the penalty coefficient is automatically defined by \"_auto_define_penalty()\"."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops:7
+msgid "The default value of the penalty coefficient for the constraints. This value is used if \"auto_penalty\" is False."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops
+#: qiskit.aqua.translators.ising.docplex.sample_most_likely
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops:11
+msgid "operator for the Hamiltonian and a constant shift for the obj function."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.get_qubitops
+#: qiskit.aqua.translators.ising.docplex.sample_most_likely
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.sample_most_likely:1
+msgid "Compute the most likely binary string from state vector."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.sample_most_likely:3
+msgid "state vector or counts."
+msgstr ""
+
+#: of qiskit.aqua.translators.ising.docplex.sample_most_likely:6
+msgid "binary string as numpy.ndarray of ints."
+msgstr ""
+

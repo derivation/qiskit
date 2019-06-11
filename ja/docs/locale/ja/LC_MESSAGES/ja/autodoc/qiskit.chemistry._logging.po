@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:23\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.chemistry._logging.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.chemistry._logging.rst:2
+msgid "qiskit.chemistry.\\_logging module"
+msgstr ""
+
+#: of qiskit.chemistry._logging:1
+msgid "Utilities for logging."
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config:1
+msgid "Creates a the configuration dict of the named loggers using the default SDK configuration provided by `_QISKIT_CHEMISTRY_LOGGING_CONFIG`:"
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config:4
+msgid "console logging using a custom format for levels != level parameter."
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config:5
+msgid "console logging with simple format for level parameter."
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config:6
+msgid "set logger level to level parameter."
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config
+#: qiskit.chemistry._logging.set_qiskit_chemistry_logging
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config:8
+#: qiskit.chemistry._logging.get_qiskit_chemistry_logging:3
+msgid "logging level"
+msgstr ""
+
+#: of qiskit.chemistry._logging.build_logging_config:10
+#: qiskit.chemistry._logging.set_qiskit_chemistry_logging:5
+msgid "file to receive logging data"
+msgstr ""
+
+#: of qiskit.chemistry._logging.get_logging_level:1
+msgid "get level for the named logger."
+msgstr ""
+
+#: of qiskit.chemistry._logging.get_qiskit_chemistry_logging:1
+msgid "Returns the current Qiskit Chemistry logging level"
+msgstr ""
+
+#: of qiskit.chemistry._logging.get_qiskit_chemistry_logging
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.chemistry._logging.set_logging_config:1
+msgid "Update logger configurations using a SDK default one."
+msgstr ""
+
+#: of qiskit.chemistry._logging.set_logging_config:5
+msgid "This function modifies the configuration of the standard logging system for the loggers, and might interfere with custom logger configurations."
+msgstr ""
+
+#: of qiskit.chemistry._logging.set_qiskit_chemistry_logging:1
+msgid "Updates the Qiskit Chemistry logging with the appropriate logging level"
+msgstr ""
+
+#: of qiskit.chemistry._logging.set_qiskit_chemistry_logging:3
+msgid "minimum severity of the messages that are displayed."
+msgstr ""
+

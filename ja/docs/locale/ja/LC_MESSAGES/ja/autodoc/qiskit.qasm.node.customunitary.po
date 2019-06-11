@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:40\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.qasm.node.customunitary.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.qasm.node.customunitary.rst:2
+msgid "qiskit.qasm.node.customunitary module"
+msgstr ""
+
+#: of qiskit.qasm.node.customunitary:1
+#: qiskit.qasm.node.customunitary.CustomUnitary:1
+msgid "Node for an OPENQASM custom gate statement."
+msgstr ""
+
+#: of qiskit.qasm.node.customunitary.CustomUnitary:1
+msgid "ベースクラス: :class:`qiskit.qasm.node.node.Node`"
+msgstr ""
+
+#: of qiskit.qasm.node.customunitary.CustomUnitary:3
+msgid "children[0] is an id node. children[1] is an exp_list (if len==3) or primary_list. children[2], if present, is a primary_list."
+msgstr ""
+
+#: of qiskit.qasm.node.customunitary.CustomUnitary:7
+msgid "Has properties: .id = id node .name = gate name string .arguments = None or exp_list node .bitlist = primary_list node"
+msgstr ""
+
+#: of qiskit.qasm.node.customunitary.CustomUnitary.qasm:1
+msgid "Return the corresponding OPENQASM string."
+msgstr ""
+

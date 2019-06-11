@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-06 13:38+0000\n"
+"PO-Revision-Date: 2019-06-10 14:39\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/ja/autodoc/qiskit.qasm.node.binaryop.po\n"
+"Language: ja_JP\n"
+
+#: ../../../autodoc/qiskit.qasm.node.binaryop.rst:2
+msgid "qiskit.qasm.node.binaryop module"
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop:1 qiskit.qasm.node.binaryop.BinaryOp:1
+msgid "Node for an OPENQASM binary operation expression."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop.BinaryOp:1
+msgid "ベースクラス: :class:`qiskit.qasm.node.node.Node`"
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop.BinaryOp:3
+msgid "children[0] is the operation, as a binary operator node. children[1] is the left expression. children[2] is the right expression."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop.BinaryOp.latex:1
+msgid "Return the corresponding math mode latex string."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop.BinaryOp.qasm:1
+msgid "Return the corresponding OPENQASM string."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop.BinaryOp.real:1
+msgid "Return the correspond floating point number."
+msgstr ""
+
+#: of qiskit.qasm.node.binaryop.BinaryOp.sym:1
+msgid "Return the correspond symbolic number."
+msgstr ""
+
