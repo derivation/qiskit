@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.components.feature_maps.first_order_expansion.rst:2
+msgid "qiskit.aqua.components.feature\\_maps.first\\_order\\_expansion module"
+msgstr ""
+
+#: of qiskit.aqua.components.feature_maps.first_order_expansion:1
+msgid ""
+"This module contains the definition of a base class for feature map. "
+"Several types of commonly used approaches."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.first_order_expansion.FirstOrderExpansion:1
+msgid ""
+"ベースクラス: "
+":class:`qiskit.aqua.components.feature_maps.pauli_z_expansion.PauliZExpansion`"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.first_order_expansion.FirstOrderExpansion:1
+msgid "Mapping data with the first order expansion without entangling gates."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.feature_maps.first_order_expansion.FirstOrderExpansion:3
+msgid "Refer to https://arxiv.org/pdf/1804.11326.pdf for details."
+msgstr ""
+

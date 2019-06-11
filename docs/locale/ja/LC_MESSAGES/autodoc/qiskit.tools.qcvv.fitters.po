@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.tools.qcvv.fitters.rst:2
+msgid "qiskit.tools.qcvv.fitters module"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters:1
+msgid "Basic plotting methods using matplotlib."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters:3
+msgid ""
+"These include methods to plot Bloch vectors, histograms, and quantum "
+"spheres."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.exp_fit_fun:1
+msgid "Function used to fit the exponential decay."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.osc_fit_fun:1
+msgid "Function used to fit the decay cosine."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_coherence:1
+msgid "Plot coherence data."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_coherence
+#: qiskit.tools.qcvv.fitters.plot_rb_data qiskit.tools.qcvv.fitters.rb_epc
+#: qiskit.tools.qcvv.fitters.shape_rb_data
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_coherence
+#: qiskit.tools.qcvv.fitters.plot_rb_data
+msgid "raises"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_coherence:12
+#: qiskit.tools.qcvv.fitters.plot_rb_data:22
+msgid ":exc:`ImportError` -- If matplotlib is not installed."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:1
+msgid "Plot randomized benchmarking data."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:3
+msgid "list of subsequence lengths"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:5
+msgid "list of lists of survival probabilities for each sequence"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:8
+msgid "mean of the survival probabilities at each sequence length"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:11
+msgid "error of the survival"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:13
+msgid "fit parameters"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:15
+msgid "function that computes survival probability"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:17
+msgid "plot axis (if passed in)"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.plot_rb_data:19
+msgid "display the plot."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_epc:1
+msgid "Take the rb fit data and convert it into EPC (error per Clifford)"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_epc:3
+msgid ""
+"dictionary of the fit quantities (A, alpha, B) with the keys 'qn' where n"
+" is  the qubit and subkeys 'fit', e.g. {'q0':{'fit': [1, 0, 0.9], "
+"'fiterr': [0, 0, 0]}}}"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_epc:7
+msgid ""
+"(see randomized benchmarking functions). Pattern which specifies which "
+"qubits performing RB with which qubits. E.g. [[1],[0,2]] is Q1  doing 1Q "
+"RB simultaneously with Q0/Q2 doing 2Q RB"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_epc qiskit.tools.qcvv.fitters.shape_rb_data
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_epc:13
+msgid "updates the passed in fit dictionary with the epc"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_epc qiskit.tools.qcvv.fitters.shape_rb_data
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.rb_fit_fun:1
+msgid "Function used to fit rb."
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.shape_rb_data:1
+msgid "Take the raw rb data and convert it into averages and std dev"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.shape_rb_data:3
+msgid ""
+"m x n x l list where m is the number of seeds, n is the number of "
+"Clifford sequences and l is the number of qubits"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.shape_rb_data:7
+msgid ""
+"2 x n x l list where index 0 is the mean over seeds, 1 is     the std dev"
+" overseeds"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.shape_rb_data:9
+msgid "2 x n x l list where index 0 is the mean over seeds, 1 is"
+msgstr ""
+
+#: of qiskit.tools.qcvv.fitters.shape_rb_data:10
+msgid "the std dev overseeds"
+msgstr ""
+

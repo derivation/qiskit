@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.qasm.node.universalunitary.rst:2
+msgid "qiskit.qasm.node.universalunitary module"
+msgstr ""
+
+#: of qiskit.qasm.node.universalunitary:1
+#: qiskit.qasm.node.universalunitary.UniversalUnitary:1
+msgid "Node for an OPENQASM U statement."
+msgstr ""
+
+#: of qiskit.qasm.node.universalunitary.UniversalUnitary:1
+msgid "ベースクラス: :class:`qiskit.qasm.node.node.Node`"
+msgstr ""
+
+#: of qiskit.qasm.node.universalunitary.UniversalUnitary:3
+msgid ""
+"children[0] is an expressionlist node. children[1] is a primary node (id "
+"or indexedid)."
+msgstr ""
+
+#: of qiskit.qasm.node.universalunitary.UniversalUnitary.qasm:1
+msgid "Return the corresponding OPENQASM string."
+msgstr ""
+

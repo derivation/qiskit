@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.transpiler.passes.unroller.rst:2
+msgid "qiskit.transpiler.passes.unroller module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller:1
+msgid "Pass for unrolling a circuit to a given basis."
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.TransformationPass`"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller:1
+msgid ""
+"Unroll (expand) non-basis, non-opaque instructions recursively to a "
+"desired basis, using decomposition rules defined for each instruction."
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run:1
+msgid "Expand all op nodes to the given basis."
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run:3
+msgid "input dag"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run
+msgid "raises"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run:6
+msgid ":exc:`QiskitError` -- if unable to unroll given the basis due to undefined"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run:7
+msgid "decomposition rules (such as a bad basis) or excessive recursion."
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run:9
+msgid "output unrolled dag"
+msgstr ""
+
+#: of qiskit.transpiler.passes.unroller.Unroller.run
+msgid "戻り値の型"
+msgstr ""
+

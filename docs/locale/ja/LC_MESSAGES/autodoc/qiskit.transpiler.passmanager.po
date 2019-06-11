@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.transpiler.passmanager.rst:2
+msgid "qiskit.transpiler.passmanager module"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager:1
+msgid "PassManager class for the transpiler."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.ConditionalController:1
+#: qiskit.transpiler.passmanager.DoWhileController:1
+#: qiskit.transpiler.passmanager.FlowControllerLinear:1
+msgid "ベースクラス: :class:`qiskit.transpiler.passmanager.FlowController`"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.ConditionalController:1
+msgid "Implements a set of passes under a certain condition."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.DoWhileController:1
+msgid "Implements a set of passes in a do-while loop."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController:1
+#: qiskit.transpiler.passmanager.PassManager:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController:1
+msgid ""
+"This class is a base class for multiple types of working list. When you "
+"iterate on it, it returns the next pass to run."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.add_flow_controller:1
+msgid ""
+"Adds a flow controller. :param name: Name of the controller to add. :type"
+" name: string :param controller: The class implementing a flow "
+"controller. :type controller: type(FlowController)"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory:1
+msgid ""
+"Constructs a flow controller based on the partially evaluated controller "
+"arguments."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory
+#: qiskit.transpiler.passmanager.PassManager.append
+#: qiskit.transpiler.passmanager.PassManager.run
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory:3
+msgid "passes to add to the flow controller."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory:5
+msgid "PassManager options."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory:7
+msgid "Partially evaluated controller arguments in the form `{name:partial}`"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory
+#: qiskit.transpiler.passmanager.FlowController.remove_flow_controller
+#: qiskit.transpiler.passmanager.PassManager.append
+msgid "raises"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory:11
+msgid ":exc:`TranspilerError` -- When partial_controller is not well-formed."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory
+#: qiskit.transpiler.passmanager.PassManager.run
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory:13
+msgid "A FlowController instance."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.controller_factory
+#: qiskit.transpiler.passmanager.PassManager.run
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.dump_passes:1
+msgid "Fetches the passes added to this flow controller."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.dump_passes:3
+msgid ""
+"Returns (dict): {'options': self.options, 'passes': [passes], 'type': "
+"type(self)}"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.remove_flow_controller:1
+msgid ""
+"Removes a flow controller. :param name: Name of the controller to remove."
+" :type name: string"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowController.remove_flow_controller:5
+msgid ":exc:`KeyError` -- If the controller to remove was not registered."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.FlowControllerLinear:1
+msgid "The basic controller runs the passes one after the other."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager:1
+msgid "A PassManager schedules the passes"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:1
+msgid "pass(es) to be added to schedule"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:3
+msgid "ignore the preserves claim of passes. Default: False"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:5
+msgid "ignore the requires need of passes. Default: False"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:7
+msgid "max number of iterations of passes. Default: 1000"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:9
+msgid "See add_flow_controller(): Dictionary of"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:11
+msgid ""
+"* do_while (callable property_set -> boolean): The passes repeat until "
+"the   callable returns False.   Default: `lambda x: False # i.e. passes "
+"run once`  * condition (callable property_set -> boolean): The passes run"
+" only if the   callable returns True.   Default: `lambda x: True # i.e. "
+"passes run`"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:12
+msgid ""
+"do_while (callable property_set -> boolean): The passes repeat until the "
+"callable returns False. Default: `lambda x: False # i.e. passes run once`"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:16
+msgid ""
+"condition (callable property_set -> boolean): The passes run only if the "
+"callable returns True. Default: `lambda x: True # i.e. passes run`"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.append:20
+msgid ":exc:`TranspilerError` -- if a pass in passes is not a proper pass."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.passes:1
+msgid "Returns a list structure of the appended passes and its options."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.passes:3
+msgid "Returns (list): The appended passes."
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.reset:1
+msgid "\"Resets the pass manager instance"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.run:1
+msgid "Run all the passes on a QuantumCircuit"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.run:3
+msgid "circuit to transform via all the registered passes"
+msgstr ""
+
+#: of qiskit.transpiler.passmanager.PassManager.run:6
+msgid "Transformed circuit."
+msgstr ""
+

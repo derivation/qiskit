@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.transpiler.coupling.rst:2
+msgid "qiskit.transpiler.coupling module"
+msgstr ""
+
+#: of qiskit.transpiler.coupling:1
+msgid "Directed graph object for representing coupling between physical qubits."
+msgstr ""
+
+#: of qiskit.transpiler.coupling:3
+msgid ""
+"The nodes of the graph correspond to physical qubits (represented as "
+"integers) and the directed edges indicate which physical qubits are "
+"coupled and the permitted direction of CNOT gates. The object has a "
+"distance function that can be used to map quantum circuits onto a device "
+"with this coupling."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap:1
+msgid "Directed graph specifying fixed coupling."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap:3
+msgid ""
+"Nodes correspond to physical qubits (integers) and directed edges "
+"correspond to permitted CNOT gates"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.add_edge:1
+msgid "Add directed edge to coupling graph."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.add_edge:3
+msgid "src (int): source physical qubit dst (int): destination physical qubit"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.add_physical_qubit:1
+msgid "Add a physical qubit to the coupling graph as a node."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.add_physical_qubit:3
+msgid "physical_qubit (int): An integer representing a physical qubit."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.add_physical_qubit
+#: qiskit.transpiler.coupling.CouplingMap.distance
+#: qiskit.transpiler.coupling.CouplingMap.reduce
+#: qiskit.transpiler.coupling.CouplingMap.shortest_undirected_path
+msgid "raises"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.add_physical_qubit:5
+msgid ":exc:`CouplingError` -- if trying to add duplicate qubit"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance:1
+msgid ""
+"Returns the undirected distance between physical_qubit1 and "
+"physical_qubit2."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance
+#: qiskit.transpiler.coupling.CouplingMap.reduce
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance:3
+msgid "A physical qubit"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance:5
+msgid "Another physical qubit"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance
+#: qiskit.transpiler.coupling.CouplingMap.get_edges
+#: qiskit.transpiler.coupling.CouplingMap.reduce
+#: qiskit.transpiler.coupling.CouplingMap.shortest_undirected_path
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance:8
+msgid "The undirected distance"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance
+#: qiskit.transpiler.coupling.CouplingMap.get_edges
+#: qiskit.transpiler.coupling.CouplingMap.reduce
+#: qiskit.transpiler.coupling.CouplingMap.shortest_undirected_path
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.distance:11
+msgid ":exc:`CouplingError` -- if the qubits do not exist in the CouplingMap"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.get_edges:1
+msgid "Gets the list of edges in the coupling graph."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.get_edges:3
+msgid "Each edge is a pair of physical qubits."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.is_connected:1
+msgid "Test if the graph is connected."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.is_connected:3
+msgid "Return True if connected, False otherwise"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.physical_qubits:1
+msgid "Returns a sorted list of physical_qubits"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.reduce:1
+msgid ""
+"Returns a reduced coupling map that corresponds to the subgraph of qubits"
+" selected in the mapping."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.reduce:5
+msgid "A mapping of reduced qubits to device qubits."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.reduce:9
+msgid "A reduced coupling_map for the selected qubits."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.reduce:12
+msgid ":exc:`CouplingError` -- Reduced coupling map must be connected."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.shortest_undirected_path:1
+msgid ""
+"Returns the shortest undirected path between physical_qubit1 and "
+"physical_qubit2. :param physical_qubit1: A physical qubit :type "
+"physical_qubit1: int :param physical_qubit2: Another physical qubit :type"
+" physical_qubit2: int"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.shortest_undirected_path:7
+msgid "The shortest undirected path"
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.shortest_undirected_path:10
+msgid ""
+":exc:`CouplingError` -- When there is no path between physical_qubit1, "
+"physical_qubit2."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.size:1
+msgid "Return the number of physical qubits in this graph."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.subgraph:1
+msgid "Return a CouplingMap object for a subgraph of self."
+msgstr ""
+
+#: of qiskit.transpiler.coupling.CouplingMap.subgraph:3
+msgid "nodelist (list): list of integer node labels"
+msgstr ""
+

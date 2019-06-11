@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../aqua/neural_networks.rst:5
+msgid "Neural Networks"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:7
+msgid ""
+"A neural network is a parametrized network which may be defined as a "
+"artificial neural network - classical neural network - or as parametrized"
+" quantum circuits - quantum neural network. Furthermore, neural networks "
+"can be defined with respect to a discriminative or generative task."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:12
+msgid ""
+"Aqua provides an library for quantum and classical neural networks which "
+"can be used to build hybrid quantum classical AI models."
+msgstr ""
+
+msgid "Extending the Neural Network Library"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:17
+msgid ""
+"Consistent with its unique design, Aqua has a modular and extensible "
+"architecture. Algorithms and their supporting objects, such as feature-"
+"map techniques for Artificial Intelligence, are pluggable modules in "
+"Aqua. New feature maps are typically installed in the "
+"``qiskit_aqua/components/neural_networks`` folder and derive from the "
+"``DiscriminativeNetwork`` class for neural networks that are supposed to "
+"perform discriminative tasks and the ``GenerativeNetwork`` class for "
+"neural networks that are supposed to perform generative tasks. Aqua also "
+"allows for :ref:`aqua-dynamically-discovered-components`: new components "
+"can register themselves as Aqua extensions and be dynamically discovered "
+"at run time independent of their location in the file system. This is "
+"done in order to encourage researchers and developers interested in :ref"
+":`aqua-extending` to extend the Aqua framework with their novel research "
+"contributions."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:36
+msgid "Currently, Aqua supplies the following neural networks:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:38
+msgid ":ref:`classicaldiscriminator`"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:39
+msgid ":ref:`quantumgenerator`"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:45
+msgid "Classical Discriminator"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:47
+msgid ""
+"This discriminator is given by a PyTorch neural network. Please note that"
+" PyTorch must be installed. For installation instructions see "
+"https://pytorch.org/get-started/locally/."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:50
+msgid ""
+"The network is targeted at being used as part of the :ref:`Quantum "
+"Generative Adversarial Network (qGAN)` algorithm. Please refer to `qGAN "
+"<https://arxiv.org/abs/1904.00043>`__  for further details on this "
+"algorithm. The discriminator takes an input vector where the number of "
+"represented features :math:`n_features \\geq 1` and outputs a label for "
+"the data sample, i.e. true/fake."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:57
+msgid ""
+"The following allows a specific form to be configured in the "
+"``discriminative_network`` section of the Aqua :ref:`aqua-input-file` "
+"when the ``name`` field is set to ``ClassicalDiscriminator``:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:62
+msgid "The dimension of the input vector :math:`n_features`:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:68 ../../aqua/neural_networks.rst:77
+msgid ""
+"This parameter takes an ``int`` value greater or equal than ``1``.  The "
+"default value is ``1``."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:70
+msgid ""
+"The dimension of the output vector :math:`n_out`. For a binary label this"
+" should always be set to ``1``."
+msgstr ""
+
+msgid "Declarative Name"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:81
+msgid ""
+"When referring to the classical discriminator declaratively inside Aqua, "
+"its code ``name``, by which Aqua dynamically discovers and loads it, is "
+"``ClassicalDiscriminator``."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:89
+msgid "Quantum Generator"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:91
+msgid ""
+"This generator is given by a variational quantum circuit, see :ref"
+":`variational-forms`. The network is targeted at being used as part of "
+"the :ref:`Quantum Generative Adversarial Network (qGAN)` algorithm. "
+"Please refer to `qGAN <https://arxiv.org/abs/1904.00043>`__  for further "
+"details on this algorithm."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:96
+msgid ""
+"The quantum generator generates outputs data samples which are fitted to "
+"a data grid. This grid is defined by min/max data values and the number "
+"of qubits :math:`n` which in turn define the representation resolution."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:100
+msgid ""
+"The following allows a specific form to be configured in the "
+"``generative_network`` section of the Aqua :ref:`aqua-input-file` when "
+"the ``name`` field is set to ``QuantumGenerator``:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:105
+msgid "The min/max data values for data dimension :math:`k`:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:111
+msgid "This parameter takes an ``array``."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:113
+msgid ""
+"Given data with dimension :math:`k`, the number of qubits used for the "
+"representation of dimension :math:`j \\in [1, ..., k]`:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:120
+msgid ""
+"This parameter takes an ``array`` of length :math:`k`. The use of "
+":math:`n` qubits enables the representation of :math:`2**n` values."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:123
+msgid "The generator circuit:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:129
+msgid ""
+"The generator circuit must either be given as "
+"UnivariateVariationalDistribution for univariate data or as "
+"MultivariateVariationalDistribution for multivariate data. See :ref"
+":`_random-distributions`."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:133
+msgid "Initial parameters used for the generator circuit:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:139
+msgid ""
+"This parameter takes a ``1-``dimensional ``array``. The default value is "
+"``None``."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:141
+msgid ""
+"Snapshot directory, if given save intermediate parameter results to the "
+"given directory path:"
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:147
+msgid "This parameter takes a ``str``. The default value is ``None``."
+msgstr ""
+
+#: ../../aqua/neural_networks.rst:151
+msgid ""
+"When referring to the quantum generator declaratively inside Aqua, its "
+"code ``name``, by which Aqua dynamically discovers and loads it, is "
+"``QuantumGenerator``."
+msgstr ""
+

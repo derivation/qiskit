@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.algorithms.classical.rst:2
+msgid "qiskit.aqua.algorithms.classical package"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.ExactEigensolver:1
+#: qiskit.aqua.algorithms.classical.ExactLSsolver:1
+#: qiskit.aqua.algorithms.classical.SVM_Classical:1
+msgid "ベースクラス: :class:`qiskit.aqua.algorithms.quantum_algorithm.QuantumAlgorithm`"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.ExactEigensolver:1
+msgid "The Exact Eigensolver algorithm."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.ExactEigensolver.init_params:1
+msgid ""
+"Initialize via parameters dictionary and algorithm input instance :param "
+"params: parameters dictionary :param algo_input: EnergyInput instance"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.ExactLSsolver:1
+msgid "The Exact LinearSystem algorithm."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.ExactLSsolver.init_params:1
+msgid ""
+"Initialize via parameters dictionary and algorithm input instance :param "
+"params: parameters dictionary :param algo_input: LinearSystemInput "
+"instance"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical:1
+msgid ""
+"The classical svm interface. Internally, it will run the binary "
+"classification or multiclass classification based on how many classes the"
+" data have."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.load_model:1
+msgid "Load a model from a file path."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.load_model
+#: qiskit.aqua.algorithms.classical.SVM_Classical.save_model
+#: qiskit.aqua.algorithms.classical.SVM_Classical.test
+#: qiskit.aqua.algorithms.classical.SVM_Classical.train
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.load_model:3
+msgid "tthe path of the saved model."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.predict:1
+msgid ""
+"predict using the svm :param data: NxD array, where N is the number of "
+"data,"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.predict:3
+#: qiskit.aqua.algorithms.classical.SVM_Classical.test:3
+#: qiskit.aqua.algorithms.classical.SVM_Classical.train:3
+msgid "D is the feature dimension."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.predict
+#: qiskit.aqua.algorithms.classical.SVM_Classical.test
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.predict:6
+msgid "predicted labels, Nx1 array"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.predict
+#: qiskit.aqua.algorithms.classical.SVM_Classical.test
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.save_model:1
+msgid "Save the model to a file path."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.save_model:3
+msgid "a path to save the model."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.test:1
+msgid "test the svm :param data: NxD array, where N is the number of data,"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.test:5
+#: qiskit.aqua.algorithms.classical.SVM_Classical.train:5
+msgid "Nx1 array, where N is the number of data"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.test:8
+msgid "accuracy"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.classical.SVM_Classical.train:1
+msgid "train the svm :param data: NxD array, where N is the number of data,"
+msgstr ""
+
+#: ../../autodoc/qiskit.aqua.algorithms.classical.rst:10
+msgid "Subpackages"
+msgstr ""
+

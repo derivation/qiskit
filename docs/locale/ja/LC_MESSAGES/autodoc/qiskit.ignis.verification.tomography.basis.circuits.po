@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.ignis.verification.tomography.basis.circuits.rst:2
+msgid "qiskit.ignis.verification.tomography.basis.circuits module"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.basis.circuits:1
+msgid "Quantum tomography circuit generation."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.basis.circuits.default_basis:1
+msgid "Built in Tomography Bases"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:1
+msgid "Return a list of quantum process tomography circuits."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:3
+msgid ""
+"This performs preparation in the minimial Pauli-basis eigenstates Zp, Zm,"
+" Xp, Ym (|0>, |1>, |+>, |+i>) on each qubit, and measurement in the "
+"Pauli-basis X, Y, Z resulting in (4 ** n) * (3 ** n) circuits for an "
+"n-qubit process tomography experiment."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:8
+msgid "the QuantumCircuit circuit to be tomographed."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:11
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:9
+msgid ""
+"the qubits to be measured. This can also be a list of whole "
+"QuantumRegisters or individual QuantumRegister qubit tuples."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:15
+msgid ""
+"the qubits to have state preparation applied, if different from "
+"measured_qubits. If None measured_qubits will be used for prepared qubits"
+" (Default: None)."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:19
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:13
+msgid ""
+"The measurement operator labels. See additional information for details "
+"(Default: 'Pauli')."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:22
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:16
+msgid ""
+"The measurement basis. See additional information for details (Default: "
+"'Pauli')."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:25
+msgid ""
+"The preparation operator labels. See additional information for details "
+"(Default: 'Pauli')."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:28
+msgid ""
+"The preparation basis. See additional information for details (Default: "
+"'Pauli')."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:32
+msgid ""
+"A list of QuantumCircuit objects containing the original circuit with "
+"state preparation circuits prepended, and measurement circuits appended."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:43
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:27
+msgid "Additional Information:"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:37
+msgid ""
+"The returned circuits are named by the preparation and measurement basis."
+" These circuit names can be recovered using the "
+"`process_tomography_circuit_names` function to retrieve count data from a"
+" QISKit Result object at a later time."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.process_tomography_circuits:42
+msgid ""
+"To perform tomography measurement in a custom basis, or to generate a "
+"subset of process tomography circuits for a partial tomography experiment"
+" use the general function `tomography_circuits`."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:1
+msgid "Return a list of quantum state tomography circuits."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:3
+msgid ""
+"This performs measurement in the Pauli-basis resulting in 3 ** n circuits"
+" for an n-qubit state tomography experiment."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:6
+msgid "the state preparation circuit to be tomographed."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:20
+msgid ""
+"A list of QuantumCircuit objects containing the original circuit with "
+"state tomography measurements appended at the end."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:24
+msgid "The returned circuits are named by the measurement basis."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.state_tomography_circuits:26
+msgid ""
+"To perform tomography measurement in a custom basis, or to generate a "
+"subset of state tomography circuits for a partial tomography experiment "
+"use the general function `tomography_circuits`."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.basis.circuits.tomography_circuit_tuples:1
+msgid "Return list of tomography circuit label tuples."
+msgstr ""
+

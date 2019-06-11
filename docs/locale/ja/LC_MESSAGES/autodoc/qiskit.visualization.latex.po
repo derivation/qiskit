@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.visualization.latex.rst:2
+msgid "qiskit.visualization.latex module"
+msgstr ""
+
+#: of qiskit.visualization.latex:1
+msgid "latex circuit visualization backends."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage:1
+msgid "This class contains methods to create \\LaTeX circuit images."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage:3
+msgid ""
+"The class targets the \\LaTeX package Q-circuit (https://arxiv.org/pdf"
+"/quant-ph/0406003)."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage:6
+msgid "Thanks to Eric Sabo for the initial implementation for Qiskit."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage.latex:1
+msgid "Return LaTeX string representation of circuit."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage.latex:3
+msgid ""
+"This method uses the LaTeX Qconfig package to create a graphical "
+"representation of the circuit."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage.latex
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage.latex:6
+msgid "for writing to a LaTeX file."
+msgstr ""
+
+#: of qiskit.visualization.latex.QCircuitImage.latex
+msgid "戻り値の型"
+msgstr ""
+

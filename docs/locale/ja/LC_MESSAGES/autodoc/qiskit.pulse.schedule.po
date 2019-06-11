@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.pulse.schedule.rst:2
+msgid "qiskit.pulse.schedule module"
+msgstr ""
+
+#: of qiskit.pulse.schedule:1
+msgid "Schedule."
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule:1
+msgid "Temporary parameterized schedule class."
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule:3
+msgid ""
+"This should not be returned to users as it is currently only a helper "
+"class."
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule:5
+msgid ""
+"This class is takes an input command definition that accepts a set of "
+"parameters. Calling `bind` on the class will return a `Schedule`."
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule:10
+msgid ""
+"# TODO: In the near future this will be replaced with proper "
+"incorporation of parameters"
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule:9
+msgid "into the `Schedule` class."
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule.bind_parameters:1
+msgid "Generate the Schedule from params to evaluate command expressions"
+msgstr ""
+
+#: of qiskit.pulse.schedule.ParameterizedSchedule.parameters:1
+msgid "Schedule parameters."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule:1
+msgid "ベースクラス: :class:`qiskit.pulse.interfaces.ScheduleComponent`"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule:1
+msgid "Schedule of `ScheduleComponent`s. The composite node of a schedule tree."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.append:1
+msgid ""
+"Return a new schedule with `schedule` inserted at the maximum time over "
+"all channels shared between `self` and `schedule`."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.append
+#: qiskit.pulse.schedule.Schedule.ch_duration
+#: qiskit.pulse.schedule.Schedule.ch_start_time
+#: qiskit.pulse.schedule.Schedule.ch_stop_time
+#: qiskit.pulse.schedule.Schedule.draw qiskit.pulse.schedule.Schedule.insert
+#: qiskit.pulse.schedule.Schedule.shift qiskit.pulse.schedule.Schedule.union
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.append:4
+msgid "schedule to be appended"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.append:5
+msgid "Obey buffer when appending"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.append:6
+#: qiskit.pulse.schedule.Schedule.insert:6
+#: qiskit.pulse.schedule.Schedule.shift:4
+#: qiskit.pulse.schedule.Schedule.union:4
+msgid "Name of the new schedule. Defaults to name of parent"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.buffer:1
+msgid "Buffer for schedule. To be used when appending"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.ch_duration:1
+msgid "Return duration of schedule over supplied channels."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.ch_duration:3
+#: qiskit.pulse.schedule.Schedule.ch_start_time:3
+#: qiskit.pulse.schedule.Schedule.ch_stop_time:3
+msgid "Supplied channels"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.ch_start_time:1
+msgid "Return minimum start time over supplied channels."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.ch_stop_time:1
+msgid "Return maximum start time over supplied channels."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.channels:1
+msgid "Returns channels that this schedule uses."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:1
+msgid "Plot the schedule."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:3
+msgid "Time interval of samples"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:4
+msgid "A style sheet to configure plot appearance"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:6
+msgid "Name required to save pulse image"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:7
+msgid "A function for interpolation"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:8
+msgid "Relative visual scaling of waveform amplitudes"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:10
+msgid "A list of channel names to plot"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:11
+msgid "Plot empty channels"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:12
+msgid "A tuple of time range to plot"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:13
+msgid ""
+"When set true show the circuit in a new window (this depends on the "
+"matplotlib backend being used supporting this)"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:15
+msgid "Draw event table for supported commands"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:16
+msgid "Label individual instructions"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:17
+msgid "Add framechange indicators"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw:19
+msgid "A matplotlib figure object of the pulse schedule."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.draw
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.duration:1
+msgid "Duration of this schedule component."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.flatten:1
+msgid ""
+"Return a new schedule which is the flattened schedule contained all "
+"`instructions`."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.insert:1
+msgid ""
+"Return a new schedule with `schedule` inserted within `self` at "
+"`start_time`."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.insert:3
+msgid "time to be inserted"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.insert:4
+msgid "schedule to be inserted"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.insert:5
+msgid "Obey buffer when inserting"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.instructions:1
+msgid "Iterable for getting instructions from Schedule tree."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.name:1
+msgid "Name of ScheduleComponent."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.shift:1
+msgid "Return a new schedule shifted forward by `time`."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.shift:3
+msgid "Time to shift by"
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.start_time:1
+msgid "Starting time of this schedule component."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.stop_time:1
+msgid "Stopping time of this schedule component."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.timeslots:1
+msgid "Occupied time slots by this schedule component."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.union:1
+msgid "Return a new schedule which is the union of `self` and `schedule`."
+msgstr ""
+
+#: of qiskit.pulse.schedule.Schedule.union:3
+msgid "Schedules to be take the union with the parent `Schedule`."
+msgstr ""
+

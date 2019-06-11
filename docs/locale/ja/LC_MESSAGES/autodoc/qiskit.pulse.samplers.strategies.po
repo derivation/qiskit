@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.pulse.samplers.strategies.rst:2
+msgid "qiskit.pulse.samplers.strategies module"
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:1
+msgid "Sampler strategy module for sampler functions."
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:6
+msgid "Sampler functions have signature."
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:4
+msgid ""
+"```python def sampler_function(continuous_pulse: Callable, duration: int,"
+" *args, **kwargs) -> np.ndarray:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:6 qiskit.pulse.samplers.strategies:11
+msgid "..."
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:7 qiskit.pulse.samplers.strategies:12
+msgid "```"
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:11
+msgid "where the supplied `continuous_pulse` is a function with signature:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:9
+msgid "```python def f(times: np.ndarray, *args, **kwargs) -> np.ndarray:"
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies:13
+msgid ""
+"The sampler will call the `continuous_pulse` function with a set of times"
+" it will decide according to the sampling strategy it implments along "
+"with the passed `args` and `kwargs`."
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies.left_sample:1
+msgid ""
+"Left sample a continuous function. :param continuous_pulse: Continuous "
+"pulse function to sample. :param duration: Duration to sample for. :param"
+" \\*args: Continuous pulse function args. :param \\*\\*kwargs: Continuous"
+" pulse function kwargs."
+msgstr ""
+
+#: of qiskit.pulse.samplers.strategies.midpoint_sample:1
+#: qiskit.pulse.samplers.strategies.right_sample:1
+msgid ""
+"Sampling strategy for decorator. :param continuous_pulse: Continuous "
+"pulse function to sample. :param duration: Duration to sample for. :param"
+" \\*args: Continuous pulse function args. :param \\*\\*kwargs: Continuous"
+" pulse function kwargs."
+msgstr ""
+
