@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:48\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.extensions.initializer.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.extensions.initializer.rst:2
+msgid "qiskit.extensions.initializer module"
+msgstr ""
+
+#: of qiskit.extensions.initializer:1
+msgid "Initialize qubit registers to desired arbitrary state."
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize:1
+msgid "ベースクラス: :class:`qiskit.circuit.instruction.Instruction`"
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize:1
+msgid "Complex amplitude initialization."
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize:3
+msgid "Class that implements the (complex amplitude) initialization of some flexible collection of qubit registers (assuming the qubits are in the zero state)."
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize.gates_to_uncompute:1
+msgid "Call to create a circuit with gates that take the desired vector to zero."
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize.gates_to_uncompute
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize.gates_to_uncompute:4
+msgid "circuit to take self.params vector to |00..0>"
+msgstr ""
+
+#: of qiskit.extensions.initializer.Initialize.gates_to_uncompute
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.extensions.initializer.initialize:1
+msgid "Apply initialize to circuit."
+msgstr ""
+
