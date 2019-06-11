@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.transpiler.passes.mapping.check_map.rst:2
+msgid "qiskit.transpiler.passes.mapping.check\\_map module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map:1
+msgid "This pass checks if a DAG circuit is already mapped to a coupling map."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map:3
+msgid ""
+"It checks that all 2-qubit interactions are laid out to be physically "
+"close."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map.CheckMap:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.AnalysisPass`"
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map.CheckMap:1
+msgid ""
+"Checks if a DAGCircuit is mapped to `coupling_map`, setting "
+"`is_swap_mapped` in the property set as True if mapped. False otherwise."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map.CheckMap.run:1
+msgid ""
+"If `dag` is mapped to `coupling_map`, the property `is_swap_mapped` is "
+"set to True (or to False otherwise)."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map.CheckMap.run
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_map.CheckMap.run:4
+msgid "DAG to map."
+msgstr ""
+

@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.providers.aer.aerjob.rst:2
+msgid "qiskit.providers.aer.aerjob module"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob:1
+msgid "This module implements the job class used for AerBackend objects."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob:1
+msgid "ベースクラス: :class:`qiskit.providers.basejob.BaseJob`"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob:1
+msgid "AerJob class."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob:5
+msgid "executor to handle asynchronous jobs"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob
+msgid "type"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob:7
+msgid "futures.Executor"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.backend:1
+msgid "Return the instance of the backend used for this job."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.cancel:1
+msgid "Attempt to cancel job."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.qobj:1
+msgid "Return the Qobj submitted for this job."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.qobj
+#: qiskit.providers.aer.aerjob.AerJob.result
+#: qiskit.providers.aer.aerjob.AerJob.status
+#: qiskit.providers.aer.aerjob.requires_submit
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.qobj:3
+msgid "the Qobj submitted for this job."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.qobj
+#: qiskit.providers.aer.aerjob.AerJob.result
+#: qiskit.providers.aer.aerjob.AerJob.status
+#: qiskit.providers.aer.aerjob.requires_submit
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result:1
+msgid ""
+"Get job result. The behavior is the same as the underlying concurrent "
+"Future objects,"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result:4
+msgid "https://docs.python.org/3/library/concurrent.futures.html#future-objects"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result
+#: qiskit.providers.aer.aerjob.requires_submit
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result:6
+msgid "number of seconds to wait for results."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result:9
+msgid "Result object"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result
+#: qiskit.providers.aer.aerjob.AerJob.status
+#: qiskit.providers.aer.aerjob.AerJob.submit
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result:12
+#: qiskit.providers.aer.aerjob.AerJob.status:7
+msgid ":exc:`concurrent.futures.TimeoutError` -- if timeout occurred."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.result:13
+msgid ""
+":exc:`concurrent.futures.CancelledError` -- if job cancelled before "
+"completed."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.status:1
+msgid "Gets the status of the job by querying the Python's future"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.status:3
+msgid "The current JobStatus"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.status:6
+msgid ":exc:`JobError` -- If the future is in unexpected state"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.submit:1
+msgid "Submit the job to the backend for execution."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.submit:3
+msgid ":exc:`QobjValidationError` -- if the JSON serialization of the Qobj passed"
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.submit:4
+msgid "during construction does not validate against the Qobj schema."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.AerJob.submit:5
+msgid ":exc:`JobError` -- if trying to re-submit the job."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.requires_submit:1
+msgid ""
+"Decorator to ensure that a submit has been performed before calling the "
+"method."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.requires_submit:4
+msgid "test function to be decorated."
+msgstr ""
+
+#: of qiskit.providers.aer.aerjob.requires_submit:7
+msgid "the decorated function."
+msgstr ""
+

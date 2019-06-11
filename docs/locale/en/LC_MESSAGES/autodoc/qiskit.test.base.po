@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.test.base.rst:2
+msgid "qiskit.test.base module"
+msgstr ""
+
+#: of qiskit.test.base:1
+msgid "Base TestCases for the unit tests."
+msgstr ""
+
+#: of qiskit.test.base:3
+msgid ""
+"Implementors of unit tests for Terra are encouraged to subclass "
+"``QiskitTestCase`` in order to take advantage of utility functions (for "
+"example, the environment variables for customizing different options), "
+"and the decorators in the ``decorators`` package."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase:1
+msgid "ベースクラス: :class:`unittest.case.TestCase`"
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase:1
+msgid "Helper class that contains common functionality."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:1
+msgid "Assert two dictionaries with numeric values are almost equal."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:3
+msgid ""
+"Fail if the two dictionaries are unequal as determined by comparing that "
+"the difference between values with the same key are not greater than "
+"delta (default 1e-8), or that difference rounded to the given number of "
+"decimal places is not zero. If a key in one dictionary is not in the "
+"other the default_value keyword argument will be used for the missing "
+"value (default 0). If the two objects compare equal then they will "
+"automatically compare almost equal."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:11
+#: qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:13
+msgid "a dictionary."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:15
+msgid "threshold for comparison (defaults to 1e-8)."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:17
+msgid "return a custom message on failure."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:19
+msgid "number of decimal places for comparison."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:21
+msgid "default value for missing keys."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual
+msgid "raises"
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertDictAlmostEqual:24
+msgid ":exc:`TypeError` -- raises TestCase failureException if the test fails."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertNoLogs:1
+msgid "Assert that no message is sent to the specified logger and level."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.assertNoLogs:3
+msgid ""
+"Context manager to test that no message is sent to the specified logger "
+"and level (the opposite of TestCase.assertLogs())."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.setUpClass:1
+msgid ""
+"Hook method for setting up class fixture before running tests in the "
+"class."
+msgstr ""
+
+#: of qiskit.test.base.QiskitTestCase.tearDown:1
+msgid "Hook method for deconstructing the test fixture after testing it."
+msgstr ""
+

@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.circuits.boolean_logical_circuits.rst:2
+msgid "qiskit.aqua.circuits.boolean\\_logical\\_circuits module"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits:1
+msgid "Boolean Logical DNF, CNF, and ESOP Circuits."
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.BooleanLogicNormalForm:1
+msgid "ベースクラス: :class:`abc.ABC`"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF:1
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF:1
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP:1
+msgid ""
+"ベースクラス: "
+":class:`qiskit.aqua.circuits.boolean_logical_circuits.BooleanLogicNormalForm`"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF:1
+msgid "Class for constructing circuits for Conjunctive Normal Forms"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:1
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:1
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:1
+msgid "Construct circuit."
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:3
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:3
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:3
+msgid "The optional circuit to extend from"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:5
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:5
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:5
+msgid "The optional quantum register to use for problem variables"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:7
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:7
+msgid "The optional quantum register to use for problem clauses"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:9
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:9
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:7
+msgid "The optional quantum register to use for holding the output"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:11
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:11
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:11
+msgid "The optional quantum register to use as ancilla"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:13
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:13
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:13
+msgid "The mode to use for building Multiple-Control Toffoli"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit:16
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit:16
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:16
+msgid "quantum circuit."
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.CNF.construct_circuit
+#: qiskit.aqua.circuits.boolean_logical_circuits.DNF.construct_circuit
+#: qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.DNF:1
+msgid "Class for constructing circuits for Disjunctive Normal Forms"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.ESOP:1
+msgid "Class for constructing circuits for Exclusive Sum of Products"
+msgstr ""
+
+#: of qiskit.aqua.circuits.boolean_logical_circuits.ESOP.construct_circuit:9
+msgid "The index of the output register to write to"
+msgstr ""
+

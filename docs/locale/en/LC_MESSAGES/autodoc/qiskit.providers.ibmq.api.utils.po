@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.api.utils.rst:2
+msgid "qiskit.providers.ibmq.api.utils module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils:1
+msgid "Utilities for IBM Q API connector."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials:1
+#: qiskit.providers.ibmq.api.utils.Request:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials:1
+msgid "Credentials class that manages the tokens."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.get_config:1
+msgid "Return the configuration that was set for this Credentials."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.get_token:1
+msgid "Return the Authenticated Token to connect with QX Platform."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.get_user_id:1
+msgid "Return the user id in QX platform."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.obtain_token:1
+msgid "Obtain the token to access to QX Platform."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.obtain_token
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.obtain_token:3
+msgid ""
+":exc:`CredentialsError` -- when token is invalid or the user has not "
+"accepted the license."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.obtain_token:5
+msgid ":exc:`ApiError` -- when the response from the server couldn't be parsed."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.set_token:1
+msgid "Set the Access Token to connect with QX Platform API."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Credentials.set_user_id:1
+msgid "Set the user id to connect with QX Platform API."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:1
+msgid "Request class that performs the HTTP calls."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:5
+msgid ""
+"Set the proxy information, if present, from the configuration, with the "
+"following format::"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:17
+msgid "config = {"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:16
+msgid "'proxies': {"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:10
+msgid "# If using 'urls', assume basic auth or no auth. 'urls': {"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:12
+msgid ""
+"'http': 'http://user:password@1.2.3.4:5678', 'https': "
+"'http://user:password@1.2.3.4:5678',"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:14
+msgid ""
+"} # If using 'ntlm', assume NTLM authentication. 'username_ntlm': "
+"'domain\\username', 'password_ntlm': 'password'"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request:18
+#: qiskit.providers.ibmq.api.utils.Request:19
+msgid "}"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request.check_token:1
+msgid "Check is the user's token is valid."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request.get:1
+msgid "GET Method Wrapper of the REST API."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request.post:1
+msgid "POST Method Wrapper of the REST API."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.utils.Request.put:1
+msgid "PUT Method Wrapper of the REST API."
+msgstr ""
+

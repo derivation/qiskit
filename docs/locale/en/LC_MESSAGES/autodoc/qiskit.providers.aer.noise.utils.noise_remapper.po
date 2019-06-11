@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.providers.aer.noise.utils.noise_remapper.rst:2
+msgid "qiskit.providers.aer.noise.utils.noise\\_remapper module"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper:1
+msgid "Remap qubits in a NoiseModel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:1
+msgid "Remap qubits in a noise model."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:3
+msgid ""
+"This remaps the specified gate qubits for local quantum errors, the gate "
+"and noise qubits for non-local quantum errors, and the gate qubits for "
+"local ReadoutErrors. All-qubit quantum and readout errors are unaffected."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:7
+msgid "a noise model to remap qubits."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:9
+msgid "list or remappings of old qubit to new qubit. See Additional Information."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:12
+msgid ""
+"if True discard qubits not in remapping keys, if False an identity "
+"mapping wil be assumed for unnamed qubits (default: False)."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:16
+msgid ""
+"display warnings if qubits being remapped are not in the input noise "
+"model (Default: True)."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:20
+msgid ""
+"a new noise model with the same errors but remapped gate and noise qubits"
+" for local and non-local errors."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:24
+msgid ""
+":exc:`NoiseError` -- if remapping has duplicate qubits in the remapped "
+"qubits."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:28
+msgid "The remapping map be specified as either a list of pairs:"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:29
+msgid "[(old, new), ...]"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:30
+msgid "Or a list of old qubits where the new qubit is inffered from the position:"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:31
+msgid "[old0, old1, ...] -> [(old0, 0), (old1, 1), ...]"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.utils.noise_remapper.remap_noise_model:32
+msgid ""
+"If `discard_qubits` is False, any qubits in the noise model not specified"
+" in the list of old qubits will be added to the remapping as a trivial "
+"mapping (qubit, qubit)."
+msgstr ""
+

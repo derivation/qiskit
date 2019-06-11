@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.algorithms.adaptive.qaoa.qaoa.rst:2
+msgid "qiskit.aqua.algorithms.adaptive.qaoa.qaoa module"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA:1
+msgid "ベースクラス: :class:`qiskit.aqua.algorithms.adaptive.vqe.vqe.VQE`"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA:1
+msgid "The Quantum Approximate Optimization Algorithm."
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA:3
+msgid "See https://arxiv.org/abs/1411.4028"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA.init_params:1
+msgid "Initialize via parameters dictionary and algorithm input instance"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA.init_params
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA.init_params:3
+msgid "parameters dictionary"
+msgstr ""
+
+#: of qiskit.aqua.algorithms.adaptive.qaoa.qaoa.QAOA.init_params:5
+msgid "EnergyInput instance"
+msgstr ""
+

@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.components.oracles.logical_expression_oracle.rst:2
+msgid "qiskit.aqua.components.oracles.logical\\_expression\\_oracle module"
+msgstr ""
+
+#: of qiskit.aqua.components.oracles.logical_expression_oracle:1
+msgid "The General Logical Expression-based Quantum Oracle."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.oracles.logical_expression_oracle.LogicalExpressionOracle:1
+msgid "ベースクラス: :class:`qiskit.aqua.components.oracles.oracle.Oracle`"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.oracles.logical_expression_oracle.LogicalExpressionOracle.check_pluggable_valid:1
+msgid "Checks if pluggable is ready for use. Throws an exception if not"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.oracles.logical_expression_oracle.LogicalExpressionOracle.construct_circuit:1
+msgid "Construct the oracle circuit."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.oracles.logical_expression_oracle.LogicalExpressionOracle.construct_circuit
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.oracles.logical_expression_oracle.LogicalExpressionOracle.construct_circuit:3
+msgid "A quantum circuit for the oracle."
+msgstr ""
+
