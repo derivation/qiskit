@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 20:00\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.qasm.node.node.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.qasm.node.node.rst:2
+msgid "qiskit.qasm.node.node module"
+msgstr ""
+
+#: of qiskit.qasm.node.node:1 qiskit.qasm.node.node.Node:1
+msgid "Base node object for the OPENQASM syntax tree."
+msgstr ""
+
+#: of qiskit.qasm.node.node.Node:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.qasm.node.node.Node.add_child:1
+msgid "Add a child node."
+msgstr ""
+
+#: of qiskit.qasm.node.node.Node.is_expression:1
+msgid "Return True if this is an expression node."
+msgstr ""
+
+#: of qiskit.qasm.node.node.Node.to_string:1
+msgid "Print with indent."
+msgstr ""
+
