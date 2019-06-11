@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:51\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.providers.ibmq.api.exceptions.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.providers.ibmq.api.exceptions.rst:2
+msgid "qiskit.providers.ibmq.api.exceptions module"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions:1
+msgid "Exceptions for IBMQ Connector."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.ApiError:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.exceptions.IBMQError`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.ApiError:1
+msgid "IBMQConnector API error handling base class."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.BadBackendError:1
+#: qiskit.providers.ibmq.api.exceptions.CredentialsError:1
+#: qiskit.providers.ibmq.api.exceptions.RegisterSizeError:1
+#: qiskit.providers.ibmq.api.exceptions.WebsocketError:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.api.exceptions.ApiError`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.BadBackendError:1
+msgid "Unavailable backend error."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.CredentialsError:1
+msgid "Exception associated with bad server credentials."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.RegisterSizeError:1
+msgid "Exception due to exceeding the maximum number of allowed qubits."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.WebsocketError:1
+msgid "Exceptions related to websockets."
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.WebsocketTimeoutError:1
+msgid "ベースクラス: :class:`qiskit.providers.ibmq.api.exceptions.WebsocketError`"
+msgstr ""
+
+#: of qiskit.providers.ibmq.api.exceptions.WebsocketTimeoutError:1
+msgid "Timeout during websocket communication."
+msgstr ""
+
