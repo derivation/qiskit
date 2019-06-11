@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:57\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.transpiler.passes.optimize_swap_before_measure.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.transpiler.passes.optimize_swap_before_measure.rst:2
+msgid "qiskit.transpiler.passes.optimize\\_swap\\_before\\_measure module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.optimize_swap_before_measure:3
+msgid "Transpiler pass to remove swaps in front of measurements by re-targeting the classical bit"
+msgstr ""
+
+#: of qiskit.transpiler.passes.optimize_swap_before_measure:2
+msgid "of the measure instruction."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.optimize_swap_before_measure.OptimizeSwapBeforeMeasure:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.TransformationPass`"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.optimize_swap_before_measure.OptimizeSwapBeforeMeasure:1
+msgid "Remove the swaps followed by measurement (and adapt the measurement)"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.optimize_swap_before_measure.OptimizeSwapBeforeMeasure.run:1
+msgid "Return a new circuit that has been optimized."
+msgstr ""
+
