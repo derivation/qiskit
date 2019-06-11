@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:56\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.aqua.components.optimizers.nlopts._nloptimizer.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.aqua.components.optimizers.nlopts._nloptimizer.rst:2
+msgid "qiskit.aqua.components.optimizers.nlopts.\\_nloptimizer module"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:1
+msgid "Minimize using objective function"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:3
+msgid "NLopt optimizer name"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:4
+msgid "Objective function to evaluate"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:5
+msgid "Bounds"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:6
+msgid "Initial point for optimizer"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:7
+msgid "Maximum evaluations"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.nlopts._nloptimizer.minimize:9
+msgid "Solution at minimum found, value at minimum found, num evaluations performed"
+msgstr ""
+
