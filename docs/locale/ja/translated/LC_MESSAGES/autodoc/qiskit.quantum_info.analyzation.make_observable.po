@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 20:02\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.quantum_info.analyzation.make_observable.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.quantum_info.analyzation.make_observable.rst:2
+msgid "qiskit.quantum\\_info.analyzation.make\\_observable module"
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable:1
+msgid "Helper functions for building dictionaries from matrices and lists."
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable:1
+msgid "Convert an observable in matrix form to dictionary form."
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable:3
+msgid "Takes in a diagonal observable as a matrix and converts it to a dictionary form. Can also handle a list sorted of the diagonal elements."
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable:6
+msgid "The observable to be converted to dictionary"
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable:10
+msgid "A dictionary with all observable states as keys, and corresponding values being the observed value for that state"
+msgstr ""
+
+#: of qiskit.quantum_info.analyzation.make_observable.make_dict_observable
+msgid "戻り値の型"
+msgstr ""
+
