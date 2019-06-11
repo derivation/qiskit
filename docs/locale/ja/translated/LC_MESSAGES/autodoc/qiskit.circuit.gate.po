@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:49\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.circuit.gate.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.circuit.gate.rst:2
+msgid "qiskit.circuit.gate module"
+msgstr ""
+
+#: of qiskit.circuit.gate:1 qiskit.circuit.gate.Gate:1
+msgid "Unitary gate."
+msgstr ""
+
+#: of qiskit.circuit.gate.Gate:1
+msgid "ベースクラス: :class:`qiskit.circuit.instruction.Instruction`"
+msgstr ""
+
+#: of qiskit.circuit.gate.Gate.assemble:1
+msgid "Assemble a QasmQobjInstruction"
+msgstr ""
+
+#: of qiskit.circuit.gate.Gate.label:1
+msgid "Return gate label"
+msgstr ""
+
+#: of qiskit.circuit.gate.Gate.to_matrix:1
+msgid "Return a Numpy.array for the gate unitary matrix."
+msgstr ""
+
+#: of qiskit.circuit.gate.Gate.to_matrix:5
+msgid "If a Gate subclass does not implement this method an exception will be raised when this base class method is called."
+msgstr ""
+
