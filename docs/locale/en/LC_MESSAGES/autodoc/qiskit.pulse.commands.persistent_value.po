@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.pulse.commands.persistent_value.rst:2
+msgid "qiskit.pulse.commands.persistent\\_value module"
+msgstr ""
+
+#: of qiskit.pulse.commands.persistent_value:1
+#: qiskit.pulse.commands.persistent_value.PersistentValue:1
+msgid "Persistent value."
+msgstr ""
+
+#: of qiskit.pulse.commands.persistent_value.PersistentValue:1
+msgid "ベースクラス: :class:`qiskit.pulse.commands.command.Command`"
+msgstr ""
+
+#: of qiskit.pulse.commands.persistent_value.PersistentValue.to_instruction:1
+msgid "Create an instruction from command."
+msgstr ""
+
+#: of qiskit.pulse.commands.persistent_value.PersistentValue.value:1
+msgid "Persistent value amplitude."
+msgstr ""
+
+#: of qiskit.pulse.commands.persistent_value.PersistentValueInstruction:1
+msgid "ベースクラス: :class:`qiskit.pulse.commands.instruction.Instruction`"
+msgstr ""
+
+#: of qiskit.pulse.commands.persistent_value.PersistentValueInstruction:1
+msgid "Instruction to keep persistent value."
+msgstr ""
+
