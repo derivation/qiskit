@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: qiskitdocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-11 18:25+0000\n"
+"PO-Revision-Date: 2019-06-11 19:59\n"
+"Last-Translator: lzdanski\n"
+"Language-Team: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: qiskitdocs\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /poRepo/docs/locale/ja/LC_MESSAGES/autodoc/qiskit.validation.fields.containers.po\n"
+"Language: ja_JP\n"
+
+#: ../../autodoc/qiskit.validation.fields.containers.rst:2
+msgid "qiskit.validation.fields.containers module"
+msgstr ""
+
+#: of qiskit.validation.fields.containers:1
+msgid "Container fields that represent nested/collections of schemas or types."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Dict:1
+msgid "ベースクラス: :class:`marshmallow.fields.Dict`, :class:`qiskit.validation.base.ModelTypeValidator`"
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Dict:1
+msgid "A dict field. Supports dicts and dict-like objects."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Dict:4
+msgid "This field is only appropriate when the structure of nested data is not known. For structured data, use `Nested`."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:1
+msgid "ベースクラス: :class:`marshmallow.fields.List`, :class:`qiskit.validation.base.ModelTypeValidator`"
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:1
+msgid "A list field, composed with another `Field` class or instance."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:4
+msgid "Example: ::"
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List
+#: qiskit.validation.fields.containers.Nested
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:8
+msgid "A field class or instance."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:9
+msgid "Default value for serialization."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:10
+#: qiskit.validation.fields.containers.Nested:38
+msgid "The same keyword arguments that :class:`Field` receives."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List:12
+msgid "The ``allow_none`` parameter now applies to deserialization and has the same semantics as the other fields."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List.check_type:1
+msgid "Validate if it's a list of valid item-field values."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.List.check_type:3
+msgid "Check if each element in the list can be validated by the item-field passed during construction."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:1
+msgid "ベースクラス: :class:`marshmallow.fields.Nested`, :class:`qiskit.validation.base.ModelTypeValidator`"
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:1
+msgid "Allows you to nest a :class:`Schema <marshmallow.Schema>` inside a field."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:4
+msgid "Examples: ::"
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:11
+msgid "When passing a `Schema <marshmallow.Schema>` instance as the first argument, the instance's ``exclude``, ``only``, and ``many`` attributes will be respected."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:14
+msgid "Therefore, when passing the ``exclude``, ``only``, or ``many`` arguments to `fields.Nested`, you should pass a `Schema <marshmallow.Schema>` class (not an instance) as the first argument."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:25
+msgid "The Schema class or class name (string) to nest, or ``\"self\"`` to nest the :class:`Schema` within itself."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:27
+msgid "A list or tuple of fields to exclude."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:28
+msgid "Raise an :exc:`ValidationError` during deserialization if the field, *and* any required field values specified in the `nested` schema, are not found in the data. If not a `bool` (e.g. a `str`), the provided value will be used as the message of the :exc:`ValidationError` instead of the default message."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:33
+msgid "A tuple or string of the field(s) to marshal. If `None`, all fields will be marshalled. If a field name (string) is given, only a single value will be returned as output instead of a dictionary. This parameter takes precedence over ``exclude``."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested:37
+msgid "Whether the field is a collection of objects."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested.check_type:1
+msgid "Validate if the value is of the type of the schema's model."
+msgstr ""
+
+#: of qiskit.validation.fields.containers.Nested.check_type:3
+msgid "Assumes the nested schema is a ``BaseSchema``."
+msgstr ""
+
