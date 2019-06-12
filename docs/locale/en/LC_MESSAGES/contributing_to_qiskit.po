@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../contributing_to_qiskit.rst:4
+msgid "Contributing to Qiskit"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:6
+msgid ""
+"Qiskit is an open-source project committed to bringing quantum computing "
+"to people of all backgrounds. This page describes how you can join the "
+"Qiskit community in this goal."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:12
+msgid "Where Things Are"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:14
+msgid ""
+"The code for Qiskit is located in the `Qiskit GitHub organization "
+"<https://github.com/Qiskit>`_, where you can find the individual projects"
+" that make up Qiskit, including"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:17
+msgid "`Qiskit Terra <https://github.com/Qiskit/qiskit-terra>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:18
+msgid "`Qiskit Aer <https://github.com/Qiskit/qiskit-aer>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:19
+msgid "`Qiskit Ignis <https://github.com/Qiskit/qiskit-ignis>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:20
+msgid "`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:21
+msgid "`Qiskit Chemistry <https://github.com/Qiskit/qiskit-chemistry>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:22
+msgid "`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-provider>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:23
+msgid "`Qiskit Tutorials <https://github.com/Qiskit/qiskit-tutorials>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:24
+msgid ""
+"`Qiskit Documentation "
+"<https://github.com/Qiskit/qiskit/tree/master/docs>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:29
+msgid "Getting Started"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:31
+msgid "Learn how members of the Qiskit community"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:33
+msgid ""
+"`Relate to one another "
+"<https://github.com/Qiskit/qiskit/blob/master/.github/CODE_OF_CONDUCT.md>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:34
+msgid "`Discuss ideas <https://qiskit.slack.com/>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:35
+msgid ""
+"`Get help when we're stuck "
+"<https://quantumcomputing.stackexchange.com/questions/tagged/qiskit>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:36
+msgid "`Stay informed of news in the community <https://medium.com/qiskit>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:37
+msgid "`Keep a consistent style <https://www.python.org/dev/peps/pep-0008>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:38
+msgid ""
+"`Work together on GitHub "
+"<https://github.com/Qiskit/qiskit/blob/master/.github/CONTRIBUTING.md>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:39
+msgid ""
+":ref:`Build Qiskit packages from source "
+"<install_install_from_source_label>`"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:44
+msgid "Writing and Building Documentation"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:46
+msgid ""
+"Qiskit documentation is shaped by the `docs as code "
+"<https://www.writethedocs.org/guide/docs-as-code/>`_ philosophy and "
+"follows the `IBM style guidelines "
+"<https://www.ibm.com/developerworks/library/styleguidelines/>`_."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:51
+msgid ""
+"The `published documentation "
+"<https://qiskit.org/documentation/index.html>`_ is built from the master "
+"branch of `Qiskit/qiskit/docs "
+"<https://github.com/Qiskit/qiskit/tree/master/docs>`_ using `Sphinx "
+"<http://www.sphinx-doc.org/en/master/>`_."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:56
+msgid ""
+"You can build a local copy of the documentation from your local clone of "
+"the `Qiskit/qiskit` repository as follows:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:59
+msgid "Clone `Qiskit/qiskit` (or your personal fork)."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:61
+msgid ""
+"`Install Sphinx <http://www.sphinx-"
+"doc.org/en/master/usage/installation.html>`_."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:63
+msgid ""
+"Install the `Material Design HTML Theme for Sphinx` by running the "
+"following in a terminal window:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:70
+msgid ""
+"Build the documentation by navigating to your local clone of "
+"`Qiskit/qiskit` and running the following command in a terminal window:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:77
+msgid ""
+"As you make changes to your local RST files, you can update your HTML "
+"files by navigating to `/doc/` and running the following in a terminal "
+"window:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:85
+msgid ""
+"This will build a styled, HTML version of your local documentation "
+"repository in the subdirectory `/docs/_build/html/`."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:92
+msgid "Install from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:94
+msgid ""
+"Installing the elements from source allows you to access the most "
+"recently updated version of Qiskit instead of using the version in the "
+"Python Package Index (PyPI) repository. This will give you the ability to"
+" inspect and extend the latest version of the Qiskit code more "
+"efficiently."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:99
+msgid ""
+"When installing the elements and components from source, by default their"
+" ``development`` version (which corresponds to the ``master`` git branch)"
+" will be used, as opposed to the ``stable`` version (which contains the "
+"same codebase as the published ``pip`` packages). Since the "
+"``development`` versions of an element or component usually includes new "
+"features and changes, in general they require using the ``development`` "
+"version of the rest of the items as well."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:108
+msgid ""
+"The Terra and Aer packages both require a compiler to build from source "
+"before you can install. Ignis, Aqua, Qiskit Chemistry, and the IBM Q "
+"provider backend do not require a compiler."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:112
+msgid ""
+"Installing elements from source requires the following order of "
+"installation to prevent getting versions of elements that may be lower "
+"than those desired if the pip version is behind the source versions:"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:116
+msgid "qiskit-terra"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:117
+msgid ""
+"qiskit-ibmq-provider (if wanting to connect to the IBM Q devices or "
+"online simulator)"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:119
+msgid "qiskit-aer"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:120
+msgid "qiskit-ignis"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:121
+msgid "qiskit-aqua"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:123
+msgid ""
+"To work with several components and elements simultaneously, use the "
+"following steps for each element."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:126
+msgid "The following steps show the installation process for Ignis."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:128
+msgid "Clone the Qiskit element repository."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:134
+msgid "Create a virtual development environment."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:141
+msgid ""
+"Install the package in `editable mode <https://pip.pypa.io/en/stable/ "
+"reference/pip_install/#editable-installs>`_ from the root directory of "
+"the repository. The following example shows the installation for Ignis."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:150
+msgid "Install Terra from Source"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:151
+msgid ""
+"Installing from source requires that you have a c++ compiler on your "
+"system that supports c++-11.  On most Linux platforms, the necessary GCC "
+"compiler is already installed."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:155
+msgid "Install a compiler for MacOS"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:157
+msgid ""
+"If you use Apple OSX, you can install the Clang compiler by installing "
+"XCode. Check if you have XCode and clang installed by opening a terminal "
+"window and entering the following."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:165
+msgid "Install XCode and clang by using the following command."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:172
+msgid "Install a compiler for Windows"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:173
+msgid ""
+"On Windows, it is easiest to install the Visual C++ compiler from the "
+"`Build Tools for Visual Studio 2017 "
+"<https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-"
+"studio-2017>`_. You can instead install Visual Studio version 2015 or "
+"2017, making sure to select the options for installing the C++ compiler."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:179
+msgid "Install Qiskit Terra"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:180
+msgid "Clone the Terra repository."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:186
+msgid "Cloning the repository creates a local folder called ``qiskit-terra``."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:192
+msgid ""
+"Install the Python requirements libraries from your ``qiskit-terra`` "
+"directory."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:198
+msgid ""
+"If you want to run tests or linting checks, install the developer "
+"requirements."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:204
+msgid "Install the Qiskit modules."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:206
+msgid "If you want to only install ``qiskit-terra`` onto your system."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:213
+msgid ""
+"To get the examples working, install and run them with the following "
+"commands."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:221
+msgid ""
+"After you've installed Terra, you can install Aer as an add-on to run "
+"additional simulators."
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:223
+msgid ""
+"`Qiskit Aer <https://github.com/Qiskit/qiskit-aer/blob/master/.github/ "
+"CONTRIBUTING.md>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:225
+msgid ""
+"`Qiskit Ignis <https://github.com/Qiskit/qiskit-"
+"ignis/blob/master/.github/ CONTRIBUTING.md>`_"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:227
+msgid ""
+"`Qiskit Aqua <https://github.com/Qiskit/qiskit-aqua/blob/master/.github/ "
+"CONTRIBUTING.rst>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:229
+msgid ""
+"`Qiskit Chemistry <https://github.com/Qiskit/qiskit-"
+"chemistry/blob/master/ .github/CONTRIBUTING.rst>`__"
+msgstr ""
+
+#: ../../contributing_to_qiskit.rst:231
+msgid ""
+"`Qiskit IBMQ Provider <https://github.com/Qiskit/qiskit-ibmq-"
+"provider/blob/ master/.github/CONTRIBUTING.rst>`__"
+msgstr ""
+

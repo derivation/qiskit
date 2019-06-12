@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../aer/overview.rst:3
+msgid "Overview"
+msgstr ""
+
+#: ../../aer/overview.rst:5
+msgid "A high performance simulator framework for quantum circuits"
+msgstr ""
+
+#: ../../aer/overview.rst:7
+msgid ""
+"Qiskit Aer provides a high performance simulator framework for the Qiskit"
+" software stack. It contains optimized C++ simulator backends for "
+"executing circuits compiled in Qiskit Terra, and tools for constructing "
+"highly configurable noise models for performing realistic noisy "
+"simulations of the errors that occur during execution on real devices."
+msgstr ""
+

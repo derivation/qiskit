@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.qasm.node.creg.rst:2
+msgid "qiskit.qasm.node.creg module"
+msgstr ""
+
+#: of qiskit.qasm.node.creg:1 qiskit.qasm.node.creg.Creg:1
+msgid "Node for an OPENQASM creg statement."
+msgstr ""
+
+#: of qiskit.qasm.node.creg.Creg:1
+msgid "ベースクラス: :class:`qiskit.qasm.node.node.Node`"
+msgstr ""
+
+#: of qiskit.qasm.node.creg.Creg:3
+msgid "children[0] is an indexedid node."
+msgstr ""
+
+#: of qiskit.qasm.node.creg.Creg.qasm:1
+msgid "Return the corresponding OPENQASM string."
+msgstr ""
+
+#: of qiskit.qasm.node.creg.Creg.to_string:1
+msgid "Print the node data, with indent."
+msgstr ""
+

@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.extensions.standard.rx.rst:2
+msgid "qiskit.extensions.standard.rx module"
+msgstr ""
+
+#: of qiskit.extensions.standard.rx:1
+msgid "Rotation around the x-axis."
+msgstr ""
+
+#: of qiskit.extensions.standard.rx.RXGate:1
+msgid "ベースクラス: :class:`qiskit.circuit.gate.Gate`"
+msgstr ""
+
+#: of qiskit.extensions.standard.rx.RXGate:1
+msgid "rotation around the x-axis."
+msgstr ""
+
+#: of qiskit.extensions.standard.rx.RXGate.inverse:1
+msgid "Invert this gate."
+msgstr ""
+
+#: of qiskit.extensions.standard.rx.RXGate.inverse:3
+msgid "rx(theta)^dagger = rx(-theta)"
+msgstr ""
+
+#: of qiskit.extensions.standard.rx.rx:1
+msgid "Apply Rx to q."
+msgstr ""
+

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.qobj.converters.lo_config.rst:2
+msgid "qiskit.qobj.converters.lo\\_config module"
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config:1
+msgid ""
+"Helper class used to convert a user lo configuration into a list of "
+"frequencies."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter:1
+msgid ""
+"This class supports to convert LoConfig into ~`lo_freq` attribute of "
+"configs. The format of LO frequency setup can be easily modified by "
+"replacing `get_qubit_los` and `get_meas_los` to align with your backend."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los:1
+msgid ""
+"Embed default meas LO frequencies from backend and format them to list "
+"object. If configured lo frequency is the same as default, this method "
+"returns `None`."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los
+#: qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los:4
+#: qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los:4
+msgid "A dictionary of LOs to format."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los
+#: qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los:7
+msgid "A list of meas LOs."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los
+#: qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los
+#: qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los
+msgid "raises"
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_meas_los:10
+#: qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los:10
+msgid ":exc:`PulseError` -- when LO frequencies are missing."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los:1
+msgid ""
+"Embed default qubit LO frequencies from backend and format them to list "
+"object. If configured lo frequency is the same as default, this method "
+"returns `None`."
+msgstr ""
+
+#: of qiskit.qobj.converters.lo_config.LoConfigConverter.get_qubit_los:7
+msgid "A list of qubit LOs."
+msgstr ""
+

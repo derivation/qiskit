@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.chemistry.particle_hole.rst:2
+msgid "qiskit.chemistry.particle\\_hole module"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.last_two_indices_swap:1
+msgid "Swap 2 last indices of an array"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.last_two_indices_swap
+#: qiskit.chemistry.particle_hole.normal_order_integrals
+#: qiskit.chemistry.particle_hole.particle_hole_transformation
+#: qiskit.chemistry.particle_hole.sort
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.last_two_indices_swap:3
+#: qiskit.chemistry.particle_hole.last_two_indices_swap:6
+msgid "TBD"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.last_two_indices_swap
+#: qiskit.chemistry.particle_hole.normal_order_integrals
+#: qiskit.chemistry.particle_hole.particle_hole_transformation
+#: qiskit.chemistry.particle_hole.sort
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.last_two_indices_swap
+#: qiskit.chemistry.particle_hole.normal_order_integrals
+#: qiskit.chemistry.particle_hole.particle_hole_transformation
+#: qiskit.chemistry.particle_hole.sort
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:1
+msgid ""
+"Given an operator and the rFs and rsgtu from Gaussian it produces new "
+"h1,h2,id_terms usable for the generation of the Hamiltonian in Pauli "
+"strings form."
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:4
+#: qiskit.chemistry.particle_hole.particle_hole_transformation:3
+msgid "number of qubits"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:6
+msgid "number of electrons (occupied orbitals)"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:8
+msgid "e.g. [i,j,k,l] indices of the term to normal order"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:10
+msgid "e.g. two body terms list  ['adag', 'adag', 'a', 'a'],"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:12
+msgid "['adag', 'a']"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:14
+msgid ""
+"e.g. rFs.dat (dim(rsgtu) = [n_qubits,n_qubits,n_qubits,n_qubits]) loaded "
+"with QuTip function (qutip.fileio.qload) or numpy.array"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:17
+msgid "e.g. rsgtu.dat (dim(rsgtu) = [n_qubits,n_qubits])"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:19
+msgid "e.g. numpy.zeros([n_qubits, n_qubits])"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:21
+msgid "e.g. numpy.zeros([n_qubits, n_qubits, n_qubits, n_qubits])"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.normal_order_integrals:24
+msgid "h1_new, h2_new, id_term"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.particle_hole_transformation:1
+msgid ""
+"This function produces the necessary h1, h2, identity for work with "
+"Fermionic Operators script."
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.particle_hole_transformation:5
+msgid "number of electrons"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.particle_hole_transformation:7
+msgid "rFs terms from Gaussian"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.particle_hole_transformation:9
+msgid "rsgtu terms from Gaussian"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.particle_hole_transformation:12
+msgid "h1_prime, h2_prime, identities"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.sort:1
+msgid "Tool function for normal order, should not be used separately"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.sort:3
+msgid "array"
+msgstr ""
+
+#: of qiskit.chemistry.particle_hole.sort:6
+msgid "integer e.g. swapped array, number of swaps"
+msgstr ""
+

@@ -1,0 +1,249 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.compiler.transpile.rst:2
+msgid "qiskit.compiler.transpile module"
+msgstr ""
+
+#: of qiskit.compiler.transpile:1
+msgid "Circuit transpile function"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:1
+msgid ""
+"transpile one or more circuits, according to some desired transpilation "
+"targets."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:4
+msgid ""
+"All arguments may be given as either singleton or list. In case of list, "
+"the length must be equal to the number of circuits being transpiled."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:7
+msgid "Transpilation is done in parallel using multiprocessing."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:9
+msgid "Circuit(s) to transpile"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:11
+msgid ""
+"If set, transpiler options are automatically grabbed from "
+"backend.configuration() and backend.properties(). If any other option is "
+"explicitly set (e.g. coupling_map), it will override the backend's. Note:"
+" the backend arg is purely for convenience. The resulting     circuit may"
+" be run on any backend as long as it is compatible."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:11
+msgid ""
+"If set, transpiler options are automatically grabbed from "
+"backend.configuration() and backend.properties(). If any other option is "
+"explicitly set (e.g. coupling_map), it will override the backend's. Note:"
+" the backend arg is purely for convenience. The resulting"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:16
+msgid "circuit may be run on any backend as long as it is compatible."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:18
+msgid ""
+"List of basis gate names to unroll to. e.g:     ['u1', 'u2', 'u3', 'cx'] "
+"If None, do not unroll."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:18
+msgid "List of basis gate names to unroll to. e.g:"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:20
+msgid "['u1', 'u2', 'u3', 'cx']"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:21
+msgid "If None, do not unroll."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:23
+msgid ""
+"Coupling map (perhaps custom) to target in mapping. Multiple formats are "
+"supported: a. CouplingMap instance  b. list     Must be given as an "
+"adjacency matrix, where each entry     specifies all two-qubit "
+"interactions supported by backend     e.g:         [[0, 1], [0, 3], [1, "
+"2], [1, 5], [2, 5], [4, 1], [5, 3]]"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:23
+msgid ""
+"Coupling map (perhaps custom) to target in mapping. Multiple formats are "
+"supported: a. CouplingMap instance"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:30
+#: qiskit.compiler.transpile.transpile:62
+msgid "list"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:28
+msgid ""
+"Must be given as an adjacency matrix, where each entry specifies all two-"
+"qubit interactions supported by backend e.g:"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:31
+msgid "[[0, 1], [0, 3], [1, 2], [1, 5], [2, 5], [4, 1], [5, 3]]"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:33
+msgid ""
+"properties returned by a backend, including information on gate errors, "
+"readout errors, qubit coherence times, etc. For a backend that provides "
+"this information, it can be obtained with: ``backend.properties()``"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:38
+msgid ""
+"Initial position of virtual qubits on physical qubits. If this layout "
+"makes the circuit compatible with the coupling_map constraints, it will "
+"be used. The final layout is not guaranteed to be the same, as the "
+"transpiler may permute qubits through swaps or other means.  Multiple "
+"formats are supported: a. Layout instance  b. dict     virtual to "
+"physical:         {qr[0]: 0,          qr[1]: 3,          qr[2]: 5}      "
+"physical to virtual:         {0: qr[0],          3: qr[1],          5: "
+"qr[2]}  c. list     virtual to physical:         [0, 3, 5]  # virtual "
+"qubits are ordered (in addition to named)      physical to virtual:"
+"         [qr[0], None, None, qr[1], None, qr[2]]"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:38
+msgid ""
+"Initial position of virtual qubits on physical qubits. If this layout "
+"makes the circuit compatible with the coupling_map constraints, it will "
+"be used. The final layout is not guaranteed to be the same, as the "
+"transpiler may permute qubits through swaps or other means."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:44
+msgid "Multiple formats are supported: a. Layout instance"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:56
+msgid "dict"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:51
+#: qiskit.compiler.transpile.transpile:60
+msgid "virtual to physical:"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:51
+msgid "{qr[0]: 0,"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:50
+msgid "qr[1]: 3, qr[2]: 5}"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:56
+#: qiskit.compiler.transpile.transpile:62
+msgid "physical to virtual:"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:56
+msgid "{0: qr[0],"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:55
+msgid "3: qr[1], 5: qr[2]}"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:60
+msgid "[0, 3, 5]  # virtual qubits are ordered (in addition to named)"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:63
+msgid "[qr[0], None, None, qr[1], None, qr[2]]"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:65
+msgid "sets random seed for the stochastic parts of the transpiler"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:67
+msgid ""
+"How much optimization to perform on the circuits. Higher levels generate "
+"more optimized circuits, at the expense of longer transpilation time."
+"     0: no optimization     1: light optimization     2: heavy "
+"optimization     3: even heavier optimization"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:67
+msgid ""
+"How much optimization to perform on the circuits. Higher levels generate "
+"more optimized circuits, at the expense of longer transpilation time."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:70
+msgid ""
+"0: no optimization 1: light optimization 2: heavy optimization 3: even "
+"heavier optimization"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:75
+msgid ""
+"The pass manager to use for a custom pipeline of transpiler passes. If "
+"this arg is present, all other args will be ignored and the pass manager "
+"will be used directly (Qiskit will not attempt to auto-select a pass "
+"manager based on transpile options)."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:80
+msgid "DEPRECATED in 0.8: use ``seed_transpiler`` kwarg instead"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:83
+msgid "transpiled circuit(s)."
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile
+msgid "raises"
+msgstr ""
+
+#: of qiskit.compiler.transpile.transpile:86
+msgid ""
+":exc:`TranspilerError` -- in case of bad inputs to transpiler or errors "
+"in passes"
+msgstr ""
+

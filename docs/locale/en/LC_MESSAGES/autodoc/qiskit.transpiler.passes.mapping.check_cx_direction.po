@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 14:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.transpiler.passes.mapping.check_cx_direction.rst:2
+msgid "qiskit.transpiler.passes.mapping.check\\_cx\\_direction module"
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_cx_direction:1
+msgid ""
+"This pass checks if the CNOTs (or any other 2Q) in the DAG follow the "
+"right direction with respect to thecoupling map."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_cx_direction.CheckCXDirection:1
+msgid "ベースクラス: :class:`qiskit.transpiler.basepasses.AnalysisPass`"
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_cx_direction.CheckCXDirection:1
+msgid ""
+"Checks if the CNOTs in the DAG circuit follow the right direction with "
+"respect to the coupling map."
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.check_cx_direction.CheckCXDirection.run:1
+msgid ""
+"If `dag` is mapped and the direction is correct the property "
+"`is_direction_mapped` is set to True (or to False otherwise)."
+msgstr ""
+
+#: of qiskit.transpiler.passes.mapping.check_cx_direction.CheckCXDirection.run
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.transpiler.passes.mapping.check_cx_direction.CheckCXDirection.run:4
+msgid "DAG to check."
+msgstr ""
+
