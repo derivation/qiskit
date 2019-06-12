@@ -23,7 +23,8 @@ TRANSLATION_LANG='ja'
 
 echo "cd docs"
 cd docs
-
+pwd
+ls
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
 echo "Make translated document"
