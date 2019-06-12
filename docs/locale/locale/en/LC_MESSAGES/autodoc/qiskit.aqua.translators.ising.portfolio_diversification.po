@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.translators.ising.portfolio_diversification.rst:2
+msgid "qiskit.aqua.translators.ising.portfolio\\_diversification module"
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops:1
+msgid "Converts an instnance of portfolio optimization into a list of Paulis."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops:3
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution:3
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value:3
+msgid "an asset-to-asset similarity matrix, such as the covariance matrix."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops:5
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution:5
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value:5
+msgid "the number of assets."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops:7
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution:7
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value:7
+msgid "the number of clusters of assets to output."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value
+msgid "戻り値"
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops:10
+msgid "operator for the Hamiltonian."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_qubitops
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value
+msgid "戻り値の型"
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution:1
+msgid ""
+"Tries to obtain a feasible solution (in vector form) of an instnance of "
+"portfolio diversification from the results dictionary."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution:9
+msgid "a dictionary obtained by QAOA.run or VQE.run containing key 'eigvecs'."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_solution:12
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value:9
+msgid "a vector describing the solution."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value:1
+msgid ""
+"Evaluates an objective function of an instnance of portfolio "
+"diversification and its solution (in vector form)."
+msgstr ""
+
+#: of
+#: qiskit.aqua.translators.ising.portfolio_diversification.get_portfoliodiversification_value:12
+msgid "cost of the solution."
+msgstr ""
+

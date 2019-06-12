@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.components.neural_networks.generative_network.rst:2
+msgid "qiskit.aqua.components.neural\\_networks.generative\\_network module"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork:1
+msgid "ベースクラス: :class:`qiskit.aqua.pluggable.Pluggable`"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork:1
+msgid "Base class for generative Quantum and Classical Neural Networks."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork:3
+msgid ""
+"This method should initialize the module and its configuration, and use "
+"an exception if a component of the module is available."
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork
+msgid "パラメータ"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork:7
+msgid "configuration dictionary"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.get_output:1
+msgid ""
+"Apply quantum/classical neural network to given input and get the "
+"respective output"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.get_output:3
+msgid "Returns: Neural network output"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.loss:1
+msgid "Loss function used for optimization"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.set_seed:1
+msgid "Set seed. :param seed: int, seed"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.set_seed:4
+msgid "Returns:"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.train:1
+msgid ""
+"Perform one training step w.r.t to the generator's parameters :param "
+"quantum_instance: QuantumInstance, used to run the generator circuit. "
+"Depreciated for classical network :param shots: int, Number of shots for "
+"hardware or qasm execution. Depreciated for classical network"
+msgstr ""
+
+#: of
+#: qiskit.aqua.components.neural_networks.generative_network.GenerativeNetwork.train:5
+msgid "Returns: dict, generator loss and updated parameters."
+msgstr ""
+

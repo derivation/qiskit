@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.chemistry.qiskit_chemistry.rst:2
+msgid "qiskit.chemistry.qiskit\\_chemistry module"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry:1
+msgid "ベースクラス: :class:`object`"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry:1
+msgid "Main Chemistry class."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.chemistry_result:1
+msgid "Returns Chemistry result."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.hdf5_file:1
+msgid "Returns Chemistry hdf5 path with chemistry results, if used."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.operator:1
+msgid "Returns Chemistry Operator."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.parser:1
+msgid "Returns Chemistry parser."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.qiskit_aqua:1
+msgid "Returns Qiskit Aqua object."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run:1
+msgid "Runs the Qiskit Chemistry experiment"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run
+#: qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run_driver
+#: qiskit.chemistry.qiskit_chemistry.run_driver_to_json
+#: qiskit.chemistry.qiskit_chemistry.run_experiment
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run:3
+#: qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run_driver:3
+#: qiskit.chemistry.qiskit_chemistry.run_driver_to_json:3
+#: qiskit.chemistry.qiskit_chemistry.run_experiment:5
+msgid "Chemistry input data"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run:5
+#: qiskit.chemistry.qiskit_chemistry.run_experiment:7
+msgid "Output data"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run:7
+#: qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run_driver:5
+#: qiskit.chemistry.qiskit_chemistry.run_experiment:9
+msgid "the experimental settings to be used in place of backend name"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run
+#: qiskit.chemistry.qiskit_chemistry.run_driver_to_json
+#: qiskit.chemistry.qiskit_chemistry.run_experiment
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run:10
+msgid "result dictionary"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.QiskitChemistry.run_driver:1
+msgid "Runs the Qiskit Chemistry driver"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.run_driver_to_json:1
+msgid "Runs the Aqua Chemistry driver only"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.run_driver_to_json:5
+msgid "Name of file that will contain the Aqua JSON input data"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.run_driver_to_json:8
+msgid "Result dictionary containing the jsonfile name"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.run_experiment:1
+msgid "Run Chemistry from params."
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.run_experiment:3
+msgid "Using params and returning a result dictionary"
+msgstr ""
+
+#: of qiskit.chemistry.qiskit_chemistry.run_experiment:12
+msgid "Result dictionary containing result of chemistry computation"
+msgstr ""
+

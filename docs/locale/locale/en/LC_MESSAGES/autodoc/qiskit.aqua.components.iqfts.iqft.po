@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.components.iqfts.iqft.rst:2
+msgid "qiskit.aqua.components.iqfts.iqft module"
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft:1
+msgid ""
+"This module contains the definition of a base class for inverse quantum "
+"fourier transforms."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT:1
+msgid "ベースクラス: :class:`qiskit.aqua.pluggable.Pluggable`"
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT:1
+msgid "Base class for Inverse QFT."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT:3
+msgid ""
+"This method should initialize the module and its configuration, and use "
+"an exception if a component of the module is available."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT
+#: qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT:7
+msgid "configuration dictionary"
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit:1
+msgid "Construct the circuit."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit:3
+msgid "'matrix' or 'circuit'"
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit:5
+msgid "register or qubits to build the circuit on."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit:7
+msgid "circuit for construction."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit:9
+msgid "include the swaps."
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.components.iqfts.iqft.IQFT.construct_circuit:12
+msgid "The matrix or circuit depending on the specified mode."
+msgstr ""
+

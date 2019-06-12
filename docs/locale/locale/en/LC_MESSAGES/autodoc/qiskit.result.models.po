@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.result.models.rst:2
+msgid "qiskit.result.models module"
+msgstr ""
+
+#: of qiskit.result.models:1
+msgid "Schema and helper models for schema-conformant Results."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:1
+#: qiskit.result.models.ExperimentResultData:1
+msgid "ベースクラス: :class:`qiskit.validation.base.BaseModel`"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:1
+msgid "Model for ExperimentResult."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:3
+msgid ""
+"Please note that this class only describes the required fields. For the "
+"full description of the model, please check ``ExperimentResultSchema``."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:8
+msgid "the starting and ending shot for this data."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult
+msgid "type"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:10
+msgid "int or tuple"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:14
+msgid "if true, we can trust results for this experiment."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:16
+msgid "bool"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:20
+msgid "results information."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:22
+msgid "ExperimentResultData"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:26
+msgid "Measurement result level."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResult:28
+msgid "int"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResultData:1
+msgid "Model for ExperimentResultData."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResultData:3
+msgid ""
+"Please note that this class only describes the required fields. For the "
+"full description of the model, please check "
+"``ExperimentResultDataSchema``."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResultDataSchema:1
+#: qiskit.result.models.ExperimentResultSchema:1
+#: qiskit.result.models.ResultSchema:1
+msgid "ベースクラス: :class:`qiskit.validation.base.BaseSchema`"
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResultDataSchema:1
+msgid "Schema for ExperimentResultData."
+msgstr ""
+
+#: of qiskit.result.models.ExperimentResultSchema:1
+msgid "Schema for ExperimentResult."
+msgstr ""
+
+#: of qiskit.result.models.ResultSchema:1
+msgid "Schema for Result."
+msgstr ""
+

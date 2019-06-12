@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.qasm.node.gate.rst:2
+msgid "qiskit.qasm.node.gate module"
+msgstr ""
+
+#: of qiskit.qasm.node.gate:1 qiskit.qasm.node.gate.Gate:1
+msgid "Node for an OPENQASM gate definition."
+msgstr ""
+
+#: of qiskit.qasm.node.gate.Gate:1
+msgid "ベースクラス: :class:`qiskit.qasm.node.node.Node`"
+msgstr ""
+
+#: of qiskit.qasm.node.gate.Gate:3
+msgid ""
+"children[0] is an id node. If len(children) is 3, children[1] is an "
+"idlist node, and children[2] is a gatebody node. Otherwise, children[1] "
+"is an expressionlist node, children[2] is an idlist node, and children[3]"
+" is a gatebody node."
+msgstr ""
+
+#: of qiskit.qasm.node.gate.Gate.n_args:1
+msgid "Return the number of parameter expressions."
+msgstr ""
+
+#: of qiskit.qasm.node.gate.Gate.n_bits:1
+msgid "Return the number of qubit arguments."
+msgstr ""
+
+#: of qiskit.qasm.node.gate.Gate.qasm:1
+msgid "Return the corresponding OPENQASM string."
+msgstr ""
+

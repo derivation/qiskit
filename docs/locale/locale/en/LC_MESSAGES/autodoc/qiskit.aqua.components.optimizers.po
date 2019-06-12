@@ -1,0 +1,473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.aqua.components.optimizers.rst:2
+msgid "qiskit.aqua.components.optimizers package"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer:1
+msgid "ベースクラス: :class:`qiskit.aqua.pluggable.Pluggable`"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer:1
+msgid "Base class for optimization algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.SupportLevel:1
+msgid "ベースクラス: :class:`enum.IntEnum`"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.SupportLevel:1
+msgid "An enumeration."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.gradient_num_diff:1
+msgid ""
+"We compute the gradient with the numeric differentiation in the parallel "
+"way, around the point x_center. :param x_center: point around which we "
+"compute the gradient :type x_center: ndarray :param f: the function of "
+"which the gradient is to be computed. :type f: func :param epsilon: the "
+"epsilon used in the numeric differentiation. :type epsilon: float"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize
+#: qiskit.aqua.components.optimizers.AQGD.converged
+#: qiskit.aqua.components.optimizers.AQGD.deriv
+#: qiskit.aqua.components.optimizers.AQGD.optimize
+#: qiskit.aqua.components.optimizers.CG.optimize
+#: qiskit.aqua.components.optimizers.COBYLA.optimize
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize
+#: qiskit.aqua.components.optimizers.Optimizer.gradient_num_diff
+#: qiskit.aqua.components.optimizers.Optimizer.optimize
+#: qiskit.aqua.components.optimizers.POWELL.optimize
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize
+#: qiskit.aqua.components.optimizers.SLSQP.optimize
+#: qiskit.aqua.components.optimizers.SPSA.optimize
+#: qiskit.aqua.components.optimizers.TNC.optimize
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.gradient_num_diff:9
+msgid "the gradient computed"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.gradient_num_diff
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.init_params:1
+msgid "Initialize with a params dictionary."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.init_params:3
+msgid ""
+"A dictionary of config params as per the configuration object. Some of "
+"these params get passed to scipy optimizers in an options dictionary. We "
+"can specify an options array of names in config dictionary to have the "
+"options dictionary automatically populated. All other config items, "
+"excluding name, will be passed to init_args"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize
+#: qiskit.aqua.components.optimizers.AQGD.converged
+#: qiskit.aqua.components.optimizers.AQGD.deriv
+#: qiskit.aqua.components.optimizers.AQGD.optimize
+#: qiskit.aqua.components.optimizers.AQGD.update
+#: qiskit.aqua.components.optimizers.CG.optimize
+#: qiskit.aqua.components.optimizers.COBYLA.optimize
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize
+#: qiskit.aqua.components.optimizers.Optimizer.init_params
+#: qiskit.aqua.components.optimizers.Optimizer.optimize
+#: qiskit.aqua.components.optimizers.Optimizer.set_options
+#: qiskit.aqua.components.optimizers.POWELL.optimize
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize
+#: qiskit.aqua.components.optimizers.SLSQP.optimize
+#: qiskit.aqua.components.optimizers.SPSA.optimize
+#: qiskit.aqua.components.optimizers.TNC.optimize
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.init_params:8
+msgid "configuration dict"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.optimize:1
+#: qiskit.aqua.components.optimizers.CG.optimize:1
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:1
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:1
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:1
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:1
+#: qiskit.aqua.components.optimizers.POWELL.optimize:1
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:1
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:1
+#: qiskit.aqua.components.optimizers.SPSA.optimize:1
+#: qiskit.aqua.components.optimizers.TNC.optimize:1
+msgid "Perform optimization."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.optimize:3
+#: qiskit.aqua.components.optimizers.CG.optimize:3
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:3
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:3
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:3
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:3
+#: qiskit.aqua.components.optimizers.POWELL.optimize:3
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:3
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:3
+#: qiskit.aqua.components.optimizers.SPSA.optimize:3
+#: qiskit.aqua.components.optimizers.TNC.optimize:3
+msgid "number of parameters to be optimized."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.optimize:5
+#: qiskit.aqua.components.optimizers.CG.optimize:5
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:5
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:5
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:5
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:5
+#: qiskit.aqua.components.optimizers.POWELL.optimize:5
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:5
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:5
+#: qiskit.aqua.components.optimizers.SPSA.optimize:5
+#: qiskit.aqua.components.optimizers.TNC.optimize:5
+msgid "handle to a function that computes the objective function."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:7
+#: qiskit.aqua.components.optimizers.AQGD.optimize:8
+#: qiskit.aqua.components.optimizers.CG.optimize:8
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:8
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:8
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:8
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:8
+#: qiskit.aqua.components.optimizers.POWELL.optimize:8
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:8
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:8
+#: qiskit.aqua.components.optimizers.SPSA.optimize:8
+#: qiskit.aqua.components.optimizers.TNC.optimize:8
+msgid ""
+"handle to a function that computes the gradient of the objective "
+"function, or None if not available."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.optimize:12
+#: qiskit.aqua.components.optimizers.CG.optimize:12
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:12
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:12
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:12
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:12
+#: qiskit.aqua.components.optimizers.POWELL.optimize:12
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:12
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:12
+#: qiskit.aqua.components.optimizers.SPSA.optimize:12
+#: qiskit.aqua.components.optimizers.TNC.optimize:12
+msgid ""
+"list of variable bounds, given as pairs (lower, upper). None means "
+"unbounded."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:13
+#: qiskit.aqua.components.optimizers.AQGD.optimize:16
+#: qiskit.aqua.components.optimizers.CG.optimize:16
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:16
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:16
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:16
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:16
+#: qiskit.aqua.components.optimizers.POWELL.optimize:16
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:16
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:16
+#: qiskit.aqua.components.optimizers.SPSA.optimize:16
+#: qiskit.aqua.components.optimizers.TNC.optimize:16
+msgid "initial point."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:16
+#: qiskit.aqua.components.optimizers.AQGD.optimize:19
+#: qiskit.aqua.components.optimizers.CG.optimize:19
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:19
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:19
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:19
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:19
+#: qiskit.aqua.components.optimizers.POWELL.optimize:19
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:19
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:19
+#: qiskit.aqua.components.optimizers.SPSA.optimize:19
+#: qiskit.aqua.components.optimizers.TNC.optimize:19
+msgid ""
+"point, value, nfev    point: is a 1D numpy.ndarray[float] containing the "
+"solution    value: is a float with the objective function value    nfev: "
+"number of objective function calls made if available or None"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:20
+#: qiskit.aqua.components.optimizers.AQGD.optimize:23
+#: qiskit.aqua.components.optimizers.CG.optimize:23
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:23
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:23
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:23
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:23
+#: qiskit.aqua.components.optimizers.POWELL.optimize:23
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:23
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:23
+#: qiskit.aqua.components.optimizers.SPSA.optimize:23
+#: qiskit.aqua.components.optimizers.TNC.optimize:23
+msgid "point, value, nfev"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:19
+#: qiskit.aqua.components.optimizers.AQGD.optimize:22
+#: qiskit.aqua.components.optimizers.CG.optimize:22
+#: qiskit.aqua.components.optimizers.COBYLA.optimize:22
+#: qiskit.aqua.components.optimizers.L_BFGS_B.optimize:22
+#: qiskit.aqua.components.optimizers.NELDER_MEAD.optimize:22
+#: qiskit.aqua.components.optimizers.Optimizer.optimize:22
+#: qiskit.aqua.components.optimizers.POWELL.optimize:22
+#: qiskit.aqua.components.optimizers.P_BFGS.optimize:22
+#: qiskit.aqua.components.optimizers.SLSQP.optimize:22
+#: qiskit.aqua.components.optimizers.SPSA.optimize:22
+#: qiskit.aqua.components.optimizers.TNC.optimize:22
+msgid ""
+"point: is a 1D numpy.ndarray[float] containing the solution value: is a "
+"float with the objective function value nfev: number of objective "
+"function calls made if available or None"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.print_options:1
+msgid "Print algorithm-specific options."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.set_options:1
+msgid "Sets or updates values in the options dictionary."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.set_options:3
+msgid ""
+"The options dictionary may be used internally by a given optimizer to "
+"pass additional optional values for the underlying optimizer/optimization"
+" function used. The options dictionary may be initially populated with a "
+"set of key/values when the given optimizer is constructed."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.set_options:8
+msgid "options, given as name=value."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.Optimizer.wrap_function:1
+msgid ""
+"Wrap the function to implicitly inject the args at the call of the "
+"function. :param function: the target function :type function: func "
+":param args: the args to be injected :type args: tuple"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM:1
+#: qiskit.aqua.components.optimizers.AQGD:1
+#: qiskit.aqua.components.optimizers.CG:1
+#: qiskit.aqua.components.optimizers.COBYLA:1
+#: qiskit.aqua.components.optimizers.L_BFGS_B:1
+#: qiskit.aqua.components.optimizers.NELDER_MEAD:1
+#: qiskit.aqua.components.optimizers.POWELL:1
+#: qiskit.aqua.components.optimizers.P_BFGS:1
+#: qiskit.aqua.components.optimizers.SLSQP:1
+#: qiskit.aqua.components.optimizers.SPSA:1
+#: qiskit.aqua.components.optimizers.TNC:1
+msgid "ベースクラス: :class:`qiskit.aqua.components.optimizers.optimizer.Optimizer`"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM:1
+msgid ""
+"Adam Kingma, Diederik & Ba, Jimmy. (2014). Adam: A Method for Stochastic "
+"Optimization. International Conference on Learning Representations."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM:5
+msgid ""
+"AMSGRAD Sashank J. Reddi and Satyen Kale and Sanjiv Kumar. (2018). On the"
+" Convergence of Adam and Beyond. International Conference on Learning "
+"Representations."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:1
+msgid ""
+"Perform optimization. :param num_vars: number of parameters to be "
+"optimized. :type num_vars: int :param objective_function: handle to a "
+"function that"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:5
+msgid "computes the objective function."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.ADAM.optimize:11
+msgid "deprecated"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.CG:1
+msgid "Conjugate Gradient algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.CG:3
+msgid ""
+"Uses scipy.optimize.minimize CG See "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.COBYLA:1
+msgid "Constrained Optimization By Linear Approximation algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.COBYLA:3
+msgid ""
+"Uses scipy.optimize.minimize COBYLA See "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.L_BFGS_B:1
+msgid "Limited-memory BFGS algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.L_BFGS_B:3
+#: qiskit.aqua.components.optimizers.P_BFGS:3
+msgid ""
+"Uses scipy.optimize.fmin_l_bfgs_b "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.fmin_l_bfgs_b.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.NELDER_MEAD:1
+msgid "Nelder-Mead algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.NELDER_MEAD:3
+msgid ""
+"Uses scipy.optimize.minimize Nelder-Mead See "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.P_BFGS:1
+msgid "Limited-memory BFGS algorithm. Parallel instantiations."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.POWELL:1
+msgid "Powell algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.POWELL:3
+msgid ""
+"Uses scipy.optimize.minimize Powell See "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.SLSQP:1
+msgid "Sequential Least SQuares Programming algorithm"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.SLSQP:3
+msgid ""
+"Uses scipy.optimize.minimize SLSQP See "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.SPSA:1
+msgid "Simultaneous Perturbation Stochastic Approximation algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.TNC:1
+msgid "Truncated Newton (TNC) algorithm."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.TNC:3
+msgid ""
+"Uses scipy.optimize.minimize TNC See "
+"https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD:1
+msgid ""
+"Analytic Quantum Gradient Descent (AQGD) optimizer class. Performs "
+"optimization by gradient descent where gradients are evaluated "
+"\"analytically\" using the quantum circuit evaluating the objective "
+"function."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.converged:1
+msgid ""
+"Determines if the objective function has converged by finding the "
+"difference between the current value and the previous n values."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.converged:4
+msgid "Current value of the objective function."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.converged:6
+msgid ""
+"Number of previous steps which must be within the convergence criteria in"
+" order to be considered converged. Using a larger number will prevent the"
+" optimizer from stopping early."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.converged:11
+msgid "(bool) Whether or not the optimization has converged."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.deriv:1
+msgid ""
+"Obtains the analytical quantum derivative of the objective function with "
+"respect to the jth parameter."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.deriv:4
+#: qiskit.aqua.components.optimizers.AQGD.update:3
+msgid "Index of the parameter to compute the derivative of."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.deriv:6
+#: qiskit.aqua.components.optimizers.AQGD.update:5
+msgid "Current value of the parameters to evaluate the objective function at."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.deriv:9
+msgid "Objective function."
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.deriv:12
+msgid "(float) The derivative of the objective function w.r.t. j"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.update:1
+msgid "Updates the jth parameter based on the derivative and previous momentum"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.update:8
+msgid "Value of the derivative w.r.t. the jth parameter"
+msgstr ""
+
+#: of qiskit.aqua.components.optimizers.AQGD.update:10
+msgid "Array containing all of the parameter momentums"
+msgstr ""
+
+#: ../../autodoc/qiskit.aqua.components.optimizers.rst:10
+msgid "Subpackages"
+msgstr ""
+
+#: ../../autodoc/qiskit.aqua.components.optimizers.rst:17
+msgid "Submodules"
+msgstr ""
+

@@ -1,0 +1,192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.ignis.verification.tomography.fitters.cvx_fit.rst:2
+msgid "qiskit.ignis.verification.tomography.fitters.cvx\\_fit module"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit:1
+msgid "CVXPY convex optimization quantum tomography fitter"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:1
+msgid "Reconstruct a quantum state using CVXPY convex optimization."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:3
+msgid "vector of expectation values"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:5
+msgid "matrix of measurement operators"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:7
+msgid "vector of weights to apply to the objective function (default: None)"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:10
+msgid "Enforced the fitted matrix to be positive semidefinite (default: True)"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:13
+msgid "trace constraint for the fitted matrix (default: None)."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:16
+msgid ""
+"Enforce the fitted matrix to be trace preserving when fitting a Choi-"
+"matrix in quantum process tomography (default: False)."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:20
+msgid "kwargs for cvxpy solver."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:23
+msgid "The fitted matrix rho that minimizes ||basis_matrix * vec(rho) - data||_2."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:26
+msgid "Additional Information:"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:30
+msgid "This fitter solves the constrained least-squares minimization:"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:32
+msgid "minimize: ||a * x - b ||_2 subject to: x >> 0 (PSD, optional)"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:34
+msgid ""
+"trace(x) = t (trace, optional) partial_trace(x) = identity "
+"(trace_preserving,"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:36
+msgid "optional)"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:42
+msgid "where:"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:39
+msgid ""
+"a is the matrix of measurement operators a[i] = vec(M_i).H b is the "
+"vector of expectation value data for each projector"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:41
+msgid "b[i] ~ Tr[M_i.H * x] = (a * x)[i]"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:42
+msgid "x is the vectorized density matrix (or Choi-matrix) to be fitted"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:46
+msgid ""
+"The PSD keyword constrains the fitted matrix to be postive-semidefinite, "
+"which makes the optimization problem a SDP. If PSD=False the fitted "
+"matrix will still be constrained to be Hermitian, but not PSD. In this "
+"case the optimization problem becomes a SOCP."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:53
+msgid ""
+"The trace keyword constrains the trace of the fitted matrix. If "
+"trace=None there will be no trace constraint on the fitted matrix. This "
+"constraint should not be used for process tomography and the trace "
+"preserving constraint should be used instead."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:60
+msgid ""
+"The trace_preserving keyword constrains the fitted matrix to be TP. This "
+"should only be used for process tomography, not state tomography. Note "
+"that the TP constraint implicitly enforces the trace of the fitted matrix"
+" to be equal to the square-root of the matrix dimension. If a trace "
+"constraint is also specified that differs from this value the fit will "
+"likely fail."
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:69
+msgid ""
+"Various solvers can be called in CVXPY using the `solver` keyword "
+"argument. Solvers included in CVXPY are:"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:71
+msgid ""
+"'CVXOPT': SDP and SOCP (default solver) 'SCS'   : SDP and SOCP 'ECOS'  : "
+"SOCP only"
+msgstr ""
+
+#: of qiskit.ignis.verification.tomography.fitters.cvx_fit.cvx_fit:74
+msgid "See the documentation on CVXPY for more information on solvers."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:1
+msgid "Return the partial trace superoperator in the column-major basis."
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:3
+msgid "This returns the superoperator S_TrB such that:"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:4
+msgid "S_TrB * vec(rho_AB) = vec(rho_A)"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:5
+msgid "for rho_AB = kron(rho_A, rho_B)"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:7
+msgid "the dimension of the system not being traced"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:9
+msgid "the diemsnion of the system being traced over"
+msgstr ""
+
+#: of
+#: qiskit.ignis.verification.tomography.fitters.cvx_fit.partial_trace_super:12
+msgid "A Numpy array of the partial trace superoperator S_TrB."
+msgstr ""
+

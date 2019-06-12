@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Qiskit Development Team
+# This file is distributed under the same license as the Qiskit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Qiskit \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 13:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../autodoc/qiskit.providers.aer.noise.errors.errorutils.rst:2
+msgid "qiskit.providers.aer.noise.errors.errorutils module"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils:1
+msgid "Helper functions for noise model creation."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.circuit2superop:1
+msgid "Return the SuperOp for a standard instruction."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.is_matrix_diagonal:1
+msgid "Test if row-vector representation of diagonal matrix."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:1
+msgid "Convert a list of Kraus matrices into qobj circuits."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:3
+msgid ""
+"If any Kraus operators are a unitary matrix they will be converted into "
+"unitary qobj instructions. Identity unitary matrices will also be "
+"converted into identity qobj instructions."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions
+#: qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gates_instructions
+msgid "パラメータ"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:7
+msgid "A list of Kraus matrices for a CPTP map."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:9
+msgid "Check if the matrix instruction is a standard instruction (default: True)."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:12
+msgid "Threshold for testing if probabilities are zero."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions
+#: qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gates_instructions
+msgid "戻り値"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:15
+msgid ""
+"A list of pairs (p, circuit) where `circuit` is a list of qobj "
+"instructions, and `p` is the probability of that circuit for the given "
+"error."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions
+#: qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gates_instructions
+msgid "戻り値の型"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions
+#: qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix
+msgid "raises"
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.kraus2instructions:20
+msgid ":exc:`NoiseError` -- If the input Kraus channel is not CPTP."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction:1
+msgid "Return a qobj instruction for a Kraus error."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction:3
+msgid "A list of square or diagonal Kraus matrices."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction:5
+#: qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction:5
+msgid "The qubits the matrix is applied to."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction:8
+#: qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction:11
+msgid "The qobj instruction object."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_kraus_instruction:11
+msgid ":exc:`NoiseError` -- if the input is not a CPTP Kraus channel."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction:1
+msgid "Return a qobj instruction for a unitary matrix gate."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction:3
+msgid "A square or diagonal unitary matrix."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction:7
+msgid "Check if the matrix instruction is a standard instruction."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.make_unitary_instruction:14
+msgid ":exc:`NoiseError` -- if the input is not a unitary matrix."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.qubits_from_mat:1
+msgid "Return the number of qubits for a multi-qubit matrix."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.reset_superop:1
+msgid "Return a N-qubit reset SuperOp."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates:1
+msgid "Return a QASM gate names for a single qubit clifford."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates:3
+msgid ""
+"The labels are returned in a basis set consisting of ('id', 's', 'sdg', "
+"'z', 'h', x', 'y') gates decomposed to use the minimum number of X-90 "
+"pulses in a (u1, u2, u3) decomposition."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates:8
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions:8
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix:3
+msgid "Clifford index 0, ..., 23."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates:11
+msgid "The tuple of basis gates."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_gates:14
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix:9
+msgid ":exc:`NoiseError` -- If index is out of range [0, 23]."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions:1
+msgid "Return a list of qobj instructions for a single qubit cliffords."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions:3
+msgid ""
+"The instructions are returned in a basis set consisting of ('id', 's', "
+"'sdg', 'z', 'h', x', 'y') gates decomposed to use the minimum number of "
+"X-90 pulses in a (u1, u2, u3) decomposition."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions:10
+msgid "the qubit to apply the Clifford to."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions:13
+msgid "The list of instructions."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_instructions:16
+msgid ":exc:`NoiseError` -- If index is out of range [0, 23] or qubit invalid."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix:1
+msgid "Return Numpy array for a single qubit clifford."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.single_qubit_clifford_matrix:6
+msgid "The matrix for the indexed clifford."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction:1
+msgid "Convert a unitary matrix instruction into a standard gate instruction."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction:3
+msgid "A qobj instruction."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction:5
+msgid "Ignore global phase on unitary matrix in comparison to canonical unitary."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.standard_gate_instruction:9
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gates_instructions:6
+msgid "a list of qobj instructions equivalent to in input instruction."
+msgstr ""
+
+#: of qiskit.providers.aer.noise.errors.errorutils.standard_gate_unitary:1
+msgid "Return the unitary matrix for a standard gate."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gates_instructions:1
+msgid "Convert a list with unitary matrix instructions into standard gates."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.standard_gates_instructions:3
+msgid "A list of qobj instructions."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.standard_instruction_channel:1
+msgid "Return the SuperOp channel for a standard instruction."
+msgstr ""
+
+#: of
+#: qiskit.providers.aer.noise.errors.errorutils.standard_instruction_operator:1
+msgid "Return the Operator for a standard gate instruction."
+msgstr ""
+
