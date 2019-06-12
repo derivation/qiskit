@@ -27,8 +27,9 @@ pwd
 ls
 # Make translated document
 # make -e SPHINXOPTS="-Dlanguage='ja'" html
+# /locale/$TRANSLATION_LANG/translated/
 echo "Make translated document"
-sphinx-build -b html -D language=$TRANSLATION_LANG ./locale/$TRANSLATION_LANG/translated/ _build/html/locale/$TRANSLATION_LANG
+sphinx-build -b html -D language=$TRANSLATION_LANG . _build/html/locale/$TRANSLATION_LANG
 
 # Setup the deploy key.
 # https://gist.github.com/qoomon/c57b0dc866221d91704ffef25d41adcf
